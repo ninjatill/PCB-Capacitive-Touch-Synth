@@ -1524,7 +1524,7 @@
 	)
 	(rectangle
 		(start 144.78 53.34)
-		(end 203.2 116.84)
+		(end 209.55 116.84)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1591,6 +1591,12 @@
 		(uuid "fb815e1c-2606-4902-b031-600defd17907")
 	)
 	(junction
+		(at 179.07 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "137ae743-7ce5-4091-8a83-806e646ae8b3")
+	)
+	(junction
 		(at 154.94 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1627,6 +1633,16 @@
 			(type default)
 		)
 		(uuid "058291cb-a0b3-49b4-b061-7897856afb4e")
+	)
+	(wire
+		(pts
+			(xy 179.07 90.17) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091ee118-45ad-433d-b0ac-0bd85b98a7ba")
 	)
 	(wire
 		(pts
@@ -1680,16 +1696,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 90.17) (xy 194.31 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b47aed6-62cd-4f2e-917c-de73f7618095")
-	)
-	(wire
-		(pts
 			(xy 166.37 80.01) (xy 152.4 80.01)
 		)
 		(stroke
@@ -1740,16 +1746,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 90.17) (xy 194.31 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bcc11da-f80e-4f3d-b751-f196e91ba801")
-	)
-	(wire
-		(pts
 			(xy 154.94 67.31) (xy 154.94 85.09)
 		)
 		(stroke
@@ -1767,6 +1763,26 @@
 			(type default)
 		)
 		(uuid "932908e4-0fad-4285-9c77-6ff83be4b988")
+	)
+	(wire
+		(pts
+			(xy 179.07 80.01) (xy 194.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9384a790-cd4c-4fbf-8738-fd2ad30e2e94")
+	)
+	(wire
+		(pts
+			(xy 201.93 90.17) (xy 201.93 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c5fd45-0422-40fa-80ae-82edb66a0894")
 	)
 	(wire
 		(pts
@@ -1810,6 +1826,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 80.01) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a74c79-8a08-49c9-9b73-7eb6b564ff87")
+	)
+	(wire
+		(pts
 			(xy 179.07 67.31) (xy 186.69 67.31)
 		)
 		(stroke
@@ -1837,6 +1863,16 @@
 			(type default)
 		)
 		(uuid "f4d42d23-f4d8-479e-848e-c4a63e44e397")
+	)
+	(wire
+		(pts
+			(xy 194.31 80.01) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4a98a7-dbc2-4545-93c4-bb2674d842fb")
 	)
 	(label "SWDIO"
 		(at 43.18 41.91 0)
@@ -2151,6 +2187,84 @@
 			(project "PCB Piano v1.0"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/78fdac94-d1fc-4322-abb1-82836233b440"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 201.93 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c280ec6-b232-481b-b41b-1a57bcc6a7b9")
+		(property "Reference" "#PWR064"
+			(at 201.93 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 60.198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 201.93 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "775707c2-1d0b-4df0-96b3-7935c55826c4")
+		)
+		(instances
+			(project "PCB Piano v1.0"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/78fdac94-d1fc-4322-abb1-82836233b440"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)

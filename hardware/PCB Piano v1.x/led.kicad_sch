@@ -750,7 +750,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_LED:PCA9685PW"
+		(symbol "Driver_LED:PCA9685BS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -767,7 +767,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PCA9685PW"
+			(property "Value" "PCA9685BS"
 				(at 1.27 22.225 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -778,7 +778,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
+			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
 				(at 0.635 -24.765 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -801,7 +801,7 @@
 					)
 				)
 			)
-			(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
+			(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -812,7 +812,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "PWM LED driver I2C TSSOP"
+			(property "ki_keywords" "PWM LED driver I2C QFN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -823,7 +823,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP*4.4x9.7mm*P0.65mm*"
+			(property "ki_fp_filters" "QFN*1EP*6x6mm*P0.65mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -834,7 +834,7 @@
 					)
 				)
 			)
-			(symbol "PCA9685PW_0_1"
+			(symbol "PCA9685BS_0_1"
 				(rectangle
 					(start -12.7 20.32)
 					(end 12.7 -22.86)
@@ -847,61 +847,7 @@
 					)
 				)
 			)
-			(symbol "PCA9685PW_1_1"
-				(pin input line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -10.16 0)
-					(length 5.08)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			(symbol "PCA9685BS_1_1"
 				(pin input line
 					(at -17.78 -12.7 0)
 					(length 5.08)
@@ -912,7 +858,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -930,7 +876,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -948,7 +894,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -966,7 +912,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -984,7 +930,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1002,7 +948,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1020,7 +966,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1038,7 +984,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1056,7 +1002,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1074,7 +1020,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1092,7 +1038,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1110,7 +1056,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,7 +1074,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1146,7 +1092,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1164,7 +1110,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1182,7 +1128,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1200,7 +1146,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1218,7 +1164,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,7 +1182,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1254,7 +1200,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1272,7 +1218,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1290,7 +1236,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1308,7 +1254,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1326,7 +1272,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1344,7 +1290,79 @@
 							)
 						)
 					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -27.94 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1840,6 +1858,12 @@
 		(uuid "51ee7353-dae1-4eee-a65a-68a2cd0a8465")
 	)
 	(junction
+		(at 71.12 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55fd30a8-d9b6-4c2f-baa7-54398e318b5e")
+	)
+	(junction
 		(at 130.81 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2032,6 +2056,12 @@
 		(uuid "dc95432a-7c6d-4303-b476-d62b8d6f4935")
 	)
 	(junction
+		(at 69.85 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df85a457-17a2-4735-8062-b0312ed9bf2b")
+	)
+	(junction
 		(at 35.56 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2072,16 +2102,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ffe02d25-ed43-43ff-82e5-65c8815a142f")
-	)
-	(wire
-		(pts
-			(xy 92.71 41.91) (xy 92.71 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "002eac58-7001-4526-ad76-b4d90526bcf3")
 	)
 	(wire
 		(pts
@@ -2265,13 +2285,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 39.37) (xy 133.35 39.37)
+			(xy 92.71 35.56) (xy 107.95 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13708092-9d01-4c40-a136-64866fee99e1")
+		(uuid "154e8adf-8d0d-4cca-ab0c-8c76a4a3c1bb")
 	)
 	(wire
 		(pts
@@ -2322,6 +2342,16 @@
 			(type default)
 		)
 		(uuid "1908a09c-0802-4618-82fe-13ecac9e34e7")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 107.95 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197ed79e-47ea-482c-879a-f5ce7a49f2b5")
 	)
 	(wire
 		(pts
@@ -2485,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 36.83) (xy 115.57 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21446be8-5e94-4f13-a723-8e46cfb2c0b0")
-	)
-	(wire
-		(pts
 			(xy 205.74 100.33) (xy 205.74 102.87)
 		)
 		(stroke
@@ -2502,6 +2522,26 @@
 			(type default)
 		)
 		(uuid "214e6b77-baf6-466d-983c-7bdd1e92fede")
+	)
+	(wire
+		(pts
+			(xy 115.57 36.83) (xy 115.57 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22442717-6cf3-4c69-98a6-b7ab19a959c7")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 69.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dda72e-e08d-426f-a067-431e7d000cd5")
 	)
 	(wire
 		(pts
@@ -2535,13 +2575,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 36.83) (xy 100.33 36.83)
+			(xy 71.12 173.99) (xy 71.12 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27a797c8-bf88-46a2-92f3-8a3c45ac47e8")
+		(uuid "26e4cfc0-3063-4332-82c3-ab87e81ba870")
 	)
 	(wire
 		(pts
@@ -2675,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 34.29) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e3c84a-d843-4f64-9244-7b7b40796380")
+	)
+	(wire
+		(pts
 			(xy 210.82 100.33) (xy 210.82 102.87)
 		)
 		(stroke
@@ -2725,16 +2775,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 36.83) (xy 130.81 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3816eed2-588f-4e4a-b81c-782d2ef641a5")
-	)
-	(wire
-		(pts
 			(xy 91.44 140.97) (xy 132.08 140.97)
 		)
 		(stroke
@@ -2742,16 +2782,6 @@
 			(type default)
 		)
 		(uuid "38b400b2-a3b9-495d-95c1-27056902d77f")
-	)
-	(wire
-		(pts
-			(xy 130.81 41.91) (xy 130.81 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38ea5686-640a-4a68-a22d-7b664e0d3f13")
 	)
 	(wire
 		(pts
@@ -2775,16 +2805,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 34.29) (xy 138.43 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d9cf601-d93e-4d00-9ae5-41145cda88a1")
-	)
-	(wire
-		(pts
 			(xy 101.6 97.79) (xy 101.6 100.33)
 		)
 		(stroke
@@ -2795,23 +2815,33 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 176.53) (xy 73.66 176.53)
+			(xy 92.71 41.91) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e89ac8b-b86b-4c7f-b71a-292dd0eca1e8")
+	)
+	(wire
+		(pts
+			(xy 138.43 34.29) (xy 138.43 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41092c24-4ae9-4e24-a3c4-1efecdd7e515")
+	)
+	(wire
+		(pts
+			(xy 36.83 176.53) (xy 71.12 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4340b6cd-855f-454e-892e-7274f007d5bb")
-	)
-	(wire
-		(pts
-			(xy 107.95 41.91) (xy 107.95 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43687a67-bb91-4477-91cf-15acfdfdf0d6")
 	)
 	(wire
 		(pts
@@ -2872,16 +2902,6 @@
 			(type default)
 		)
 		(uuid "4815fe7f-ce55-4c79-9cbc-9ee601d8e9d4")
-	)
-	(wire
-		(pts
-			(xy 115.57 36.83) (xy 115.57 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "494b8c7e-92f6-45cb-872d-7cfbbae63b04")
 	)
 	(wire
 		(pts
@@ -2955,6 +2975,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 41.91) (xy 139.7 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd217f7-ffc8-421c-ac68-d7497e1698c8")
+	)
+	(wire
+		(pts
 			(xy 93.98 120.65) (xy 93.98 115.57)
 		)
 		(stroke
@@ -2982,16 +3012,6 @@
 			(type default)
 		)
 		(uuid "4fbf80c4-8ce5-4dc9-9302-9bb33a8af5f9")
-	)
-	(wire
-		(pts
-			(xy 107.95 34.29) (xy 107.95 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "508dd93c-3664-408e-8e19-76a0dc74e3d0")
 	)
 	(wire
 		(pts
@@ -3165,6 +3185,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae33bb9-34bc-4cc3-8464-acc3a1fccf4f")
+	)
+	(wire
+		(pts
 			(xy 35.56 82.55) (xy 54.61 82.55)
 		)
 		(stroke
@@ -3195,13 +3225,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 34.29) (xy 130.81 36.83)
+			(xy 71.12 176.53) (xy 73.66 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d2d0803-cedf-4ed1-ab2d-f641b5734c86")
+		(uuid "5d1e1117-b56b-4b40-9c19-951b5aee1085")
 	)
 	(wire
 		(pts
@@ -3365,6 +3395,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6750a4a7-ee8b-4aa0-857d-d549c1191f69")
+	)
+	(wire
+		(pts
 			(xy 116.84 135.89) (xy 116.84 125.73)
 		)
 		(stroke
@@ -3372,6 +3412,16 @@
 			(type default)
 		)
 		(uuid "67f5bb41-4897-4f4b-9c15-5446658d62d2")
+	)
+	(wire
+		(pts
+			(xy 130.81 34.29) (xy 130.81 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6805e45b-1b4a-410b-ba9b-5fbbce425b72")
 	)
 	(wire
 		(pts
@@ -3402,26 +3452,6 @@
 			(type default)
 		)
 		(uuid "68ff8483-5dd5-4181-a68e-90f2dd5811f9")
-	)
-	(wire
-		(pts
-			(xy 102.87 34.29) (xy 102.87 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a34a4f6-10e5-4ef7-90fc-f492cc18e784")
-	)
-	(wire
-		(pts
-			(xy 138.43 36.83) (xy 148.59 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a751b23-07b4-4ef5-baee-51ac9ce642c0")
 	)
 	(wire
 		(pts
@@ -3485,13 +3515,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 39.37) (xy 135.89 39.37)
+			(xy 102.87 34.29) (xy 102.87 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7027d5c7-cfd5-487d-987d-2ee91d2688fd")
+		(uuid "70dd627e-a393-4e13-8e9d-429acbf62976")
 	)
 	(wire
 		(pts
@@ -3545,13 +3575,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 133.35 39.37)
+			(xy 123.19 35.56) (xy 138.43 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77576a82-5c11-4b33-b9ed-f2d3e1f56482")
+		(uuid "74fe4fe8-f162-4865-ba89-c09f24f49879")
 	)
 	(wire
 		(pts
@@ -3625,16 +3655,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 139.7 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eab9f24-3331-4d91-b888-13d3091569a9")
-	)
-	(wire
-		(pts
 			(xy 91.44 161.29) (xy 203.2 161.29)
 		)
 		(stroke
@@ -3642,6 +3662,16 @@
 			(type default)
 		)
 		(uuid "7ee14187-7966-4bfd-8f4a-043d6bb26d31")
+	)
+	(wire
+		(pts
+			(xy 130.81 40.64) (xy 135.89 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7efd6050-597d-45ac-9ffb-8c4f91da9e39")
 	)
 	(wire
 		(pts
@@ -3665,6 +3695,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 36.83) (xy 115.57 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ea88a1-7d47-48ef-aded-c351eeba7c14")
+	)
+	(wire
+		(pts
 			(xy 219.71 36.83) (xy 209.55 36.83)
 		)
 		(stroke
@@ -3672,6 +3712,16 @@
 			(type default)
 		)
 		(uuid "842d3136-72df-4e1b-8acb-e35221810660")
+	)
+	(wire
+		(pts
+			(xy 107.95 34.29) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850ae586-64d5-4f60-8e84-bda6dd367efd")
 	)
 	(wire
 		(pts
@@ -3695,13 +3745,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 39.37) (xy 102.87 39.37)
+			(xy 148.59 36.83) (xy 148.59 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8a8dec80-24ba-4d17-a402-f23c71d1fdeb")
+		(uuid "87bad4be-db86-43e1-8210-5c6e5f0728b9")
 	)
 	(wire
 		(pts
@@ -3765,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 34.29) (xy 135.89 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933f7b3a-748d-45d8-ae54-264ca4461de9")
-	)
-	(wire
-		(pts
 			(xy 212.09 120.65) (xy 212.09 118.11)
 		)
 		(stroke
@@ -3792,16 +3832,6 @@
 			(type default)
 		)
 		(uuid "9543cab9-843f-43d9-857a-f03c4809f3eb")
-	)
-	(wire
-		(pts
-			(xy 105.41 34.29) (xy 105.41 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "955368e4-de16-466d-b7dd-7d03f5e5816b")
 	)
 	(wire
 		(pts
@@ -3885,6 +3915,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 39.37) (xy 102.87 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d65714c-c749-446b-a700-5b6749473880")
+	)
+	(wire
+		(pts
 			(xy 72.39 39.37) (xy 72.39 41.91)
 		)
 		(stroke
@@ -3915,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 41.91) (xy 130.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9edbbd30-aa25-4f0a-a57b-9a5bc776ef41")
+	)
+	(wire
+		(pts
 			(xy 167.64 118.11) (xy 167.64 120.65)
 		)
 		(stroke
@@ -3932,16 +3982,6 @@
 			(type default)
 		)
 		(uuid "a0131077-e95e-41c8-8601-47742fb6e3e4")
-	)
-	(wire
-		(pts
-			(xy 107.95 39.37) (xy 105.41 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1776792-51e5-4e76-b522-b84c83d13d7b")
 	)
 	(wire
 		(pts
@@ -3995,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 34.29) (xy 100.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63bceb4-d049-461e-a905-9b746143c43d")
+	)
+	(wire
+		(pts
 			(xy 35.56 72.39) (xy 35.56 74.93)
 		)
 		(stroke
@@ -4025,16 +4075,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 41.91) (xy 100.33 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a89bc45a-839c-4702-8941-b73dcce8f366")
-	)
-	(wire
-		(pts
 			(xy 184.15 41.91) (xy 184.15 36.83)
 		)
 		(stroke
@@ -4062,6 +4102,16 @@
 			(type default)
 		)
 		(uuid "ac6fc1d4-d5cb-423d-9509-2bf46c70c4b4")
+	)
+	(wire
+		(pts
+			(xy 139.7 39.37) (xy 133.35 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad438ab9-f1dc-4476-af2d-c26ffdc01e6d")
 	)
 	(wire
 		(pts
@@ -4172,6 +4222,16 @@
 			(type default)
 		)
 		(uuid "b82b0681-0e1c-4e86-be11-05a44fb7255b")
+	)
+	(wire
+		(pts
+			(xy 123.19 41.91) (xy 123.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8bba153-65bb-46a2-8303-56afdd7c79cf")
 	)
 	(wire
 		(pts
@@ -4355,7 +4415,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 97.79) (xy 72.39 97.79)
+			(xy 35.56 97.79) (xy 69.85 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4495,6 +4555,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 34.29) (xy 133.35 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd5e9154-0dd4-4b47-a5f9-e07715ac86cd")
+	)
+	(wire
+		(pts
 			(xy 91.44 163.83) (xy 212.09 163.83)
 		)
 		(stroke
@@ -4612,16 +4682,6 @@
 			(type default)
 		)
 		(uuid "db34d9e1-4b1f-4161-8bac-f9827b5cdcc5")
-	)
-	(wire
-		(pts
-			(xy 100.33 34.29) (xy 100.33 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7498a7-6787-42b0-8b16-6e959479d76d")
 	)
 	(wire
 		(pts
@@ -4755,16 +4815,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 36.83) (xy 148.59 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0c0e53-fbbc-4137-9c00-ed453367455b")
-	)
-	(wire
-		(pts
 			(xy 72.39 95.25) (xy 72.39 97.79)
 		)
 		(stroke
@@ -4802,16 +4852,6 @@
 			(type default)
 		)
 		(uuid "ef26a49b-4220-42c5-b25a-7e3e30d6d785")
-	)
-	(wire
-		(pts
-			(xy 123.19 41.91) (xy 123.19 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1378bc3-47a2-43cd-9894-73700252831c")
 	)
 	(wire
 		(pts
@@ -4855,6 +4895,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 40.64) (xy 135.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f36ef4ea-29c9-4830-a7f2-3ee3058210fb")
+	)
+	(wire
+		(pts
+			(xy 100.33 40.64) (xy 100.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3951692-c1ae-4625-acd4-e71aaf459ce6")
+	)
+	(wire
+		(pts
 			(xy 35.56 57.15) (xy 35.56 72.39)
 		)
 		(stroke
@@ -4872,6 +4932,16 @@
 			(type default)
 		)
 		(uuid "f98a5487-9f74-40d9-b3ec-ee13ddd9c448")
+	)
+	(wire
+		(pts
+			(xy 130.81 36.83) (xy 148.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f7eb84-4461-4cd1-9a43-94c3566b3dd5")
 	)
 	(wire
 		(pts
@@ -5233,6 +5303,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Driver_LED:PCA9685BS")
+		(at 73.66 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13a72341-0eb9-4033-9291-ed32ce8eeaf6")
+		(property "Reference" "U6"
+			(at 75.8234 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCA9685BS"
+			(at 75.8234 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCBPiano_Footprints:NXP_HVQFN-28_6mmx6mmx0.85mm"
+			(at 74.295 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN"
+			(at 73.66 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7615fb25-a756-4e7c-8f29-2f0cf6235926")
+		)
+		(pin "9"
+			(uuid "ea981fcc-e80b-41c0-94d6-844ced0df054")
+		)
+		(pin "5"
+			(uuid "fb9ef774-e763-4077-b229-cde7d937779e")
+		)
+		(pin "1"
+			(uuid "9a5be324-b64e-4653-8b21-bb21db205c4e")
+		)
+		(pin "3"
+			(uuid "0b0a091a-90ff-43da-b844-74a152096ff1")
+		)
+		(pin "4"
+			(uuid "0fc1be8f-d4ad-4af8-8660-c17f37896e7a")
+		)
+		(pin "6"
+			(uuid "151764bf-ac2a-4317-88b4-cc61b101bc9d")
+		)
+		(pin "7"
+			(uuid "78d3f27d-a840-4af2-a097-58a77d5826b0")
+		)
+		(pin "8"
+			(uuid "ee09b0c4-b54b-403f-bde2-d88c3ec33393")
+		)
+		(pin "10"
+			(uuid "da65f862-c183-4e19-8694-0a222733ca11")
+		)
+		(pin "12"
+			(uuid "fc475daf-ef2d-4c46-b34e-d7639480a966")
+		)
+		(pin "19"
+			(uuid "e91d89a9-9930-455b-957d-55c8bfd30166")
+		)
+		(pin "20"
+			(uuid "db658f6a-539f-40d2-8c55-e6abcb8b5724")
+		)
+		(pin "15"
+			(uuid "08e716cb-90a7-4cb8-85ed-fd2cb82ac248")
+		)
+		(pin "13"
+			(uuid "a1be5654-b322-4762-b9b3-de40025345f7")
+		)
+		(pin "17"
+			(uuid "9ff2bd55-47e0-442f-aff8-d3eff57aef27")
+		)
+		(pin "18"
+			(uuid "ee36a7e1-2c14-426a-933e-5ef2d6bcb8f1")
+		)
+		(pin "21"
+			(uuid "3843857c-6950-4e95-9b9a-8d66f77a7fbb")
+		)
+		(pin "11"
+			(uuid "72dfed6f-2682-4707-a617-da23bdf0d965")
+		)
+		(pin "24"
+			(uuid "ff46b902-f8d8-4db0-88b5-77aeb00b317b")
+		)
+		(pin "14"
+			(uuid "ca7b6ea6-ec65-418f-ad27-0e0087b4297c")
+		)
+		(pin "16"
+			(uuid "e82bb315-9ad3-4f72-bb0b-d3a2824ef88f")
+		)
+		(pin "22"
+			(uuid "271c607f-212b-49fa-9df8-1aa1f210716c")
+		)
+		(pin "23"
+			(uuid "2caa4008-813f-481b-95cb-5b98a424eb7e")
+		)
+		(pin "25"
+			(uuid "bc3d2715-6e00-465a-8d63-df89665ca043")
+		)
+		(pin "26"
+			(uuid "e9d655c1-4d7d-4f84-8cac-8cda206a7db1")
+		)
+		(pin "27"
+			(uuid "ce37de5d-cc6c-4cbe-81d0-66dbe8e23a40")
+		)
+		(pin "28"
+			(uuid "887245d8-346e-4b7c-9ff8-0ae3b564f0fd")
+		)
+		(pin "29"
+			(uuid "bb259248-f65a-4641-9ce4-71eeb59a2d36")
+		)
+		(instances
+			(project "PCB Piano v1.0"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/e69add60-b1f1-4738-89c4-8ae24681f4a8"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 219.71 44.45 90)
 		(unit 1)
@@ -5320,6 +5554,170 @@
 			(project "PCB Piano v1.0"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/e69add60-b1f1-4738-89c4-8ae24681f4a8"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_LED:PCA9685BS")
+		(at 72.39 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "184268f7-8526-40d5-9185-db3de4771019")
+		(property "Reference" "U4"
+			(at 74.5534 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCA9685BS"
+			(at 74.5534 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCBPiano_Footprints:NXP_HVQFN-28_6mmx6mmx0.85mm"
+			(at 73.025 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
+			(at 62.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN"
+			(at 72.39 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "af3d7109-edba-4c0d-bc02-2f5a4605eb00")
+		)
+		(pin "9"
+			(uuid "c44354d3-6cfe-4119-988a-87e78cf9006f")
+		)
+		(pin "5"
+			(uuid "846f2419-a114-4778-9c2c-0281de049f2e")
+		)
+		(pin "1"
+			(uuid "2e925bdd-fcf1-4c49-8d36-c8d99a3435d1")
+		)
+		(pin "3"
+			(uuid "f858affe-61bd-4a23-88a2-d0b6f101e0cc")
+		)
+		(pin "4"
+			(uuid "50013279-819e-419c-93e0-87916b76ecd7")
+		)
+		(pin "6"
+			(uuid "86c7a4c2-2c49-43f8-9c36-f2930ef4b588")
+		)
+		(pin "7"
+			(uuid "e67626ff-1b6a-4fd8-a939-e1cd369c4ac2")
+		)
+		(pin "8"
+			(uuid "e47a317f-cd86-4f66-9bd5-f7a2e561a5e8")
+		)
+		(pin "10"
+			(uuid "b9d69f81-68f3-4a9d-9da3-1ea7fe3ff06a")
+		)
+		(pin "12"
+			(uuid "60f4ac1a-e79f-4b93-a3b5-00c17747509e")
+		)
+		(pin "19"
+			(uuid "cc28c062-267a-4710-a60f-b745242e819e")
+		)
+		(pin "20"
+			(uuid "af67270f-9911-44d0-bbaf-4061ad488ab6")
+		)
+		(pin "15"
+			(uuid "1cadd9e2-cd18-4910-89b5-00068e952d0f")
+		)
+		(pin "13"
+			(uuid "25bd65d0-d0df-4cdf-928a-b8c2b3d02fa8")
+		)
+		(pin "17"
+			(uuid "ae5e8966-f344-46b5-8b5a-a498533bb3af")
+		)
+		(pin "18"
+			(uuid "b067ca1c-9a2f-4db1-835c-3573a79ec357")
+		)
+		(pin "21"
+			(uuid "ac226f83-61b7-4fe8-beb5-32a5a7cfc7d5")
+		)
+		(pin "11"
+			(uuid "8dd0b4e8-797f-4699-91cd-b5960138043d")
+		)
+		(pin "24"
+			(uuid "2f8bf58b-1ef0-4888-81e4-b37894e5a8bc")
+		)
+		(pin "14"
+			(uuid "bbf8daee-98da-499d-83ec-1df801ed3e56")
+		)
+		(pin "16"
+			(uuid "60ddf919-84c9-4fc6-acc4-839e0ef29a34")
+		)
+		(pin "22"
+			(uuid "c75d566d-f2c1-46e5-bf0d-b89bae867889")
+		)
+		(pin "23"
+			(uuid "d313a3c3-b28e-4b32-adf9-de500ca0ab8e")
+		)
+		(pin "25"
+			(uuid "fdcfafac-2d77-419b-9dc1-7ad23f7389ec")
+		)
+		(pin "26"
+			(uuid "7e3660bf-6622-4945-bf77-91956e16c0ba")
+		)
+		(pin "27"
+			(uuid "7a0c29e1-9ee5-4c8a-b021-323ab2dda4cc")
+		)
+		(pin "28"
+			(uuid "71e28c93-8f7b-44de-8678-24e1e482407c")
+		)
+		(pin "29"
+			(uuid "9703bef6-9de8-4b4b-bbb0-4d0043111fb8")
+		)
+		(instances
+			(project "PCB Piano v1.0"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/e69add60-b1f1-4738-89c4-8ae24681f4a8"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -9061,167 +9459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_LED:PCA9685PW")
-		(at 72.39 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea31e3ca-b11f-442b-b48c-0e4c5db612e3")
-		(property "Reference" "U4"
-			(at 74.5333 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PCA9685PW"
-			(at 74.5333 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
-			(at 73.025 92.075 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
-			(at 62.23 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
-			(at 72.39 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "20"
-			(uuid "49161297-ad35-49c9-94ab-1cf35822db7d")
-		)
-		(pin "22"
-			(uuid "d1dbead4-d4fa-452d-9066-d62b591bb702")
-		)
-		(pin "25"
-			(uuid "deec6c89-f6c5-4f8d-8d70-e236743a8fac")
-		)
-		(pin "21"
-			(uuid "bac20563-f929-42b1-859c-258aba753ff5")
-		)
-		(pin "17"
-			(uuid "2f982dc0-663e-4a3a-8dad-fe624d991cab")
-		)
-		(pin "23"
-			(uuid "a2ddf0d9-91c2-4686-a4ba-e8d8abf31b4b")
-		)
-		(pin "18"
-			(uuid "f3c2de52-31aa-4fab-bfe8-741068e00063")
-		)
-		(pin "28"
-			(uuid "484eb590-a235-4e6e-a426-ebdeba557b85")
-		)
-		(pin "14"
-			(uuid "1b804ad5-3f80-4461-a898-336d57a609ad")
-		)
-		(pin "19"
-			(uuid "f2486998-0195-4a71-a9e2-bb7b421bb4dc")
-		)
-		(pin "15"
-			(uuid "2f0815e6-5900-4996-9d97-a3780fd107e9")
-		)
-		(pin "24"
-			(uuid "c2e9fe90-cbb6-4017-b85e-a90b523c5f28")
-		)
-		(pin "16"
-			(uuid "c9e56ee1-ab19-4275-b12b-4519587d90dc")
-		)
-		(pin "26"
-			(uuid "51259fb7-6594-4605-89ae-08692b9583ee")
-		)
-		(pin "27"
-			(uuid "a211823d-b510-44a1-a1cf-f22d7efe6651")
-		)
-		(pin "1"
-			(uuid "d65693b7-e025-4691-b61b-c7e66ee03f48")
-		)
-		(pin "2"
-			(uuid "5eab9c40-8ab6-4150-ac04-da660d219fd6")
-		)
-		(pin "13"
-			(uuid "f975e152-262f-4484-91e7-e4b478c92a08")
-		)
-		(pin "3"
-			(uuid "df36dd16-3576-4d16-8c38-ed5bab03307c")
-		)
-		(pin "6"
-			(uuid "44f0312e-76f5-47a1-adbc-03bc1896672c")
-		)
-		(pin "5"
-			(uuid "89bafc96-96e2-4377-91e8-bb2e6c1c57f6")
-		)
-		(pin "8"
-			(uuid "bfc454e8-8b88-491d-82d7-49621562a3d6")
-		)
-		(pin "11"
-			(uuid "f36a72dc-59fe-42a5-99f0-acd63fdb51cf")
-		)
-		(pin "12"
-			(uuid "2c37c3f9-2701-4253-bacf-223a3c9445e4")
-		)
-		(pin "9"
-			(uuid "7716523a-bb4c-4bbb-9cdb-9d8755503e0c")
-		)
-		(pin "7"
-			(uuid "ccd81755-c982-47e4-b1db-734afa837665")
-		)
-		(pin "4"
-			(uuid "9bb7a300-daab-4716-a2f3-c179d13f3fc7")
-		)
-		(pin "10"
-			(uuid "439de9a4-439d-4139-ac34-2e469a7ccbd1")
-		)
-		(instances
-			(project "PCB Piano v1.0"
-				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/e69add60-b1f1-4738-89c4-8ae24681f4a8"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 158.75 123.19 90)
 		(unit 1)
@@ -9695,167 +9932,6 @@
 			(project "PCB Piano v1.0"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/e69add60-b1f1-4738-89c4-8ae24681f4a8"
 					(reference "RN3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Driver_LED:PCA9685PW")
-		(at 73.66 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdc263fb-4f6f-458f-9bd2-4d51d1d311c5")
-		(property "Reference" "U6"
-			(at 75.8033 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PCA9685PW"
-			(at 75.8033 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
-			(at 74.295 170.815 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf"
-			(at 63.5 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA TSSOP"
-			(at 73.66 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "20"
-			(uuid "29b9f9f5-d561-4994-8723-0c0d1c0e85be")
-		)
-		(pin "22"
-			(uuid "40841c2b-2ff9-4a87-9cfa-82c71cbfd68d")
-		)
-		(pin "25"
-			(uuid "5c6c63c4-63fb-4b5e-a56f-a132f7153cce")
-		)
-		(pin "21"
-			(uuid "a2566a67-19b0-4ac6-8da3-6cd83bbb9fc8")
-		)
-		(pin "17"
-			(uuid "edf40cee-8ddc-47cb-91e4-aae5f0e12a9a")
-		)
-		(pin "23"
-			(uuid "52cd75e1-ae03-4dab-bab3-47ad5fc6fad3")
-		)
-		(pin "18"
-			(uuid "22642b7a-2244-4563-a770-49d07563c259")
-		)
-		(pin "28"
-			(uuid "4e0fe9c1-9b88-49aa-906f-0a0aea1327d8")
-		)
-		(pin "14"
-			(uuid "965e58d3-16aa-4153-9237-87506bfe180e")
-		)
-		(pin "19"
-			(uuid "5317f9a3-e05e-49d5-877e-555b6ce0f4e4")
-		)
-		(pin "15"
-			(uuid "8ea543d2-2165-42e0-a7bd-844919f7d41e")
-		)
-		(pin "24"
-			(uuid "75658d6d-31ef-4650-ae9d-74df0c5fc78c")
-		)
-		(pin "16"
-			(uuid "bd0db8d3-0167-407c-8423-6fc24f4ec6fd")
-		)
-		(pin "26"
-			(uuid "1059e91f-0d42-4e8a-ac76-66081f08a3c3")
-		)
-		(pin "27"
-			(uuid "d0aa6377-c698-406d-b750-8e6424d69500")
-		)
-		(pin "1"
-			(uuid "d677a466-59f3-4921-9dbe-d71ae5daa24d")
-		)
-		(pin "2"
-			(uuid "96498839-7fba-4b74-bc2a-2a6ca60340ee")
-		)
-		(pin "13"
-			(uuid "a35128b3-e09e-4f68-88d2-d54eafce812a")
-		)
-		(pin "3"
-			(uuid "b8523289-987f-4012-a3e9-9b8b9896a005")
-		)
-		(pin "6"
-			(uuid "80a44007-fa57-475e-8944-0d08308c79b4")
-		)
-		(pin "5"
-			(uuid "2b5048ae-a1a8-4670-8249-8786853bfa60")
-		)
-		(pin "8"
-			(uuid "4ee83a0f-192f-49b9-b3e7-a9d65084eca9")
-		)
-		(pin "11"
-			(uuid "dcc603ee-b52e-4a06-810f-2e8275f686a3")
-		)
-		(pin "12"
-			(uuid "8ed43f62-a0cb-47fb-aded-73ac6525fbd9")
-		)
-		(pin "9"
-			(uuid "490e01f8-a6cd-474c-b0d2-bfad25914818")
-		)
-		(pin "7"
-			(uuid "0a19a828-d928-40ec-a3e2-2950f92c8056")
-		)
-		(pin "4"
-			(uuid "852eb696-ffca-473c-b818-6472c269b8d6")
-		)
-		(pin "10"
-			(uuid "584fc901-a082-43ee-bfcc-040d0fe8cd8e")
-		)
-		(instances
-			(project "PCB Piano v1.0"
-				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/e69add60-b1f1-4738-89c4-8ae24681f4a8"
-					(reference "U6")
 					(unit 1)
 				)
 			)

@@ -186,30 +186,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack3_SwitchT"
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "AudioJack3_SwitchT"
-				(at 0 6.35 0)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -234,7 +243,7 @@
 					)
 				)
 			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
+			(property "Description" "Polarized capacitor, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -245,7 +254,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -256,7 +265,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Jack*"
+			(property "ki_fp_filters" "CP_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -267,12 +276,23 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_SwitchT_0_1"
+			(symbol "C_Polarized_Small_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -7.62)
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -281,31 +301,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -5.334) (xy 2.032 -5.842)
+						(xy -1.27 1.524) (xy -0.762 1.524)
 					)
 					(stroke
 						(width 0)
@@ -315,32 +311,9 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 1.778 -7.62) (xy 1.778 -5.334) (xy 1.524 -5.842)
+						(xy -1.016 1.27) (xy -1.016 1.778)
 					)
 					(stroke
 						(width 0)
@@ -351,10 +324,10 @@
 					)
 				)
 			)
-			(symbol "AudioJack3_SwitchT_1_1"
+			(symbol "C_Polarized_Small_1_1"
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
+					(at 0 2.54 270)
+					(length 1.8542)
 					(name ""
 						(effects
 							(font
@@ -362,7 +335,7 @@
 							)
 						)
 					)
-					(number "R"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -371,8 +344,8 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
+					(at 0 -2.54 90)
+					(length 1.8542)
 					(name ""
 						(effects
 							(font
@@ -380,43 +353,7 @@
 							)
 						)
 					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1201,6 +1138,369 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCB Piano Symbols:AudioJack4_SwitchTR1R2S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J3"
+				(at 1.27 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "AudioJack4_SwitchTR1R2S"
+				(at 1.016 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (Stereo / TRRS), Switched TR1 Poles (Normalling)"
+				(at -1.27 -12.446 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack4_SwitchTR1R2S_0_1"
+				(rectangle
+					(start -8.89 -7.62)
+					(end -7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.89)
+					(end 3.81 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack4_SwitchTR1R2S_1_1"
+				(polyline
+					(pts
+						(xy -3.175 -7.62) (xy -2.54 -8.255) (xy -1.905 -7.62) (xy -1.905 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.635 -8.255) (xy 0 -7.62) (xy 3.81 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.794) (xy -0.508 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy -0.762 7.62) (xy -0.762 5.334) (xy -1.016 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 5.08) (xy -5.715 5.08) (xy -5.715 -7.62) (xy -6.35 -8.255) (xy -6.985 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy -3.81 2.54) (xy -3.81 -7.62) (xy -4.445 -8.255) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy -0.762 0) (xy -0.762 2.286) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy -0.762 -5.08) (xy -0.762 -2.794) (xy -1.016 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -10.16) (xy 0.508 -10.16) (xy 0.508 -7.874) (xy 0.254 -8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 6.35 5.08 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 2.54 180)
+					(length 2.54)
+					(name "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -10.16 180)
+					(length 2.54)
+					(name "TN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 7.62 180)
+					(length 2.54)
+					(name "SN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "R2N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -5.08 180)
+					(length 2.54)
+					(name "R1N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -7.62 180)
+					(length 2.54)
+					(name "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2650,16 +2950,16 @@
 		(uuid "897b84cb-419a-4220-abea-14ae22abdb47")
 	)
 	(junction
-		(at 205.74 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8add064d-01ef-4a09-b7e1-d344805f4fc3")
-	)
-	(junction
 		(at 86.36 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c1b4c8a-f3ac-4e1d-b80f-569a2832a83d")
+	)
+	(junction
+		(at 205.74 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4040bb1-8719-4564-85e9-93b44241e067")
 	)
 	(junction
 		(at 140.97 36.83)
@@ -2777,16 +3077,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 95.25) (xy 229.87 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05aeb39f-ed75-4822-a2c2-69c98a3db2b8")
-	)
-	(wire
-		(pts
 			(xy 121.92 36.83) (xy 121.92 38.1)
 		)
 		(stroke
@@ -2834,6 +3124,16 @@
 			(type default)
 		)
 		(uuid "13049348-ae82-4aae-a6b4-cc9a42d1af89")
+	)
+	(wire
+		(pts
+			(xy 203.2 87.63) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13730778-1572-4cb8-aac1-20bfe579a594")
 	)
 	(wire
 		(pts
@@ -2967,13 +3267,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 87.63) (xy 205.74 87.63)
+			(xy 222.25 77.47) (xy 231.14 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3281f0dd-2f15-4aff-b1ae-974f5fa70cfb")
+		(uuid "31fa2336-7450-4499-9abb-09f0ab660c3c")
 	)
 	(wire
 		(pts
@@ -3007,6 +3307,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 90.17) (xy 241.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36189675-f7bb-41e2-9453-e69e6168377f")
+	)
+	(wire
+		(pts
 			(xy 86.36 161.29) (xy 58.42 161.29)
 		)
 		(stroke
@@ -3024,6 +3334,16 @@
 			(type default)
 		)
 		(uuid "3b18859a-912c-4c29-afe6-580f11f5614e")
+	)
+	(wire
+		(pts
+			(xy 224.79 82.55) (xy 224.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7c1456-e6cc-4a38-9078-ef118412ba20")
 	)
 	(wire
 		(pts
@@ -3087,16 +3407,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 87.63) (xy 229.87 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b9fd0a-4c24-496d-8cca-8644b9b016e3")
-	)
-	(wire
-		(pts
 			(xy 173.99 127) (xy 177.8 127)
 		)
 		(stroke
@@ -3104,16 +3414,6 @@
 			(type default)
 		)
 		(uuid "5614ae07-7e33-4100-80ea-4c6f9292bb46")
-	)
-	(wire
-		(pts
-			(xy 224.79 97.79) (xy 224.79 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56283376-0bb8-4736-bfd9-3ba71b7df0d0")
 	)
 	(wire
 		(pts
@@ -3227,6 +3527,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 82.55) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70414ff9-9c4f-4ae4-b51b-eb8f09764a31")
+	)
+	(wire
+		(pts
 			(xy 185.42 124.46) (xy 185.42 127)
 		)
 		(stroke
@@ -3234,16 +3544,6 @@
 			(type default)
 		)
 		(uuid "70e62147-4a37-4767-879a-fffccf0fb821")
-	)
-	(wire
-		(pts
-			(xy 229.87 97.79) (xy 227.33 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7144da45-db19-4a96-bd1d-e82b42aeb000")
 	)
 	(wire
 		(pts
@@ -3447,16 +3747,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 97.79) (xy 227.33 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9d998a-fe47-4232-85eb-970db37e8ed0")
-	)
-	(wire
-		(pts
 			(xy 101.6 29.21) (xy 92.71 29.21)
 		)
 		(stroke
@@ -3544,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "b6a820da-ef06-44d8-9d4a-1a4bfb8711ba")
+	)
+	(wire
+		(pts
+			(xy 224.79 82.55) (xy 231.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74d6c4a-8e01-43ed-bf61-b9aa4b424e86")
 	)
 	(wire
 		(pts
@@ -3667,6 +3967,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 87.63) (xy 232.41 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69cf735-8ff2-47a9-a629-25b3ab675c78")
+	)
+	(wire
+		(pts
 			(xy 203.2 105.41) (xy 204.47 105.41)
 		)
 		(stroke
@@ -3707,16 +4017,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 90.17) (xy 229.87 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdedf67c-188f-4032-af57-e1beb25051c8")
-	)
-	(wire
-		(pts
 			(xy 167.64 67.31) (xy 167.64 69.85)
 		)
 		(stroke
@@ -3744,6 +4044,16 @@
 			(type default)
 		)
 		(uuid "d6b43fb0-ae71-4550-ae41-f19c491930c0")
+	)
+	(wire
+		(pts
+			(xy 232.41 87.63) (xy 232.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71102d5-88ac-4395-a302-96b4faadf42e")
 	)
 	(wire
 		(pts
@@ -3887,6 +4197,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 77.47) (xy 241.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13bda57-ab0c-4da0-9a2c-9c9856571994")
+	)
+	(wire
+		(pts
 			(xy 52.07 35.56) (xy 52.07 36.83)
 		)
 		(stroke
@@ -3927,13 +4247,23 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 127) (xy 185.42 127)
+			(xy 232.41 127) (xy 185.42 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9c9118b-cc1e-443b-b4ba-81c43b7fbbdc")
+	)
+	(wire
+		(pts
+			(xy 222.25 77.47) (xy 222.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf4068d-820d-446b-871b-d0fbdee8588b")
 	)
 	(wire
 		(pts
@@ -3944,16 +4274,6 @@
 			(type default)
 		)
 		(uuid "fc076f80-c763-4454-8a2e-e93472ca4fa6")
-	)
-	(wire
-		(pts
-			(xy 222.25 95.25) (xy 222.25 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc15bbdb-acde-4d2c-8acb-6ad512390015")
 	)
 	(wire
 		(pts
@@ -3986,7 +4306,7 @@
 		(uuid "fe583d6e-24c4-448b-958d-89f1b293e4c0")
 	)
 	(label "HP_L"
-		(at 222.25 90.17 0)
+		(at 214.63 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3996,7 +4316,7 @@
 		(uuid "407de14b-776d-4220-97bd-64dd1be4a053")
 	)
 	(label "HP_R"
-		(at 224.79 95.25 0)
+		(at 214.63 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4014,16 +4334,6 @@
 			(justify left bottom)
 		)
 		(uuid "a6538677-44e7-4c2d-95ae-ae1a029617a1")
-	)
-	(label "HP_TS"
-		(at 222.25 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b350a4b0-7225-4f05-be0a-3bd1132ea477")
 	)
 	(label "SPKP"
 		(at 198.12 105.41 0)
@@ -4135,94 +4445,6 @@
 		(uuid "fe8e268f-3875-4bc1-8221-b1806f81b9f9")
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3_SwitchT")
-		(at 234.95 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03b321cf-8ddf-429f-bfb1-17127422f27c")
-		(property "Reference" "J3"
-			(at 242.57 90.8049 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack3_SwitchT"
-			(at 242.57 93.3449 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3524-SMT_Horizontal"
-			(at 234.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS), Switched T Pole (Normalling)"
-			(at 234.95 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "6d444e4a-a8f1-4a90-8537-5457508f4288")
-		)
-		(pin "R"
-			(uuid "07472505-93e5-4b6a-a59c-eacc348234b9")
-		)
-		(pin "TN"
-			(uuid "a083c781-3058-4e56-981a-3cf8fc89295b")
-		)
-		(pin "T"
-			(uuid "e36cee34-0ee7-4df2-a847-56edff531208")
-		)
-		(instances
-			(project "PCB Piano v1.0"
-				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/0a2c0448-f1e1-4ccd-bee2-9e5049d3d291"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Speaker")
 		(at 209.55 105.41 0)
 		(unit 1)
@@ -4299,6 +4521,85 @@
 			(project "PCB Piano v1.0"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/0a2c0448-f1e1-4ccd-bee2-9e5049d3d291"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 233.68 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "146130c3-7aa2-47ea-95f5-acf150d5c1ea")
+		(property "Reference" "C27"
+			(at 231.648 80.264 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 235.966 80.264 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 233.68 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 233.68 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d65de5b5-6e77-4aaa-8432-5c31682769ac")
+		)
+		(pin "1"
+			(uuid "8d3e03ee-f819-4058-9869-ce93b07a2c35")
+		)
+		(instances
+			(project "PCB Piano v1.0"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/0a2c0448-f1e1-4ccd-bee2-9e5049d3d291"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -5172,6 +5473,105 @@
 			(project "PCB Piano v1.0"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/0a2c0448-f1e1-4ccd-bee2-9e5049d3d291"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB Piano Symbols:AudioJack4_SwitchTR1R2S")
+		(at 247.65 85.09 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a13469c-6c22-4813-a565-3a8db31f2fb5")
+		(property "Reference" "J3"
+			(at 246.38 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "AudioJack4_SwitchTR1R2S"
+			(at 246.634 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCBPiano_Footprints:AudioJack_TRS_Switch_TR1R2S_SJ3-35024K-SMT-TR"
+			(at 248.92 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (Stereo / TRRS), Switched TR1 Poles (Normalling)"
+			(at 248.92 72.644 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d4418907-ead0-4abd-a146-ba26a1155d46")
+		)
+		(pin "8"
+			(uuid "af26fb07-c347-4834-8b6f-d97ba3e23f40")
+		)
+		(pin "6"
+			(uuid "a0a57696-9633-425c-87ae-039c96a666ce")
+		)
+		(pin "5"
+			(uuid "ef864854-8e93-4ab7-bb16-79b8f032e435")
+		)
+		(pin "3"
+			(uuid "0a2bbad5-992e-40bb-8b38-4a7a54cd1121")
+		)
+		(pin "7"
+			(uuid "b1f7c106-8b96-456e-844a-476ded284810")
+		)
+		(pin "1"
+			(uuid "11de7eee-097d-4a0b-96e9-8d93ebbb9f25")
+		)
+		(pin "4"
+			(uuid "50b17028-91c3-42f0-997d-9dd66fa0ff12")
+		)
+		(instances
+			(project "PCB Piano v1.0"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/0a2c0448-f1e1-4ccd-bee2-9e5049d3d291"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6183,7 +6583,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "2.2k"
 			(at 199.39 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7356,6 +7756,85 @@
 			(project "PCB Piano v1.0"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/0a2c0448-f1e1-4ccd-bee2-9e5049d3d291"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 233.68 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef016525-6172-4c16-af87-ccff55833d3f")
+		(property "Reference" "C26"
+			(at 231.648 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 235.966 74.93 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 233.68 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 233.68 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d07d4685-879e-40db-a3c4-608dd2e40abd")
+		)
+		(pin "1"
+			(uuid "0cead2ef-c6c0-490d-b978-bd78832234e4")
+		)
+		(instances
+			(project "PCB Piano v1.0"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/0a2c0448-f1e1-4ccd-bee2-9e5049d3d291"
+					(reference "C26")
 					(unit 1)
 				)
 			)

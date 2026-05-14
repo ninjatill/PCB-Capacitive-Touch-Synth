@@ -197,7 +197,8 @@
         0.0,
         0.25,
         0.3,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -489,10 +490,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "PCBPiano_Footprints"
+      "PCBPiano_Footprints",
+      "PCB Piano Footprints"
     ],
     "pinned_symbol_libs": [
-      "PCB Piano Symbols"
+      "PCB Piano Symbols",
+      "PCB_Piano_Symbols"
     ]
   },
   "meta": {
@@ -733,12 +736,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -783,7 +810,7 @@
         "uuid": "b31af04b-7e9c-4c59-b32e-b8589263a36a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR64,U4,U6-7,R43-66,TPJ21-24",
     "variants": []
   },
   "sheets": [
