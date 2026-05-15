@@ -1,0 +1,213 @@
+(footprint "Touchpad_Circle_10mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bd4d3339-8020-4ff0-be6c-29d7ae64320a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TouchPad 10mm Circle"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c95a904-fdf8-4839-817b-592a65e3cbbc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b496dfb9-b9fc-4155-a8d0-cadc1ba931a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7f625a2-4d99-4d97-b05f-96539d8db211")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 5.5 0)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "34f5b0f0-f907-4201-abe8-3290209ed8cc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c5eb23a1-b961-4267-b834-d4b0954950df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 10 10)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "03a9efba-382b-4621-9173-d1a7c8e01272")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "bbd753a4-17df-4411-91d0-f971348304e8")
+		(name "Top No Fill")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.5 -8) (xy -1.5 -2) (xy 1.5 -2) (xy 1.5 -8)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "ab0aabab-5d15-4232-bc11-181e0d1ce2a1")
+		(name "Touch Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 8 -8) (xy 8 8) (xy -8 8) (xy -8 -8) (xy -1.5 -8) (xy -1.5 -2) (xy 1.5 -2) (xy 1.5 -8)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "2b6e5dfb-2f42-4b56-bc64-7f2ecbd578bd")
+		(name "Touchpad No Fill")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.5 -8) (xy -1.5 -2) (xy 1.5 -2) (xy 1.5 -8)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "dd10b706-3732-4d3e-b0f0-44af70a0fbcf")
+		(name "Touch Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -8 -8) (xy -8 8) (xy 8 8) (xy 8 -8) (xy 1.5 -8) (xy 1.5 -2) (xy -1.5 -2) (xy -1.5 -8)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
