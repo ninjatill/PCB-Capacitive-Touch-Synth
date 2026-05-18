@@ -1,0 +1,233 @@
+(footprint "Touchpad_Circle_10mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3602747-ce4b-40ab-aba5-6c37498a0beb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TouchPad 10mm Circle"
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "67328e0a-8c28-4ec1-b256-667a0c54a978")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a2fcb29-ad99-456f-930c-d1ecf3de7731")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f43001d6-9efa-4ad9-aab1-d0a718962a5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 5.8 0)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e8cbe638-05bb-4f0a-a8f1-232802ebe330")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05908e62-331d-4412-95bc-16c3f6ac37f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text_box "Silkscreen on pad is intentional. \nDo not remove."
+		(start -8.1 8.25)
+		(end 8.1 19.75)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Cmts.User")
+		(uuid "398da660-83ca-4eb8-bb86-650d1a011392")
+		(effects
+			(font
+				(size 1.5 1.2)
+				(thickness 0.2)
+			)
+			(justify top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(knockout no)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 10 10)
+		(layers "F.Cu")
+		(thermal_bridge_angle 90)
+		(uuid "66a91946-3267-4071-9a42-a422c4694127")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "24a25cc7-dbba-448d-b8a8-0927b8e9ad99")
+		(name "Top No Fill")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.5 -8) (xy -1.5 -2) (xy 1.5 -2) (xy 1.5 -8)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "8aa77f1c-38ca-4bd2-9b7c-89e8a0857ff9")
+		(name "Touch Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 8 -8) (xy 8 8) (xy -8 8) (xy -8 -8) (xy -1.5 -8) (xy -1.5 -2) (xy 1.5 -2) (xy 1.5 -8)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "9f7f27e6-d8d7-48d6-aec7-b6d1dbb7ec51")
+		(name "Touchpad No Fill")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.5 -8) (xy -1.5 -2) (xy 1.5 -2) (xy 1.5 -8)
+			)
+		)
+	)
+	(zone
+		(layer "B.Cu")
+		(uuid "a1942302-c65a-414f-bd55-83fc84bcd76e")
+		(name "Touch Keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -8 -8) (xy -8 8) (xy 8 8) (xy 8 -8) (xy 1.5 -8) (xy 1.5 -2) (xy -1.5 -2) (xy -1.5 -8)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

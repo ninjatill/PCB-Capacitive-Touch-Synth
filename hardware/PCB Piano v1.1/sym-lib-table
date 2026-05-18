@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PCB Piano Symbols") (type "KiCad") (uri "${KIPRJMOD}/PCBPiano_Symbols/PCB_Piano_Symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "MTCH2120") (type "KiCad") (uri "C:/Users/tjarosz.STDAIR/OneDrive - ninjatill/OneDrive/GitHub/PCB-Capacitive-Touch-Synth/hardware/symbols/MTCH2120.kicad_sym") (options "") (descr "") (disabled) (hidden))
+)
