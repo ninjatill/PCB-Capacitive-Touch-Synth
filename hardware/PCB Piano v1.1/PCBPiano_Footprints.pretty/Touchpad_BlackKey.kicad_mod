@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d3e8a03c-45e0-4d6b-ad11-32a2da67c652")
+		(uuid "831e217d-081f-4cc2-92bc-13c1152b76a0")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d8e14537-d537-4d2a-af48-7d101d74af75")
+		(uuid "c5c7d4a6-2874-426d-ab85-d92dc59a3879")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0e85f194-5352-4fcb-b7a7-77bd66888053")
+		(uuid "a8a77051-c430-49b5-935d-673e76ff53b1")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7737c029-bc66-4424-a81b-5129909dc588")
+		(uuid "38a885b8-ec6a-4e63-9e37-e112747c114e")
 		(effects
 			(font
 				(size 1 1)
@@ -58,22 +58,22 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -8 -10.5)
-		(end 7 9.5)
-		(radius 2.5)
+		(start -8.3 -10.8)
+		(end 8.3 10.8)
+		(radius 3.3)
 		(stroke
 			(width 1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "d94d3810-251f-45c0-b756-e995fb5fc179")
+		(uuid "fe06961f-a57b-4f7a-9bac-87c332eb1acc")
 	)
 	(fp_text user "${VALUE}"
 		(at -0.5 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "f2dfcbfe-2500-4f7e-a0a4-b63fd953ecdb")
+		(uuid "dce72ae0-81c7-4596-98de-381def05bf92")
 		(effects
 			(font
 				(face "Inter Black")
@@ -349,7 +349,7 @@
 		(at -0.5 -12 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f15508e7-8d7e-400f-953a-7b276fb1e8ce")
+		(uuid "7841dfd2-c426-4fc3-8cf6-3f0bfdf970e5")
 		(effects
 			(font
 				(size 1 1)
@@ -357,18 +357,38 @@
 			)
 		)
 	)
+	(fp_text_box "Silkscreen on pad is intentional. \nDo not remove."
+		(start -10.5 13.25)
+		(end 10.5 27.956664)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Cmts.User")
+		(uuid "6614f5a7-89c9-422f-9aa1-e6cfee5abdf7")
+		(effects
+			(font
+				(size 2 1.5)
+				(thickness 0.2)
+			)
+			(justify top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(knockout no)
+	)
 	(pad "1" smd roundrect
-		(at -0.5 -0.5)
+		(at 0 0)
 		(size 15 20)
 		(layers "F.Cu")
 		(roundrect_rratio 0.1666666667)
 		(solder_mask_margin -10.1)
 		(solder_paste_margin -10.1)
-		(uuid "086c5f4b-cecc-427d-b26f-1e60806cd461")
+		(uuid "0ed535fe-5371-4b90-b539-6fbdf96791f1")
 	)
 	(zone
 		(layer "F.Cu")
-		(uuid "19b7dd10-a55e-4ead-baa0-a1fbd2ca7c5d")
+		(uuid "05d07ca2-0d7d-4a79-8dda-1807836ce795")
 		(name "Top No Fill")
 		(hatch edge 0.5)
 		(connect_pads
@@ -393,13 +413,13 @@
 		)
 		(polygon
 			(pts
-				(xy -3.5 -13.5) (xy -3.5 -10.5) (xy 2.5 -10.5) (xy 2.5 -13.5)
+				(xy -3 -13) (xy -3 -10) (xy 3 -10) (xy 3 -13)
 			)
 		)
 	)
 	(zone
 		(layer "F.Cu")
-		(uuid "4c081238-219f-4f08-86f3-e8c7d0d1a1f8")
+		(uuid "e130bfd6-857d-458e-862e-de33b50ff6fe")
 		(name "Touch Keepout")
 		(hatch edge 0.5)
 		(connect_pads
@@ -424,13 +444,13 @@
 		)
 		(polygon
 			(pts
-				(xy 10 -13.5) (xy 10 13) (xy -11 13) (xy -11 -13.5) (xy -3.5 -13.5) (xy -3.5 1) (xy 2.5 1) (xy 2.5 -13.5)
+				(xy 10.5 -13) (xy 10.5 13) (xy -10.5 13) (xy -10.5 -13) (xy -3 -13) (xy -3 1) (xy 3 1) (xy 3 -13)
 			)
 		)
 	)
 	(zone
 		(layer "B.Cu")
-		(uuid "680b6b44-856f-4ab3-bcc0-3a483ee39cdd")
+		(uuid "54dc5866-2b13-4be8-9748-b4c037d2444e")
 		(name "Touchpad No Fill")
 		(hatch edge 0.5)
 		(connect_pads
@@ -455,13 +475,13 @@
 		)
 		(polygon
 			(pts
-				(xy -3.5 -13.5) (xy -3.5 -9.5) (xy 2.5 -9.5) (xy 2.5 -13.5)
+				(xy -3 -13) (xy -3 -9) (xy 3 -9) (xy 3 -13)
 			)
 		)
 	)
 	(zone
 		(layer "B.Cu")
-		(uuid "669e2c58-21b4-40a2-9c0e-ca7d9ccb180d")
+		(uuid "3c78fa13-b319-4b44-b475-b31df701a892")
 		(name "Touch Keepout")
 		(hatch edge 0.5)
 		(connect_pads
@@ -486,8 +506,7 @@
 		)
 		(polygon
 			(pts
-				(xy -11 -13.5) (xy -11 13) (xy 10 13) (xy 10 -13.5) (xy 2.5 -13.5) (xy 2.5 -9.5) (xy -3.5 -9.5)
-				(xy -3.5 -13.5)
+				(xy -10.5 -13) (xy -10.5 13) (xy 10.5 13) (xy 10.5 -13) (xy 3 -13) (xy 3 -10) (xy -3 -10) (xy -3 -13)
 			)
 		)
 	)

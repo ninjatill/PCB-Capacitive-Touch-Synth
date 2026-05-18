@@ -41,12 +41,6 @@
 		(color 0 0 0 0)
 		(uuid "e21ca135-1b31-4f49-8d43-0b2260542044")
 	)
-	(junction
-		(at 154.94 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7bf83d6-3600-4fc0-a15c-6a506cc0d980")
-	)
 	(wire
 		(pts
 			(xy 119.38 46.99) (xy 119.38 67.31)
@@ -279,16 +273,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 163.83) (xy 104.14 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "495123e5-ef3a-4fcc-ab9f-923373f48c89")
-	)
-	(wire
-		(pts
 			(xy 101.6 82.55) (xy 127 82.55)
 		)
 		(stroke
@@ -379,7 +363,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 151.13) (xy 177.8 151.13)
+			(xy 152.4 151.13) (xy 177.8 151.13)
 		)
 		(stroke
 			(width 0)
@@ -396,16 +380,6 @@
 			(type default)
 		)
 		(uuid "9fa9e29e-ece7-48cc-9620-679b9fd7fd4b")
-	)
-	(wire
-		(pts
-			(xy 154.94 163.83) (xy 104.14 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a11d54e9-e63a-49c1-aca4-7c90fddadf6b")
 	)
 	(wire
 		(pts
@@ -446,16 +420,6 @@
 			(type default)
 		)
 		(uuid "bac56a04-ebb0-4570-99ee-fb84a3c5ff18")
-	)
-	(wire
-		(pts
-			(xy 152.4 151.13) (xy 154.94 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be753c89-3e84-4dbb-838a-1b85016e7cd0")
 	)
 	(wire
 		(pts
@@ -509,16 +473,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 151.13) (xy 154.94 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b30183-26ae-4227-9056-d4cb2e31c79a")
-	)
-	(wire
-		(pts
 			(xy 207.01 132.08) (xy 207.01 73.66)
 		)
 		(stroke
@@ -526,16 +480,6 @@
 			(type default)
 		)
 		(uuid "c7e91a60-39e7-4ada-a3b5-81926d9c389c")
-	)
-	(wire
-		(pts
-			(xy 104.14 110.49) (xy 101.6 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce0ab1de-df97-4198-92e3-7d6c9e2205f2")
 	)
 	(wire
 		(pts
@@ -596,6 +540,16 @@
 			(type default)
 		)
 		(uuid "eba856f9-a8d3-4d1e-8b5e-c239884d8c8f")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d2a1b6-eb86-4d4c-aa98-acfeb5002565")
 	)
 	(wire
 		(pts
@@ -1057,6 +1011,16 @@
 				(justify right)
 			)
 		)
+		(pin "GPIO19" bidirectional
+			(at 177.8 151.13 180)
+			(uuid "8841bc95-3df9-4d49-b93f-f0e1a2085c8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
@@ -1469,16 +1433,6 @@
 				(justify right)
 			)
 		)
-		(pin "GPIO23" bidirectional
-			(at 152.4 151.13 0)
-			(uuid "f2012e13-d990-40ee-bfad-6a02c8a7f826")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BOOTSEL" input
 			(at 152.4 134.62 0)
 			(uuid "6d258047-093d-4431-aad7-e78b44765b88")
@@ -1507,6 +1461,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIO19" bidirectional
+			(at 152.4 151.13 0)
+			(uuid "bf8524b9-0907-4ff4-af15-201bee3dca15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2S_SDATA_MIC" input
+			(at 127 110.49 180)
+			(uuid "be06f30f-e9fc-4cba-ab07-216a235951ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

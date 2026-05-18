@@ -7,7 +7,7 @@
 		(at 0 -7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "e4ae00eb-4ad1-4fb9-88fc-aee8668a249a")
+		(uuid "930564ee-a7b9-42e8-bb1d-ec7a64272b74")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "260aa78c-16e2-4a0b-ad30-773f41ce62d6")
+		(uuid "f41f4917-28af-4436-911f-9a8a94756632")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "089a2fed-a5ca-4fd9-906b-110d3291f5c1")
+		(uuid "90f6f4f1-910f-4ac0-8193-3b7cdfb04ff3")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "58094c63-efba-43db-bb24-d0792650c319")
+		(uuid "d3e7d96a-b99f-4472-97b6-98035eb5ef51")
 		(effects
 			(font
 				(size 1 1)
@@ -55,11 +55,22 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -5.5 -2)
+		(end 5.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "97dd8c65-646a-4be2-a807-5ce0b408a8c5")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "a0882ec5-14a5-497d-9550-fc64d57e5011")
+		(uuid "7b1d0ff5-47f0-47b1-a9ad-ef18669b3996")
 		(effects
 			(font
 				(size 1 1)
@@ -71,13 +82,13 @@
 		(at -3.75 0)
 		(size 2.54 2.54)
 		(layers "F.Cu" "F.Mask")
-		(uuid "cdb8dccc-0f66-4170-9ce8-9357b479eeb1")
+		(uuid "f5454aba-02c0-49f9-8702-16656754a1b1")
 	)
 	(pad "2" smd rect
 		(at 3.75 0)
 		(size 2.54 2.54)
 		(layers "F.Cu" "F.Mask")
-		(uuid "e0ec8552-50d6-40fe-8a00-13aa720e894d")
+		(uuid "a24ad2f4-d244-48db-ac90-07f5edb8f811")
 	)
 	(embedded_fonts no)
 )

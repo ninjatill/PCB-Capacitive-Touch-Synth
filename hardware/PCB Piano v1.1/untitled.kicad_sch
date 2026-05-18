@@ -490,7 +490,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MTCH2120-V_SO_1"
+		(symbol "PCB Piano Symbols:MTCH2120-V_SO"
 			(pin_names
 				(offset 0.254)
 			)
@@ -519,7 +519,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SOP_MTCH2120-V/SO_MCH"
+			(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
 				(at 29.21 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -586,7 +586,7 @@
 					)
 				)
 			)
-			(symbol "MTCH2120-V_SO_1_0_1"
+			(symbol "MTCH2120-V_SO_0_1"
 				(pin power_in line
 					(at 41.91 0 0)
 					(length 7.62)
@@ -911,26 +911,8 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 41.91 -27.94 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
-			(symbol "MTCH2120-V_SO_1_1_1"
+			(symbol "MTCH2120-V_SO_1_1"
 				(rectangle
 					(start 49.53 2.54)
 					(end 68.58 -30.48)
@@ -953,6 +935,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 41.91 -27.94 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1379,22 +1379,16 @@
 		(uuid "2d758361-3bf5-4db6-8d0d-cec277b2caee")
 	)
 	(junction
-		(at 96.52 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3648101a-0f2e-4693-b9f7-0ba7527f55d8")
-	)
-	(junction
-		(at 99.06 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3faf2cbc-aa6a-40e5-bea9-8d277443293c")
-	)
-	(junction
 		(at 167.64 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5407a469-6f74-47ed-ba0c-394092ddd1c7")
+	)
+	(junction
+		(at 88.9 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d5a5f7b-12bc-4cf9-8a52-57fb39826ee5")
 	)
 	(junction
 		(at 172.72 125.73)
@@ -1445,7 +1439,13 @@
 		(uuid "a13c2dd1-5895-44ca-9a5b-2893e93ec311")
 	)
 	(junction
-		(at 76.2 140.97)
+		(at 96.52 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac305fba-e2a9-4d0e-a94c-377e3de8a113")
+	)
+	(junction
+		(at 81.28 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af7a4631-3499-47d1-bc21-1fda95c32de8")
@@ -1463,7 +1463,7 @@
 		(uuid "b574fbb3-696c-4a8e-bdb9-56e3e434ebc3")
 	)
 	(junction
-		(at 76.2 113.03)
+		(at 81.28 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b639f7c2-294a-43fa-b0e3-022bf034ca7a")
@@ -1487,6 +1487,12 @@
 		(uuid "c6f697a7-d46e-45c9-8fcd-b17a9b489576")
 	)
 	(junction
+		(at 87.63 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0d7c6d9-5399-4951-b93c-67c02e1c412c")
+	)
+	(junction
 		(at 193.04 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1497,12 +1503,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e53385e7-aa78-4852-a4b5-69a6257b67a4")
-	)
-	(junction
-		(at 99.06 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "faeef645-f2cf-4889-8696-9271e804d414")
 	)
 	(wire
 		(pts
@@ -1523,16 +1523,6 @@
 			(type default)
 		)
 		(uuid "08b79864-3f65-4153-b68f-9b5371271a97")
-	)
-	(wire
-		(pts
-			(xy 99.06 80.01) (xy 101.6 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09803dd8-9a9e-405f-b8c6-eaf332967ea7")
 	)
 	(wire
 		(pts
@@ -1566,7 +1556,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 80.01) (xy 99.06 82.55)
+			(xy 87.63 80.01) (xy 87.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +1636,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 140.97) (xy 99.06 140.97)
+			(xy 81.28 140.97) (xy 88.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1666,7 +1656,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 76.2 140.97)
+			(xy 81.28 120.65) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 130.81) (xy 99.06 140.97)
+			(xy 88.9 130.81) (xy 88.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1776,6 +1766,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 80.01) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db79a29-2ab6-41fe-9561-d73f1b296950")
+	)
+	(wire
+		(pts
 			(xy 167.64 140.97) (xy 167.64 143.51)
 		)
 		(stroke
@@ -1846,7 +1846,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 69.85) (xy 99.06 80.01)
+			(xy 87.63 69.85) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1876,7 +1876,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 80.01) (xy 99.06 80.01)
+			(xy 76.2 80.01) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1906,7 +1906,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 113.03) (xy 66.04 113.03)
+			(xy 81.28 113.03) (xy 71.12 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1916,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 113.03) (xy 76.2 113.03)
+			(xy 96.52 113.03) (xy 81.28 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1963,6 +1963,16 @@
 			(type default)
 		)
 		(uuid "589b2b01-8327-401f-85cc-5f9ca85bba00")
+	)
+	(wire
+		(pts
+			(xy 88.9 140.97) (xy 101.6 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e9550d-de8d-40cc-a231-6a8a05e7c5bf")
 	)
 	(wire
 		(pts
@@ -2106,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 140.97) (xy 99.06 143.51)
+			(xy 88.9 140.97) (xy 88.9 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2166,7 +2176,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 66.04 140.97)
+			(xy 71.12 120.65) (xy 71.12 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2253,16 +2263,6 @@
 			(type default)
 		)
 		(uuid "9675e476-eb72-4caa-8133-72d898d6c395")
-	)
-	(wire
-		(pts
-			(xy 99.06 140.97) (xy 101.6 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96e6d218-e126-435a-bf1c-5e83fd056a26")
 	)
 	(wire
 		(pts
@@ -2406,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 113.03) (xy 66.04 115.57)
+			(xy 71.12 113.03) (xy 71.12 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 140.97) (xy 76.2 140.97)
+			(xy 71.12 140.97) (xy 81.28 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2606,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 130.81) (xy 99.06 130.81)
+			(xy 101.6 130.81) (xy 88.9 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2656,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 99.06 69.85)
+			(xy 101.6 69.85) (xy 87.63 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 113.03) (xy 76.2 115.57)
+			(xy 81.28 113.03) (xy 81.28 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2991,7 +2991,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "G"
 			(at 173.99 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -3360,7 +3360,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 82.55 0)
+		(at 87.63 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3371,7 +3371,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d65648b-debb-4849-9d59-26bcfdde670e")
 		(property "Reference" "#PWR012"
-			(at 99.06 88.9 0)
+			(at 87.63 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 83.8199 0)
+			(at 90.17 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3393,7 +3393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 82.55 0)
+			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3404,7 +3404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 82.55 0)
+			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3415,7 +3415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 82.55 0)
+			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +3611,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "B"
 			(at 194.31 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -3669,8 +3669,7 @@
 		)
 	)
 	(symbol
-		(lib_name "MTCH2120-V_SO_1")
-		(lib_id "PCBPiano_Microchip_Symbols:MTCH2120-V_SO")
+		(lib_id "PCB Piano Symbols:MTCH2120-V_SO")
 		(at 59.69 113.03 0)
 		(unit 1)
 		(body_style 1)
@@ -3682,7 +3681,7 @@
 		(fields_autoplaced yes)
 		(uuid "249e0f7d-de2b-4bee-b564-0753047ed02a")
 		(property "Reference" "U10"
-			(at 118.618 105.918 0)
+			(at 118.745 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3692,7 +3691,7 @@
 			)
 		)
 		(property "Value" "MTCH2120-V/SO"
-			(at 118.872 108.712 0)
+			(at 118.745 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3827,7 +3826,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "F"
 			(at 163.83 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -3985,7 +3984,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "A"
 			(at 184.15 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -4219,7 +4218,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "B"
 			(at 194.31 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -4433,7 +4432,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 76.2 118.11 0)
+		(at 81.28 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4444,7 +4443,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a14e863-71b0-4c13-ab1d-5a511f50b934")
 		(property "Reference" "C46"
-			(at 78.74 116.9669 0)
+			(at 83.82 116.9669 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4455,7 +4454,7 @@
 			)
 		)
 		(property "Value" ".1uF"
-			(at 78.74 119.5069 0)
+			(at 83.82 119.5069 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4466,7 +4465,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 76.2 118.11 0)
+			(at 81.28 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,7 +4476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 118.11 0)
+			(at 81.28 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4487,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 76.2 118.11 0)
+			(at 81.28 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4515,7 +4514,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small_US")
-		(at 66.04 118.11 0)
+		(at 71.12 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4526,7 +4525,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a35d743-5e1c-41c5-b593-e163d8d528af")
 		(property "Reference" "C45"
-			(at 68.58 116.9669 0)
+			(at 73.66 116.9669 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4537,7 +4536,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 68.58 119.5069 0)
+			(at 73.66 119.5069 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4548,7 +4547,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 66.04 118.11 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4559,7 +4558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 118.11 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4570,7 +4569,7 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
-			(at 66.04 118.11 0)
+			(at 71.12 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4617,7 +4616,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "F"
 			(at 163.83 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4695,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "G# Ab"
 			(at 179.07 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -4833,8 +4832,7 @@
 		)
 	)
 	(symbol
-		(lib_name "MTCH2120-V_SO_1")
-		(lib_id "PCBPiano_Microchip_Symbols:MTCH2120-V_SO")
+		(lib_id "PCB Piano Symbols:MTCH2120-V_SO")
 		(at 59.69 52.07 0)
 		(unit 1)
 		(body_style 1)
@@ -4846,7 +4844,7 @@
 		(fields_autoplaced yes)
 		(uuid "49cc176e-b1df-458e-8d87-272b0b495969")
 		(property "Reference" "U5"
-			(at 118.618 44.958 0)
+			(at 118.745 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4856,7 +4854,7 @@
 			)
 		)
 		(property "Value" "MTCH2120-V/SO"
-			(at 118.872 47.752 0)
+			(at 118.745 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5070,7 +5068,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "A# Bb"
 			(at 189.23 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -6005,7 +6003,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "C"
 			(at 199.39 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -6160,7 +6158,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "A# Bb"
 			(at 189.23 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -6318,7 +6316,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "F# Gb"
 			(at 168.91 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -6476,7 +6474,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "D# Eb"
 			(at 214.63 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -7105,7 +7103,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "A"
 			(at 184.15 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -7164,7 +7162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 143.51 0)
+		(at 88.9 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7175,7 +7173,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4d1e141-3130-45e2-978a-699315776376")
 		(property "Reference" "#PWR033"
-			(at 99.06 149.86 0)
+			(at 88.9 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 148.59 0)
+			(at 88.9 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7196,7 +7194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 143.51 0)
+			(at 88.9 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +7205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 143.51 0)
+			(at 88.9 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7218,7 +7216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 143.51 0)
+			(at 88.9 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7338,7 +7336,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "D"
 			(at 209.55 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7494,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "C"
 			(at 199.39 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -7654,7 +7652,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "G# Ab"
 			(at 179.07 149.225 90)
 			(hide yes)
 			(show_name no)
@@ -7733,7 +7731,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "F# Gb"
 			(at 168.91 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -7888,7 +7886,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "C# Db"
 			(at 204.47 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -8119,7 +8117,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "E"
 			(at 219.71 88.265 90)
 			(hide yes)
 			(show_name no)
@@ -8663,7 +8661,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "Conn_01x01_Pin"
+		(property "Value" "G"
 			(at 173.99 88.265 90)
 			(hide yes)
 			(show_name no)
