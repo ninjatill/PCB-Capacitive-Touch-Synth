@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -16.5 0)
+		(at 0 -14 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "5fc411b3-81ef-47d6-8273-b2b27cde41df")
+		(uuid "d7746011-5d30-4de5-871d-f70ae8283ad3")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "MFS126D"
-		(at 0 -15 0)
+	(property "Value" "Switch_Slide_MFS126E_PanelCutout"
+		(at 0 -12.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "18fbeaa2-d9a7-4989-966c-e0aa79036bae")
+		(uuid "e5560430-a7c9-4903-b8ce-b6226f9f0355")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0fe1975c-c7f5-48db-8624-e90e7949676c")
+		(uuid "2119a570-4e46-4324-8892-7dbf49e1ce7d")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" "Knitter Switch Miniature Slide Panel Mount"
+	(property "Description" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d9433af1-7cfa-448a-8b04-74b7ff6ba2bc")
+		(uuid "fe279cdd-3a1c-44e0-a580-ac56fd6f6cac")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "467af2ee-b21c-4205-a4f9-433fc59058bc")
+		(uuid "5f910109-2887-4d63-9247-46dd6d8485a7")
 	)
 	(fp_rect
 		(start -3.3 -6.35)
@@ -75,7 +75,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "b0018cee-87b7-4bde-833d-5c7909a7323d")
+		(uuid "16325111-e451-47f5-aa95-9da31c49aecc")
 	)
 	(fp_rect
 		(start -3.3 6.35)
@@ -86,52 +86,69 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "175c41fd-128a-4173-8fb2-b474ffd5dfa9")
+		(uuid "ccb86a4e-6560-4360-a765-84a3719ea394")
 	)
 	(fp_rect
-		(start -2.03 -3.65)
-		(end 2.03 3.65)
+		(start -2.1 -3.725)
+		(end 2.1 3.725)
+		(radius 0.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "470d73ee-22e6-4473-9633-4081caf99314")
+		(uuid "7a72aa50-961e-4e05-89ba-582d0bac8451")
 	)
-	(fp_circle
-		(center 0 -8.765)
-		(end 1.03 -8.765)
+	(fp_rect
+		(start -3.5 -10.2)
+		(end 3.5 10.2)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "fafc5edc-d9a0-450e-8300-bf313cd91f09")
+		(layer "B.CrtYd")
+		(uuid "68a2a5b2-7b7d-4701-bbee-7b8bb3696d95")
 	)
-	(fp_circle
-		(center 0 8.765)
-		(end 1.03 8.765)
+	(fp_rect
+		(start -3.5 -10.2)
+		(end 3.5 10.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "bff032c5-acdd-4baa-bd12-3fe01e895e1a")
+		(layer "F.CrtYd")
+		(uuid "4a368ee0-6956-4caa-8f22-6ac1ac1e6fa7")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -13.5 0)
+		(at 0 -11 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f10f0a7d-061c-47eb-8574-b21f8f5efb10")
+		(uuid "18c4ed30-3152-48c0-b37b-6a3f841ddd54")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.16)
 			)
 		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -8.765)
+		(size 2.1 2.1)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "fe9654ee-543f-4fca-afef-19c0624ab081")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 8.765)
+		(size 2.1 2.1)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "b4693125-c429-4b2f-8cb1-2406c97827c5")
 	)
 	(embedded_fonts no)
 )

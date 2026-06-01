@@ -1,0 +1,240 @@
+(footprint "SW_SWT0110-020016SSA_REVA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.175 -3.35 0)
+		(layer "F.SilkS")
+		(uuid "c320817d-5e53-43fb-91b4-b199dcfe4691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SWT0110-020016SSA_REVA"
+		(at 12.875 3.35 0)
+		(layer "F.Fab")
+		(uuid "f0e9b86c-e439-4cc6-8f00-05a78ad212c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://gct.co/files/specs/SWT0110-SPEC.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c1b2fd8-50ea-4efc-a782-a6ebe52d54ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Switch, Tactile, Pushbutton, Momentary"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "addbc0b5-ae25-4448-aadc-f0742ddaecfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.95 -1.465)
+		(end -1.95 -1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13b7d7f9-ac7e-4548-a2d6-55dbd5aecfca")
+	)
+	(fp_line
+		(start -1.95 1.465)
+		(end -1.95 1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cae30623-3adc-4a08-97fc-cde06ac676a8")
+	)
+	(fp_line
+		(start -1.95 1.465)
+		(end 1.95 1.465)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5c9d4d5-7f2f-4126-a8f1-834e8364010a")
+	)
+	(fp_line
+		(start 1.95 -1.465)
+		(end -1.95 -1.465)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86229b3a-b2d1-4e79-848e-3a2a9cfcaffb")
+	)
+	(fp_line
+		(start 1.95 -1.35)
+		(end 1.95 -1.465)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f10675fd-2425-4297-82bb-fc989e6d6aec")
+	)
+	(fp_line
+		(start 1.95 1.465)
+		(end 1.95 1.35)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebba554f-4dd7-4ad0-9517-4efc34f15100")
+	)
+	(fp_circle
+		(center -3.75 0)
+		(end -3.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "09d1dd91-fe8e-4f56-bb52-91e4c3a10e36")
+	)
+	(fp_line
+		(start -3 -1.715)
+		(end -3 1.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22c07f4c-1fd9-43c5-871a-213f3aa30186")
+	)
+	(fp_line
+		(start -3 1.715)
+		(end 3 1.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "91d57f89-80de-4b34-82d3-74ea58f29468")
+	)
+	(fp_line
+		(start 3 -1.715)
+		(end -3 -1.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cff4d9ff-d9b0-4770-b5c7-2e5d72a955bf")
+	)
+	(fp_line
+		(start 3 1.715)
+		(end 3 -1.715)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1b233d4-b31c-4b16-8770-8fad95862449")
+	)
+	(fp_line
+		(start -1.95 -1.465)
+		(end -1.95 1.465)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "517a2b97-1640-4094-869d-7c8114dd3d47")
+	)
+	(fp_line
+		(start -1.95 1.465)
+		(end 1.95 1.465)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83f551fe-1bf0-4dd3-80fc-52b26639a3c5")
+	)
+	(fp_line
+		(start 1.95 -1.465)
+		(end -1.95 -1.465)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c7ddf92-3ad3-431d-ac46-8048d6541bf5")
+	)
+	(fp_line
+		(start 1.95 1.465)
+		(end 1.95 -1.465)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2715914-7e55-46e8-a721-2cc20f635ed0")
+	)
+	(fp_circle
+		(center -3.75 0)
+		(end -3.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6437d576-c911-4265-867e-b97f9723dcf9")
+	)
+	(pad "1" smd rect
+		(at -2.225 0)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "bc81564f-e4cc-4e16-9a6b-91ab912d460e")
+	)
+	(pad "2" smd rect
+		(at 2.225 0)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3ac13317-31c4-43b8-84c1-6201d8a5097f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/tjarosz.STDAIR/OneDrive - ninjatill/OneDrive/GitHub/PCB-Capacitive-Touch-Synth/hardware/3dmodels/swt0110-020016ssa.stp"
+		(offset
+			(xyz -5.9 -1 -0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

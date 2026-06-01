@@ -1,0 +1,210 @@
+(footprint "SW_SWT0115-020025SSA_REVA"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.375 -3.435 0)
+		(layer "F.SilkS")
+		(uuid "6d239661-8fdb-4381-8eaf-2386e6900d42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_SWT0115-020025SSA_REVA"
+		(at 13.075 3.435 0)
+		(layer "F.Fab")
+		(uuid "3cb783de-b664-4cf9-8112-1fac0fb3b2d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://gct.co/connector/swt7415"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aac74e7-b3dd-4df7-ad12-63fa9bd2a405")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Switch, Tactile, Pushbutton, Momentary"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d5e470d-720b-41f4-986f-035b8134ed6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 1.6)
+		(end 1.75 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "013fa178-895b-4ebf-a29d-a1315f536462")
+	)
+	(fp_line
+		(start 1.75 -1.6)
+		(end -1.75 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71cd895a-8bd3-483e-8bef-85b5111175bc")
+	)
+	(fp_circle
+		(center -2.6 -1.7)
+		(end -2.5 -1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d472c9b1-460c-4bc3-b7da-b64bd44fab8b")
+	)
+	(fp_line
+		(start -2.8 -1.8)
+		(end -2.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "939108d2-01a4-4b4d-ba03-8cf0a1baa116")
+	)
+	(fp_line
+		(start -2.8 1.8)
+		(end 2.8 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3f7281f-641e-4e6a-829f-53b2d86ea0b8")
+	)
+	(fp_line
+		(start 2.8 -1.8)
+		(end -2.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb3b6007-b242-4c2a-a54c-62d94c2178dd")
+	)
+	(fp_line
+		(start 2.8 1.8)
+		(end 2.8 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d0b82eb-dd2e-48c4-91d2-7c71acc886d2")
+	)
+	(fp_line
+		(start -1.75 -1.55)
+		(end -1.75 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7a73819d-5a35-47de-9eed-29aaa5aba483")
+	)
+	(fp_line
+		(start -1.75 1.55)
+		(end 1.75 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a00c7474-f5c8-4a54-8a88-e8aeb348ec28")
+	)
+	(fp_line
+		(start 1.75 -1.55)
+		(end -1.75 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f042a488-6aaf-4e24-a8a4-ecc5b7f676d9")
+	)
+	(fp_line
+		(start 1.75 1.55)
+		(end 1.75 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "859c6413-895d-4e04-afd4-d0e40730faf4")
+	)
+	(fp_circle
+		(center -2.6 -1.7)
+		(end -2.5 -1.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d36d8351-6703-40d2-baac-12eb6ab8c904")
+	)
+	(pad "1" smd rect
+		(at -2.025 -0.75)
+		(size 1.05 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54776d08-8a87-4ed6-aab3-6c22efd6b325")
+	)
+	(pad "2" smd rect
+		(at 2.025 -0.75)
+		(size 1.05 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fa9b8e3-b8f3-4a51-9ed7-86e8c669293c")
+	)
+	(pad "3" smd rect
+		(at -2.025 0.75)
+		(size 1.05 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "aea4008b-db3b-46b1-8611-3a9b3c6f1cc7")
+	)
+	(pad "4" smd rect
+		(at 2.025 0.75)
+		(size 1.05 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "163ed108-951a-4879-b2f5-4dda3c798c65")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/tjarosz.STDAIR/OneDrive - ninjatill/OneDrive/GitHub/PCB-Capacitive-Touch-Synth/hardware/3dmodels/swt0115-020025ssa.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
