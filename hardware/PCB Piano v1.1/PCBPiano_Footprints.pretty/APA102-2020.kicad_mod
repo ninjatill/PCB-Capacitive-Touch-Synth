@@ -1,0 +1,168 @@
+(footprint "APA102-2020"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e0825458-a07a-43fc-a85d-1126de5ec80e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.16)
+			)
+		)
+	)
+	(property "Value" "APA102-2020"
+		(at 0 2.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d7ddb4ae-3c49-4a6f-8b69-8669df5b27da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.snapeda.com/parts/APA-102-2020-256-6/APA%20Electronic%20/datasheet/"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e45ee16-2f8d-4d75-8e7c-fdb3d7530dab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LED, Dotstar, APA102, 6 Pin, 2020 SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf23eefd-1d16-4ed8-a48d-f3aaa962b529")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.45 -0.8)
+		(end -1.35 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41ac0f9c-fffd-4847-8ce3-95dcc2e4c84d")
+	)
+	(fp_line
+		(start -1.45 -0.6)
+		(end -1.45 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7cca5add-71ed-4b53-b44c-3a943c430250")
+	)
+	(fp_line
+		(start -1.35 -0.7)
+		(end -1.45 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d63eb4f6-7741-4918-87d2-72d5b471aace")
+	)
+	(fp_line
+		(start -1.35 -0.7)
+		(end -1.45 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7814d4a9-8048-4c50-b5dc-c28924e110b3")
+	)
+	(fp_line
+		(start -0.2 1.35)
+		(end 0.2 1.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ddb9a31-c091-42a6-a826-ddf2ec5176e5")
+	)
+	(fp_rect
+		(start -1.2 -1.2)
+		(end 1.2 1.2)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "02adafda-2fe4-4346-90af-61ed8fbd1dd0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "869f2488-2b86-4702-84e7-ddec4db593a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 -0.7 180)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8e2e36a-599a-442f-a3bd-95639b3005df")
+	)
+	(pad "2" smd rect
+		(at 0 -0.7 180)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2cecac85-ee98-4629-9e08-73ed3b9faebf")
+	)
+	(pad "3" smd rect
+		(at 0.8 -0.7 180)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3554685e-061c-430d-82dc-fb8d083b1526")
+	)
+	(pad "4" smd rect
+		(at -0.8 0.7 180)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "954fb727-7d35-420d-976c-894ff009b3d5")
+	)
+	(pad "5" smd rect
+		(at 0 0.6 180)
+		(size 0.45 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6539b6b-21d9-4971-9a13-d0d98aa19ae5")
+	)
+	(pad "6" smd rect
+		(at 0.8 0.7 180)
+		(size 0.45 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef8bad3c-f3da-42ce-ba9c-505e4c2e47b3")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,18 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"SWT0110-020016SSA";"";
+"att_3937c2e12c7d972ab7f35c9ec";"3.90 x 2.93mm";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"att_927283dede84a7174369caeb1";"2";"";
+"att_56aa7b41f87a81f4bf4862719";"Surface Mount";"";
+"att_7ef065d0813c9a74d484e7913";"160gf";"";
+"TraceParts.PartNumber";"90-30042025-060270";"";
+"att_1be4bd032e7f55477edceac43";"12";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Tactile Switch, 3.90 x 2.93mm, Top Actuated, SMT, SPST-NO";"";
+"TraceParts.InstanceId";"90-30042025-060270B1DMIG0I50TVUX7W8ZSJ6Y6TV";"";
+"att_b7b42d9a25fa3184b886c9821";"SPST-NO";"";
+"SUPPLIER";"GCT";"";
+"TraceParts.PartTitle";"SWT0110";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"att_5cf7bb3cd5769ae1379781b07";"50";"";
+"att_09f437fcca35b04306d4867f7";"100000";"";

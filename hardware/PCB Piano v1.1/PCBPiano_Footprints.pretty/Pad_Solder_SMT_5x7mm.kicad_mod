@@ -1,0 +1,78 @@
+(footprint "Pad_Solder_SMT_5x7mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e1ae7a82-cac6-456e-830f-c700dc6f3150")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Pad_Solder_SMT_5x7mm"
+		(at 0 -7.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "035710d5-b15b-4c84-85ea-33452e3052c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a70752cb-4f0c-4460-9072-a5624c1d6b55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dd2a414-dec2-45e4-968f-84278cd86c39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3cc3847b-5493-4965-8659-c3b74af055e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 5 7.5)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "f5223723-78d7-4e28-9a17-a76d8f2c9d98")
+	)
+	(embedded_fonts no)
+)
