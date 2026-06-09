@@ -27,8 +27,9 @@ namespace StatusColors {
     constexpr RgbColor GREEN = { 0, 80, 0 };
     constexpr RgbColor BLUE  = { 0, 0, 80 };
     constexpr RgbColor AMBER = { 100, 35, 0 };
-    constexpr RgbColor CYAN  = { 0, 70, 90 };
-    constexpr RgbColor WHITE = { 80, 80, 80 };
+    constexpr RgbColor CYAN   = { 0, 70, 90 };
+    constexpr RgbColor PURPLE = { 60, 0, 80 };   // MIDI mode active
+    constexpr RgbColor WHITE  = { 80, 80, 80 };
 }
 
 namespace StatusProfiles {
@@ -90,6 +91,38 @@ namespace StatusProfiles {
 
     constexpr StatusProfile DEV_ACTIVITY = {
         StatusColors::CYAN,
+        StatusColors::OFF,
+        STATUS_PATTERN_SOLID,
+        0
+    };
+
+    constexpr StatusProfile STARTING_AUDIO = {
+        StatusColors::CYAN,
+        StatusColors::OFF,
+        STATUS_PATTERN_BREATHE,
+        800
+    };
+
+    constexpr StatusProfile STARTING_TOUCH = {
+        StatusColors::GREEN,
+        StatusColors::OFF,
+        STATUS_PATTERN_BREATHE,
+        800
+    };
+
+    // USB MIDI enumeration in progress.
+    // Fast cyan breathe signals "actively trying to connect".
+    constexpr StatusProfile MIDI_CONNECTING = {
+        StatusColors::CYAN,
+        StatusColors::OFF,
+        STATUS_PATTERN_BREATHE,
+        400
+    };
+
+    // MIDI mode successfully engaged.
+    // Solid purple distinguishes MIDI-active from all other states.
+    constexpr StatusProfile MIDI_ACTIVE = {
+        StatusColors::PURPLE,
         StatusColors::OFF,
         STATUS_PATTERN_SOLID,
         0

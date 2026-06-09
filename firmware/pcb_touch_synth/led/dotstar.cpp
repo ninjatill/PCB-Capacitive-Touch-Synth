@@ -12,6 +12,15 @@ static constexpr uint8_t NUM_DOTSTARS = 2;
 
 static uint8_t led_buffer[NUM_DOTSTARS][3];
 
+// When true, dotstar_show() skips SPI writes.  The led_buffer is still
+// updated so state is never lost — the next unblocked show() sends current state.
+static volatile bool _spi_blocked = false;
+
+void dotstar_block_spi(bool blocked)
+{
+    _spi_blocked = blocked;
+}
+
 static uint8_t clamp_dotstar_brightness()
 {
     if (DOTSTAR_GLOBAL_BRIGHTNESS > 31) {
@@ -21,6 +30,19 @@ static uint8_t clamp_dotstar_brightness()
     return DOTSTAR_GLOBAL_BRIGHTNESS;
 }
 
+void dotstar_spi_acquire()
+{
+    // Tri-state the 74AHCT2G125 output so SD card SPI traffic
+    // does not reach the DotStar data/clock lines.
+    gpio_put(PIN_DOTSTAR_ENABLE, 1);
+}
+
+void dotstar_spi_release()
+{
+    // Re-enable the 74AHCT2G125 output after SD card operations complete.
+    gpio_put(PIN_DOTSTAR_ENABLE, 0);
+}
+
 void dotstar_init()
 {
     printf("Initializing DotStar status LEDs...\n");
@@ -28,9 +50,12 @@ void dotstar_init()
     gpio_init(PIN_DOTSTAR_ENABLE);
     gpio_set_dir(PIN_DOTSTAR_ENABLE, GPIO_OUT);
 
-    // Your level shifter enable is active-low.
+    // 74AHCT2G125 /OE is active-low. Drive low to enable DotStar output.
     gpio_put(PIN_DOTSTAR_ENABLE, 0);
 
+    // dotstar_init() is called from status_led_init() before board_init(), so it
+    // initializes SPI0 here. board_init() calls spi_init(spi0,...) again later at
+    // the same speed — the SDK re-init is safe and idempotent.
     spi_init(spi0, 1000000);
 
     gpio_set_function(PIN_DOTSTAR_DATA, GPIO_FUNC_SPI);
@@ -61,6 +86,11 @@ void dotstar_set_rgb(uint8_t led, uint8_t r, uint8_t g, uint8_t b)
 
 void dotstar_show()
 {
+    // If another core owns SPI0, skip the hardware write.
+    // led_buffer already holds the desired state; the next unblocked
+    // call will send it, so no visual state is ever lost.
+    if (_spi_blocked) return;
+
     uint8_t start_frame[4] = { 0x00, 0x00, 0x00, 0x00 };
     uint8_t end_frame[4]   = { 0xFF, 0xFF, 0xFF, 0xFF };
 

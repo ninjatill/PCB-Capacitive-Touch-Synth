@@ -9,6 +9,8 @@
 #include "../led/dotstar.h"
 #include "../config/firmware_config.h"
 
+static bool status_led_ready = false;
+
 static SystemStatus current_status = SYSTEM_STATUS_BOOTING;
 
 static uint32_t last_update_ms = 0;
@@ -58,6 +60,18 @@ static const StatusProfile& get_profile(SystemStatus status)
         case SYSTEM_STATUS_DEV_ACTIVITY:
             return StatusProfiles::DEV_ACTIVITY;
 
+        case SYSTEM_STATUS_STARTING_AUDIO:
+            return StatusProfiles::STARTING_AUDIO;
+
+        case SYSTEM_STATUS_STARTING_TOUCH:
+            return StatusProfiles::STARTING_TOUCH;
+
+        case SYSTEM_STATUS_MIDI_CONNECTING:
+            return StatusProfiles::MIDI_CONNECTING;
+
+        case SYSTEM_STATUS_MIDI_ACTIVE:
+            return StatusProfiles::MIDI_ACTIVE;
+
         default:
             return StatusProfiles::FAULT;
     }
@@ -76,6 +90,11 @@ static void show_status_leds(RgbColor dev, RgbColor front)
     dotstar_show();
 }
 
+bool status_led_initialized()
+{
+    return status_led_ready;
+}
+
 bool status_led_init()
 {
     printf("Initializing status LEDs...\n");
@@ -85,6 +104,7 @@ bool status_led_init()
     current_status = SYSTEM_STATUS_BOOTING;
     last_update_ms = to_ms_since_boot(get_absolute_time());
     blink_state = false;
+    status_led_ready = true;
 
     status_led_set(SYSTEM_STATUS_BOOTING);
 
@@ -111,6 +131,10 @@ SystemStatus status_led_get()
 
 void status_led_task()
 {
+    if (!status_led_ready) {
+        return;
+    }
+
     const StatusProfile& profile = get_profile(current_status);
     uint32_t now = to_ms_since_boot(get_absolute_time());
 

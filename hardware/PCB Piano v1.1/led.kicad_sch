@@ -4967,6 +4967,326 @@
 		)
 		(uuid "ffc453af-ad44-431c-842e-755456b12dfc")
 	)
+	(label "LED_214"
+		(at 90.17 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07759cea-8148-4f9e-b4f0-f78396c08a77")
+	)
+	(label "LED_203"
+		(at 90.17 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d0e7db6-e253-441a-8aed-900a40e123cb")
+	)
+	(label "LED_210"
+		(at 90.17 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11e1e5c6-2163-47e4-b370-cf098f716b4f")
+	)
+	(label "LED_114"
+		(at 90.17 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13aa1399-d467-4b75-aaa7-2eb769265e19")
+	)
+	(label "LED_201"
+		(at 90.17 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "178db3ab-787a-49c3-a45c-fedfe3c1cffd")
+	)
+	(label "LED_213"
+		(at 90.17 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "190cea16-e21f-4668-bfd4-a245465b48a1")
+	)
+	(label "LED_207"
+		(at 90.17 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "328217e8-e063-455f-9113-578055905c5d")
+	)
+	(label "LED_100"
+		(at 90.17 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b200b98-114d-4a03-8e56-58b318562c4f")
+	)
+	(label "LED_107"
+		(at 90.17 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b854f7e-a4c0-4e52-b31c-b67c0ebc8ccc")
+	)
+	(label "LED_111"
+		(at 90.17 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bfa4b5c-77c7-40fc-9531-3fab9fcf6110")
+	)
+	(label "LED_106"
+		(at 90.17 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dafa168-cb50-4197-b035-b21a7d7715dd")
+	)
+	(label "LED_205"
+		(at 90.17 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e37c77c-fea7-4e03-890f-6cda67598232")
+	)
+	(label "LED_202"
+		(at 90.17 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64cec726-a895-46cc-927b-8529bc4f07f4")
+	)
+	(label "LED_209"
+		(at 90.17 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d025510-b0ac-49e8-8f8b-eda25c51e8a2")
+	)
+	(label "LED_103"
+		(at 90.17 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7714f04b-bda0-4c15-b288-7e352373f910")
+	)
+	(label "LED_200"
+		(at 90.17 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "792422fe-78ce-4fbc-976d-ba3bd1e7f4d4")
+	)
+	(label "LED_211"
+		(at 90.17 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7abe123b-b14b-4fb2-a037-ab21bf21f9f6")
+	)
+	(label "LED_115"
+		(at 90.17 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bd86b73-b193-48ca-a07e-10fcd0d0091d")
+	)
+	(label "LED_104"
+		(at 90.17 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8402a017-bae1-45f8-b7db-a0480ec2cdef")
+	)
+	(label "LED_105"
+		(at 90.17 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d28a444-e318-4da5-af86-026dbbda98d8")
+	)
+	(label "LED_113"
+		(at 90.17 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d408b43-ae34-462d-905f-48ec28394ce5")
+	)
+	(label "LED_208"
+		(at 90.17 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94e11431-3b50-400d-b173-4ab678c3f200")
+	)
+	(label "LED_109"
+		(at 90.17 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95ff14e3-26c5-4577-ab66-55ce625f23cc")
+	)
+	(label "LED_215"
+		(at 90.17 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab402c64-fee0-4cdc-8df7-e63ccbf7e8dd")
+	)
+	(label "LED_206"
+		(at 90.17 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7cfd95f-c475-4a54-9c4a-3ca62218288e")
+	)
+	(label "LED_112"
+		(at 90.17 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bff94c4c-5e6c-4f38-bb2e-d5b086b6ae89")
+	)
+	(label "LED_110"
+		(at 90.17 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7069d4d-7411-4837-abae-8751f4e09c45")
+	)
+	(label "LED_101"
+		(at 90.17 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb005c47-47f3-4aa8-9657-c22a2f185030")
+	)
+	(label "LED_212"
+		(at 90.17 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce66d608-8a75-4669-80ac-99965c351c40")
+	)
+	(label "LED_102"
+		(at 90.17 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6323680-5ad6-423b-9b47-91dafad74776")
+	)
+	(label "LED_204"
+		(at 90.17 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f41c8ee8-218c-4f0c-96ad-b2cfd11bd66e")
+	)
+	(label "LED_108"
+		(at 90.17 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f79aac0e-260f-4ae2-95cc-b3fd835b8c67")
+	)
 	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 53.34 49.53 180)
@@ -5044,7 +5364,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 91.948 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -5109,6 +5429,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 91.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 91.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 91.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 91.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5227,7 +5591,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 132.588 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -5294,6 +5658,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 132.08 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 132.08 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 132.08 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 132.08 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56a46897-a97d-4db7-b1db-39b7ee6a8b03")
 		)
@@ -5332,7 +5740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9685BS"
+		(property "Value" "LED Controller"
 			(at 73.2834 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5367,6 +5775,50 @@
 			)
 		)
 		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN"
+			(at 71.12 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PCA9685BS"
+			(at 71.12 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 71.12 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PCA9685BS"
 			(at 71.12 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5495,7 +5947,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 168.148 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -5562,6 +6014,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 167.64 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de01c379-af60-4914-a0d6-b5fe21d3ba4c")
 		)
@@ -5600,7 +6096,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9685BS"
+		(property "Value" "LED Controller"
 			(at 73.2834 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5635,6 +6131,50 @@
 			)
 		)
 		(property "Description" "16-channel 12-bit PWM Fm+ I2C-bus LED controller RGBA QFN"
+			(at 71.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PCA9685BS"
+			(at 71.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 71.12 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "PCA9685BS"
 			(at 71.12 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5763,7 +6303,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 107.188 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -5828,6 +6368,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 106.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 106.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 106.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 106.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5912,6 +6496,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 201.93 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 201.93 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 201.93 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
+			(at 201.93 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "292799c4-c58c-4ea8-849b-14c1b3f78d6d")
 		)
@@ -5967,7 +6595,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 112.268 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -6032,6 +6660,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 111.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 111.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 111.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 111.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6150,7 +6822,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 117.348 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -6215,6 +6887,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 116.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 116.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 116.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 116.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6298,6 +7014,61 @@
 				)
 			)
 		)
+		(property "Volt Rating" "10V"
+			(at 17.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1935-2-ND"
+			(at 17.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104KB8NNWC"
+			(at 17.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 17.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 17.78 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48d69585-edd8-49c2-a3d9-236c346527a1")
 		)
@@ -6335,7 +7106,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 249.428 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -6400,6 +7171,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 248.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 248.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 248.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 248.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6483,6 +7298,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 100.33 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 100.33 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 100.33 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
+			(at 100.33 29.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "04d7dea1-25a9-4494-9a8f-d096dee42061")
 		)
@@ -6538,7 +7397,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 198.628 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -6603,6 +7462,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 198.12 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 198.12 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 198.12 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 198.12 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6687,6 +7590,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 242.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 242.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 242.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
+			(at 242.57 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "c9213127-62ac-4d50-a538-a394a09c5955")
 		)
@@ -6742,7 +7689,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 244.348 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -6807,6 +7754,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 243.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 243.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 243.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 243.84 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6890,6 +7881,61 @@
 				)
 			)
 		)
+		(property "Volt Rating" "10V"
+			(at 17.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1935-2-ND"
+			(at 17.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104KB8NNWC"
+			(at 17.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 17.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 17.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a668d49-70be-406a-9f88-5ead583f1cbd")
 		)
@@ -6927,7 +7973,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 122.428 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -6994,6 +8040,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 121.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 121.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 121.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 121.92 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2057b03-cd67-4927-9609-249146167a44")
 		)
@@ -7031,7 +8121,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 178.308 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -7098,6 +8188,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 177.8 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 177.8 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 177.8 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 177.8 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a4be64fd-aff0-4a1c-b8b7-82c473651e66")
 		)
@@ -7135,7 +8269,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 234.188 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -7200,6 +8334,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 233.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 233.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 233.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 233.68 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7397,7 +8575,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 193.548 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -7464,6 +8642,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 193.04 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 193.04 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 193.04 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 193.04 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a57eaf61-15cc-400b-b735-134afadf796d")
 		)
@@ -7501,7 +8723,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 142.748 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -7568,6 +8790,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 142.24 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 142.24 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 142.24 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 142.24 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f8b240f-7553-45c2-aae6-c71a25af43de")
 		)
@@ -7605,7 +8871,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 183.388 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -7670,6 +8936,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 182.88 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 182.88 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 182.88 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 182.88 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7754,6 +9064,61 @@
 				)
 			)
 		)
+		(property "Volt Rating" "10V"
+			(at 26.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1184-1-ND"
+			(at 26.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
+			(at 26.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 26.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 26.67 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f0d9385-0da8-496b-918b-a13c70647c62")
 		)
@@ -7791,7 +9156,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 137.668 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -7858,6 +9223,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 137.16 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 137.16 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 137.16 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 137.16 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3e2e44bc-4fc2-4e4d-bd9f-8bc5a48850c6")
 		)
@@ -7895,7 +9304,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 224.028 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -7960,6 +9369,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 223.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 223.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 223.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 223.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8044,6 +9497,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
+			(at 120.65 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "2a34d996-b427-4b5b-a934-a9de66405046")
 		)
@@ -8099,7 +9596,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 239.268 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -8166,6 +9663,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 238.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 238.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 238.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 238.76 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68dabd2a-1f2e-4376-b008-d6f991c84ae2")
 		)
@@ -8203,7 +9744,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 127.508 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -8270,6 +9811,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 127 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 127 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 127 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 127 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ad34263d-b235-4344-aa67-1c55562a1dcb")
 		)
@@ -8307,7 +9892,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 173.228 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -8372,6 +9957,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 172.72 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 172.72 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 172.72 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 172.72 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8456,6 +10085,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 222.25 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 222.25 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 222.25 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
+			(at 222.25 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "619a702c-ab77-4e99-8430-870df3fe0be2")
 		)
@@ -8511,7 +10184,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 208.788 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -8578,6 +10251,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 208.28 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 208.28 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 208.28 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 208.28 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b899b27b-2bff-4f06-b9c2-62dec3f85fda")
 		)
@@ -8615,7 +10332,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 157.988 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -8680,6 +10397,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 157.48 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 157.48 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 157.48 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 157.48 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8754,6 +10515,61 @@
 			)
 		)
 		(property "Description" "Ceramic X7R 10V"
+			(at 26.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "10V"
+			(at 26.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1184-1-ND"
+			(at 26.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
+			(at 26.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 26.67 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 26.67 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -8878,7 +10694,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 218.948 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -8945,6 +10761,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 218.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 218.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 218.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 218.44 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c7133b7-5743-47b5-b699-82dbc1d5ca75")
 		)
@@ -8982,7 +10842,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 97.028 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9049,6 +10909,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 96.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 96.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 96.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 96.52 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e378de75-8d8a-4970-8226-bd22b4957a06")
 		)
@@ -9086,7 +10990,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 102.108 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9153,6 +11057,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 101.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 101.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 101.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 101.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "368da314-4392-4b86-b0be-e6f93512f7bb")
 		)
@@ -9190,7 +11138,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 203.708 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9257,6 +11205,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 203.2 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 203.2 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 203.2 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 203.2 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "55957cdd-d8ba-4c5b-93dc-1a25b0d190aa")
 		)
@@ -9294,7 +11286,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 188.468 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9359,6 +11351,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 187.96 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 187.96 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 187.96 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 187.96 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9443,6 +11479,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 181.61 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 181.61 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 181.61 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
+			(at 181.61 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "076c1430-bc08-4d4c-bc84-d2af89cc9818")
 		)
@@ -9498,7 +11578,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 148.082 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9565,6 +11645,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 147.32 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 147.32 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 147.32 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 147.32 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d4e55bd6-b4c6-483e-bc14-45e222f2dec6")
 		)
@@ -9602,7 +11726,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 163.068 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9669,6 +11793,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 162.56 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 162.56 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 162.56 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 162.56 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b4b1cca-0f2f-44b0-b778-f069ee3d137a")
 		)
@@ -9706,7 +11874,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 213.868 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9771,6 +11939,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 213.36 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 213.36 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 213.36 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 213.36 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9855,6 +12067,50 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 161.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 161.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 161.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
+			(at 161.29 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "2d867c9d-a611-426e-8633-7bd62d6e4246")
 		)
@@ -9910,7 +12166,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 152.908 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -9977,6 +12233,50 @@
 				(justify right)
 			)
 		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 152.4 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 152.4 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 152.4 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 152.4 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2de8b975-861b-4b94-999b-bfce4c072120")
 		)
@@ -10014,7 +12314,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LTST-C191TBKT"
+		(property "Value" "3.3Vf, 104mcd"
 			(at 229.108 46.482 90)
 			(hide yes)
 			(show_name no)
@@ -10079,6 +12379,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(property "Manufacturer Part Number" "LTST-C191TBKT"
+			(at 228.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 228.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 228.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "LTST-C191TBKT"
+			(at 228.6 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10153,6 +12497,50 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 140.97 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "6V, 1/10W"
 			(at 140.97 29.21 0)
 			(hide yes)
 			(show_name no)

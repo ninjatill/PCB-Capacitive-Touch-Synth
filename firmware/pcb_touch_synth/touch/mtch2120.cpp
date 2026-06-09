@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "pico/stdlib.h"
 
 #include "mtch2120.h"
 #include "../config/i2c_addresses.h"
@@ -21,10 +22,21 @@ constexpr uint16_t REG_SENSTATE_BASE  = 0x0400;
 
 constexpr uint16_t REG_DEVCTRL    = 0x1F00;
 
+// GPIO registers — bit 12 is the dedicated GPIO12 pin
+constexpr uint16_t REG_GPIO_PIN   = 0x2100;
+constexpr uint16_t REG_GPIO_DIR   = 0x2108;  // 0=output, 1=input
+constexpr uint16_t REG_GPIO_IN    = 0x2118;  // read-only
+
+constexpr uint16_t GPIO12_MASK    = (1u << 12);
+
 // DEVCTRL bits
 constexpr uint16_t DEVCTRL_CAL_ALL = 0x0001;
 constexpr uint16_t DEVCTRL_RESET   = 0x2000;
 constexpr uint16_t DEVCTRL_SAVE    = 0x1000;
+
+// NVM save (~1.3s) and device reset (~250ms) with margins
+constexpr int SAVE_DELAY_MS  = 1400;
+constexpr int RESET_DELAY_MS = 300;
 
 // Expected device ID
 constexpr uint8_t MTCH2120_DEVID = 0x0B;
@@ -56,7 +68,7 @@ static bool mtch2120_select_register(uint8_t addr, uint16_t reg)
     return true;
 }
 
-bool mtch2120_read_u8(uint8_t addr, uint16_t reg, uint8_t* value)
+static bool mtch2120_read_u8(uint8_t addr, uint16_t reg, uint8_t* value)
 {
     if (mtch_i2c == nullptr) {
         printf("MTCH2120 read failed: driver not initialized\n");
@@ -83,8 +95,13 @@ bool mtch2120_read_u8(uint8_t addr, uint16_t reg, uint8_t* value)
     return true;
 }
 
-bool mtch2120_read_u16(uint8_t addr, uint16_t reg, uint16_t* value)
+static bool mtch2120_read_u16(uint8_t addr, uint16_t reg, uint16_t* value)
 {
+    if (mtch_i2c == nullptr) {
+        printf("MTCH2120 read_u16 failed: driver not initialized\n");
+        return false;
+    }
+
     uint8_t data[2] = {0, 0};
 
     if (!mtch2120_select_register(addr, reg)) {
@@ -109,7 +126,7 @@ bool mtch2120_read_u16(uint8_t addr, uint16_t reg, uint16_t* value)
     return true;
 }
 
-bool mtch2120_write_u8(uint8_t addr, uint16_t reg, uint8_t value)
+static bool mtch2120_write_u8(uint8_t addr, uint16_t reg, uint8_t value)
 {
     if (mtch_i2c == nullptr) {
         printf("MTCH2120 write failed: driver not initialized\n");
@@ -138,8 +155,13 @@ bool mtch2120_write_u8(uint8_t addr, uint16_t reg, uint8_t value)
     return true;
 }
 
-bool mtch2120_write_u16(uint8_t addr, uint16_t reg, uint16_t value)
+static bool mtch2120_write_u16(uint8_t addr, uint16_t reg, uint16_t value)
 {
+    if (mtch_i2c == nullptr) {
+        printf("MTCH2120 write failed: driver not initialized\n");
+        return false;
+    }
+
     uint8_t data[4];
 
     data[0] = (uint8_t)((reg >> 8) & 0xFF);
@@ -160,6 +182,72 @@ bool mtch2120_write_u16(uint8_t addr, uint16_t reg, uint16_t value)
         return false;
     }
 
+    return true;
+}
+
+// ======================================================
+// GPIO12
+// ======================================================
+
+bool mtch2120_gpio12_init(uint8_t addr)
+{
+    uint16_t gpio_pin = 0;
+    if (!mtch2120_read_u16(addr, REG_GPIO_PIN, &gpio_pin)) {
+        return false;
+    }
+
+    if (gpio_pin & GPIO12_MASK) {
+        // Already enabled in NVM — set direction to input (no reset needed)
+        uint16_t gpio_dir = 0;
+        if (!mtch2120_read_u16(addr, REG_GPIO_DIR, &gpio_dir)) {
+            return false;
+        }
+        if (!(gpio_dir & GPIO12_MASK)) {
+            mtch2120_write_u16(addr, REG_GPIO_DIR, gpio_dir | GPIO12_MASK);
+        }
+        printf("MTCH2120 addr=0x%02X: GPIO12 input ready\n", addr);
+        return true;
+    }
+
+    // GPIO12 not enabled in NVM — enable it, set input direction, save, reset
+    printf("MTCH2120 addr=0x%02X: enabling GPIO12 (save+reset ~1.7s)...\n", addr);
+
+    uint16_t gpio_dir = 0;
+    mtch2120_read_u16(addr, REG_GPIO_DIR, &gpio_dir);
+
+    if (!mtch2120_write_u16(addr, REG_GPIO_PIN, gpio_pin | GPIO12_MASK)) {
+        return false;
+    }
+    if (!mtch2120_write_u16(addr, REG_GPIO_DIR, gpio_dir | GPIO12_MASK)) {
+        return false;
+    }
+    if (!mtch2120_write_u16(addr, REG_DEVCTRL, DEVCTRL_SAVE)) {
+        return false;
+    }
+    sleep_ms(SAVE_DELAY_MS);
+
+    if (!mtch2120_write_u16(addr, REG_DEVCTRL, DEVCTRL_RESET)) {
+        return false;
+    }
+    sleep_ms(RESET_DELAY_MS);
+
+    uint8_t devid = 0;
+    if (!mtch2120_read_u8(addr, REG_DEVID, &devid) || devid != MTCH2120_DEVID) {
+        printf("MTCH2120 addr=0x%02X: failed to recover after GPIO12 reset\n", addr);
+        return false;
+    }
+
+    printf("MTCH2120 addr=0x%02X: GPIO12 enabled and saved to NVM\n", addr);
+    return true;
+}
+
+bool mtch2120_gpio12_read(uint8_t addr, bool* state)
+{
+    uint16_t gpio_in = 0;
+    if (!mtch2120_read_u16(addr, REG_GPIO_IN, &gpio_in)) {
+        return false;
+    }
+    *state = (gpio_in & GPIO12_MASK) != 0;
     return true;
 }
 
@@ -214,15 +302,24 @@ void mtch2120_print_status(uint8_t addr)
     uint8_t ver = 0;
     uint16_t devsta = 0;
     uint16_t btnsta = 0;
+    uint16_t gpio_pin = 0;
+    uint16_t gpio_dir = 0;
+    uint16_t gpio_in  = 0;
 
     mtch2120_read_u8(addr, REG_DEVID, &devid);
     mtch2120_read_u8(addr, REG_VER, &ver);
     mtch2120_read_u16(addr, REG_DEVSTA, &devsta);
     mtch2120_read_u16(addr, REG_BTNSTA, &btnsta);
+    mtch2120_read_u16(addr, REG_GPIO_PIN, &gpio_pin);
+    mtch2120_read_u16(addr, REG_GPIO_DIR, &gpio_dir);
+    mtch2120_read_u16(addr, REG_GPIO_IN,  &gpio_in);
 
     printf("MTCH2120 addr=0x%02X\n", addr);
-    printf("  DEVID  = 0x%02X\n", devid);
-    printf("  VER    = 0x%02X\n", ver);
-    printf("  DEVSTA = 0x%04X\n", devsta);
-    printf("  BTNSTA = 0x%04X\n", btnsta);
+    printf("  DEVID    = 0x%02X\n", devid);
+    printf("  VER      = 0x%02X\n", ver);
+    printf("  DEVSTA   = 0x%04X\n", devsta);
+    printf("  BTNSTA   = 0x%04X\n", btnsta);
+    printf("  GPIO_PIN = 0x%04X  (GPIO12 %s)\n", gpio_pin, (gpio_pin & GPIO12_MASK) ? "enabled" : "disabled");
+    printf("  GPIO_DIR = 0x%04X  (GPIO12 %s)\n", gpio_dir, (gpio_dir & GPIO12_MASK) ? "input"   : "output");
+    printf("  GPIO_IN  = 0x%04X  (GPIO12 = %d)\n", gpio_in, (gpio_in & GPIO12_MASK) ? 1 : 0);
 }

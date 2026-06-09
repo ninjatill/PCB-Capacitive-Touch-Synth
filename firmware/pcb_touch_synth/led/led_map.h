@@ -15,6 +15,8 @@ struct LedMap {
     LedRole role;
     uint8_t index;
     const char* name;
+    float x_mm;     // Physical position on PCB for visualization/debugging. Referenced to lower left corner of PCB.
+    float y_mm;     // Physical position on PCB for visualization/debugging. Referenced to lower left corner of PCB.
 };
 
 enum StatusLed {

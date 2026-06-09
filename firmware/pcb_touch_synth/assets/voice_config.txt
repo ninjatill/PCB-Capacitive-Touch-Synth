@@ -1,0 +1,319 @@
+# PCB Piano voice_config.txt
+#
+# This file serves two roles:
+#   1. FLASH FALLBACK — compiled into firmware via CMake (assets/voice_config.txt).
+#      Loaded when no SD card is present. Only OSCILLATOR voices produce sound
+#      in flash-only mode; WAVETABLE and PLAYBACK entries are parsed but silent
+#      because no sample files are available without an SD card.
+#
+#   2. SD CARD TEMPLATE — copy to /voices/voices.cfg on a FAT32-formatted SD card
+#      to customise voices. All three voice types work from SD card.
+#
+# To update the flash fallback: edit this file and re-flash firmware (hold
+# BOOTSEL on power-up, then drag the new .uf2 file to the USB drive).
+#
+# Lines beginning with # are comments. Blank lines are ignored.
+#
+# ======================================================
+# VOICE FORMATS
+# ======================================================
+#
+#   voice <index> oscillator <waveform> [osc2 W cents] [pitch D ms] [adsr A D S R] [name N]
+#   voice <index> wavetable  <filename>                               [adsr A D S R] [name N]
+#   voice <index> playback   [filename]                               [adsr A D S R] [name N]
+#
+#   sample <voice_index> <note_index> <filename>
+#
+# KEY OVERRIDE FORMAT:
+#   key <voice_index> <key_index> oscillator <waveform> [options...] [name N]
+#
+#   Assigns an independent sound to one keyboard key (0–19) within a voice.
+#   When that key is pressed, the key's own oscillator, ADSR, pitch envelope,
+#   and fixed frequency are used instead of the voice defaults.  All other
+#   keys continue to use the voice definition unchanged.  This is the primary
+#   mechanism for building drum kits: each key becomes a different drum
+#   instrument with its own waveform, tuning, and envelope.
+#
+#   Key override options (keyword-scanned, order-independent except name last):
+#     osc2 <waveform> <detune_cents>
+#     pitch <depth> <ms>
+#     adsr <attack_ms> <decay_ms> <sustain_0.0-1.0> <release_ms>
+#     name <words to end of line>
+#
+#   Fixed frequency (omit entirely for melodic use — plays at MIDI pitch):
+#     note C4   — note name: A–G, optional # or b, octave -1..9
+#                 Standard MIDI: C4=261Hz  A4=440Hz  C2=65Hz  C1=33Hz
+#     midi 60   — MIDI note number 0–127  (C4=60  A4=69  C2=36)
+#     freq 55.0 — raw Hz for those who reference drum machine specs
+#
+#   TYPICAL DRUM FREQUENCIES:
+#     Kick body : C2  (65Hz) to E2 ( 82Hz)  — midi 36–40
+#     Bass tom  : E2  (82Hz) to B2 (123Hz)  — midi 40–47
+#     Mid tom   : B2 (123Hz) to G3 (196Hz)  — midi 47–55
+#     High tom  : G3 (196Hz) to D4 (294Hz)  — midi 55–62
+#     Snare body: F#3(185Hz) to B3 (247Hz)  — midi 54–59
+#
+#   MEMORY BUDGET FOR KEY OVERRIDES:
+#   Each key override uses ~32 bytes of heap, allocated only when configured.
+#   The RP2040 has 264 KB SRAM; with firmware, stack, and audio buffers using
+#   roughly 100 KB, approximately 125 KB of heap is available for voice data.
+#   Safe maximum across all banks: ~3,900 key overrides total.
+#   A full configuration (16 banks × 16 voices × 12 keys avg) uses ~98 KB —
+#   within budget with room to spare.  SampleSlot entries use ~66 bytes each.
+#
+#   sample <voice_index> <note_index> <filename>
+#
+# OSCILLATOR waveforms : sine  square  saw  triangle  noise
+#   noise = white noise (xorshift32 PRNG); has no pitch — each sample is
+#           an independent random value. Use for snare body, hi-hat, clap.
+#
+# osc2 — optional second oscillator for dual-oscillator voices.
+#   osc2 <waveform> <detune_cents>
+#
+#   WHAT IS A CENT?
+#   A cent is a unit of musical pitch. There are 100 cents between any two
+#   adjacent keys on a piano (including black keys), and 1200 cents in one
+#   full octave. Familiar piano-key intervals expressed in cents:
+#
+#     100  cents = 1 piano key  (e.g. C  to C#)
+#     200  cents = 2 piano keys (e.g. C  to D )  — whole step
+#     700  cents = 7 piano keys (e.g. C  to G )  — perfect fifth
+#     1200 cents = 12 piano keys (one full octave, e.g. C4 to C5)
+#     1900 cents = 19 piano keys (octave + fifth, e.g. C4 to G5)
+#
+#   SMALL DETUNE VALUES (5–20 cents) are less than one piano key apart.
+#   At that range you do not hear two separate pitches — instead the two
+#   oscillators slowly drift in and out of phase with each other, creating
+#   a chorus / beating effect that makes the sound feel thick and wide.
+#   The wider the detune, the faster the beating.
+#     5–7  cents : subtle shimmer
+#     12   cents : slow, lush beating (classic "Jump Lead" thickness)
+#     20   cents : noticeable movement, dense wall-of-sound character
+#
+#   LARGE DETUNE VALUES add a harmonic layer at a musical interval:
+#     +1200 = one octave above  — upper register layer (organ)
+#     -1200 = one octave below  — sub-bass layer
+#     +700  = perfect fifth above
+#     +1900 = perfect 12th (octave + fifth) — dominant bell partial
+#
+#   detune_cents range: −2400..+2400 (signed integer)
+#   The two oscillators are averaged so peak level stays constant.
+#   Omit osc2 entirely for a single-oscillator voice.
+#
+# pitch — optional pitch envelope for oscillator voices.
+#   pitch <depth> <ms>
+#   depth : frequency multiplier at note-on (e.g. 4.0 = start 2 octaves above)
+#           1.0 or omitted = no sweep.  Must be > 0.
+#   ms    : milliseconds to sweep from (note_freq × depth) down to note_freq.
+#           0 or omitted = no sweep.
+#   Not applied to 'noise' oscillators (noise has no fundamental frequency).
+#   Example — classic kick drum pitch sweep:
+#     pitch 4.0 80   (start 2 octaves up, sweep to fundamental in 80ms)
+#
+# ADSR values: attack_ms  decay_ms  sustain_level(0.0-1.0)  release_ms
+# ADSR defaults if omitted: 5  100  0.80  200
+#
+# name — optional display name for the voice (shown on debug console).
+#   Multi-word names are supported (e.g.  name Jump Lead).
+#   IMPORTANT: 'name' must be the LAST keyword on the line.
+#   Every word after 'name' becomes part of the name, so placing adsr
+#   or osc2 after it would absorb those keywords into the name string.
+#
+# Voice index range : 0–15
+# Note index range  : 0–19
+#
+# ======================================================
+# VOICE SLOT LAYOUT
+# ======================================================
+#
+#  Slot  Name             Type / character
+#  ----  ---------------  ------------------------------------------------
+#   0    Sine             Single oscillator — basic sine wave
+#   1    Square           Single oscillator — basic square wave
+#   2    Saw              Single oscillator — basic sawtooth
+#   3    Triangle         Single oscillator — basic triangle
+#   4    Jump Lead        Dual SAW +12 ¢   — OB-Xa / Van Halen "Jump"
+#   5    Supersaw         Dual SAW +20 ¢   — JP-8000 style dense lead
+#   6    Warm Pad         Dual TRI +7  ¢   — slow-attack atmospheric pad
+#   7    Hollow Lead      Dual SQR +5  ¢   — pulse-width simulation
+#   8    Pluck            Single TRI, S=0  — decays like a plucked string
+#   9    Brass Stab       Single SAW       — fast attack, punchy transient
+#  10    Sub Bass         Dual SAW -1200 ¢ — saw + octave below for weight
+#  11    Slow Strings     Dual SAW +8  ¢   — 500ms attack, ensemble phasing
+#  12    Organ            Dual SQR +1200 ¢ — Hammond drawbar approximation
+#  13    Bell             Dual SIN +1900 ¢ — sine + perfect 12th partial
+#  14    Synth Kit        OSC+KEY OVERRIDE  — full 20-key synthesized drum kit
+#  15    User Recording   PLAYBACK         — reserved for user's own recording
+#
+#  BANK 1 (SD card required):
+#   0    Drum Kit         PLAYBACK         — per-note SD card sample files
+
+# ======================================================
+# SLOT 0–3: basic single oscillators
+# ======================================================
+
+voice 0  oscillator sine                adsr   5  100 0.80  200  name Sine
+voice 1  oscillator square              adsr   5  100 0.80  200  name Square
+voice 2  oscillator saw                 adsr   5  100 0.80  200  name Saw
+voice 3  oscillator triangle            adsr   5  100 0.80  200  name Triangle
+
+# ======================================================
+# SLOTS 4–11: dual-oscillator voices
+# ======================================================
+
+# Slot 4 — Jump Lead
+# Oberheim OB-Xa character. Two sawtooth waves 12 cents apart create a slow
+# phase rotation that gives the sound its iconic chorus-like thickness.
+voice 4  oscillator saw osc2 saw    12  adsr  15   50 0.88  350  name Jump Lead
+
+# Slot 5 — Supersaw
+# Roland JP-8000 style. Wider detune (20 ¢) produces a denser wall-of-sound
+# texture common in trance and EDM leads.
+voice 5  oscillator saw osc2 saw    20  adsr   5   10 0.95  150  name Supersaw
+
+# Slot 6 — Warm Pad
+# Two triangle waves detuned 7 ¢ with a 350ms attack. Swells in like a choral
+# synth layer or string pad.
+voice 6  oscillator triangle osc2 triangle  7  adsr 350  200 0.85  700  name Warm Pad
+
+# Slot 7 — Hollow Lead
+# Two square waves detuned 5 ¢. Square waves have only odd harmonics; detuning
+# them approximates the sweeping hollow quality of a pulse-width modulated oscillator.
+voice 7  oscillator square osc2 square  5   adsr  10   80 0.75  250  name Hollow Lead
+
+# Slot 8 — Pluck
+# Single triangle, sustain = 0. The sound decays to silence during the 300ms decay
+# phase regardless of whether the key is held — behaves like a plucked string.
+voice 8  oscillator triangle             adsr   2  300 0.00   80  name Pluck
+
+# Slot 9 — Brass Stab
+# Single sawtooth with a punchy envelope. Fast attack and quick decay to a low
+# sustain level mimics a brass section hit without any filter.
+voice 9  oscillator saw                  adsr  20  100 0.30  150  name Brass Stab
+
+# Slot 10 — Sub Bass
+# Saw + octave-below layer (-1200 ¢ = half frequency). The sub reinforces
+# the fundamental an octave down, adding felt weight through small speakers.
+voice 10 oscillator saw osc2 saw  -1200  adsr   5  100 0.80  200  name Sub Bass
+
+# Slot 11 — Slow Strings
+# Two sawtooth waves detuned 8 ¢ with a 500ms attack. The slow swell mimics
+# bow-on-strings; the slight detune adds string-section ensemble phasing.
+voice 11 oscillator saw osc2 saw     8   adsr 500  200 0.80  800  name Slow Strings
+
+# ======================================================
+# SLOT 12: Organ
+# ======================================================
+
+# Two square waves, osc2 one octave above (+1200 ¢). Square waves share the
+# odd-harmonic character of Hammond tonewheel generators. Near-zero attack and
+# release gives the instant on/off of a drawbar organ key.
+voice 12 oscillator square osc2 square 1200  adsr   2    0 1.00    2  name Organ
+
+# ======================================================
+# SLOT 13: Bell
+# ======================================================
+
+# Two sine waves, osc2 at +1900 ¢ (perfect 12th ≈ 3× the fundamental), which
+# is the dominant upper partial of a real struck bell. Sustain = 0 means the
+# sound decays naturally during the 600ms decay regardless of key hold.
+voice 13 oscillator sine osc2 sine 1900  adsr   2  600 0.00  150  name Bell
+
+# ======================================================
+# SLOT 14: Synth Kit — full 20-key synthesized drum kit
+# ======================================================
+#
+# Each of the 20 keys (F3–C5) is independently assigned a drum or cymbal sound.
+# White keys carry kicks, toms, snares, rimshot, clap, side stick.
+# Black keys carry cymbals, cowbell, bells, and tambourine.
+#
+# Keyboard layout (○ = white key, ● = black key):
+#
+#  Key  Note  ○●  Sound            Key  Note  ○●  Sound
+#  ---  ----  --  ---------------  ---  ----  --  ---------------
+#   0   F3    ○   Sub Kick          10  D#4   ●   Ride
+#   1   F#3   ●   Cowbell           11  E4    ○   Snare
+#   2   G3    ○   Kick              12  F4    ○   Snare Lo
+#   3   G#3   ●   Crash             13  F#4   ●   Bell Hi
+#   4   A3    ○   Kick Hi           14  G4    ○   Rim Shot
+#   5   A#3   ●   Open HiHat        15  G#4   ●   Bell Lo
+#   6   B3    ○   Floor Tom         16  A4    ○   Clap
+#   7   C4    ○   Mid Tom           17  A#4   ●   Tambourine
+#   8   C#4   ●   Closed HiHat      18  B4    ○   Hand Clap
+#   9   D4    ○   Hi Tom            19  C5    ○   Side Stick
+#
+# Synthesis approach:
+#   Kicks       — sine wave + pitch sweep (starts 3-4x above fundamental, sweeps down)
+#   Toms        — triangle wave + pitch sweep (shorter sweep than kicks)
+#   Snares      — noise (crack) + triangle body at fixed pitch (mixed 50/50)
+#   Cymbals     — noise only (decay length distinguishes closed/open/crash/ride)
+#   Cowbell     — two square waves at TR-808 frequencies: 562Hz + 845Hz (706 ¢ apart)
+#   Bells       — sine + perfect 12th (1900 ¢ = dominant bell partial), fixed frequency
+#   Rim/Stick   — square wave, fixed high frequency, very short decay
+#   Clap        — noise, short decay
+
+voice 14 oscillator noise  adsr  2  100 0.00   40  name Synth Kit
+
+# White keys — kicks (sine + pitch sweep, fixed fundamental frequency)
+key 14  0  oscillator sine                 pitch 4.0  90  note C2   adsr   2  350  0.00   50  name Sub Kick
+key 14  2  oscillator sine                 pitch 3.5  75  note E2   adsr   2  280  0.00   50  name Kick
+key 14  4  oscillator sine                 pitch 3.0  60  note G2   adsr   2  200  0.00   40  name Kick Hi
+
+# White keys — toms (triangle + pitch sweep)
+key 14  6  oscillator triangle             pitch 2.5  60  note A2   adsr   2  280  0.00   60  name Floor Tom
+key 14  7  oscillator triangle             pitch 2.0  50  note D3   adsr   2  230  0.00   50  name Mid Tom
+key 14  9  oscillator triangle             pitch 2.0  40  note G3   adsr   2  180  0.00   40  name Hi Tom
+
+# White keys — snares (noise + triangle body mixed 50/50)
+key 14 11  oscillator noise  osc2 triangle  0  note D3   adsr   2  120  0.00   40  name Snare
+key 14 12  oscillator noise  osc2 triangle  0  note A2   adsr   2  180  0.00   60  name Snare Lo
+
+# White keys — hits
+key 14 14  oscillator square                   note A4   adsr   1   50  0.00   20  name Rim Shot
+key 14 16  oscillator noise                          adsr   2   80  0.00   30  name Clap
+key 14 18  oscillator noise                          adsr   3  100  0.00   50  name Hand Clap
+key 14 19  oscillator square                   note B4   adsr   1   30  0.00   10  name Side Stick
+
+# Black keys — cowbell (TR-808: 562Hz primary, 845Hz via 706 ¢ detune)
+key 14  1  oscillator square  osc2 square  706  freq 562.0  adsr   2  400  0.00  150  name Cowbell
+
+# Black keys — cymbals (noise, decay length distinguishes each)
+key 14  3  oscillator noise                          adsr   1  800  0.00  400  name Crash
+key 14  5  oscillator noise                          adsr   1  300  0.00  150  name Open HiHat
+key 14  8  oscillator noise                          adsr   1   40  0.00   10  name Closed HiHat
+key 14 10  oscillator noise                          adsr   1  500  0.00  200  name Ride
+key 14 17  oscillator noise                          adsr   1   60  0.00   20  name Tambourine
+
+# Black keys — bells (sine + perfect 12th partial, fixed musical frequency)
+key 14 13  oscillator sine  osc2 sine  1900  freq 880.0  adsr   2  600  0.00  200  name Bell Hi
+key 14 15  oscillator sine  osc2 sine  1900  freq 440.0  adsr   2  700  0.00  250  name Bell Lo
+
+# ======================================================
+# SLOT 15: user recording (SD card only)
+# ======================================================
+
+voice 15 playback /recordings/user_voice.wav adsr 10 100 0.90 400  name User Recording
+
+# ======================================================
+# BANK 1: SD Card sample-based voices
+# ======================================================
+# Requires an SD card formatted FAT32 with sample files present.
+# See TYPICAL DRUM FREQUENCIES above for guidance on mapping keys to samples.
+
+bank 1
+
+# Slot 0 — Sample Drum Kit
+# Place WAV files in /drums/ on the SD card.  Add 'sample' lines below to map
+# each file to a key index (0–19).  The key layout diagram in slot 14 above
+# shows which key index corresponds to which note.
+voice 0 playback  name Sample Drum Kit
+sample 0  0  /drums/kick.wav
+sample 0  1  /drums/snare.wav
+sample 0  2  /drums/hihat_closed.wav
+sample 0  3  /drums/hihat_open.wav
+sample 0  4  /drums/crash.wav
+sample 0  5  /drums/ride.wav
+sample 0  6  /drums/tom_lo.wav
+sample 0  7  /drums/tom_mid.wav
+sample 0  8  /drums/tom_hi.wav
+sample 0  9  /drums/clap.wav

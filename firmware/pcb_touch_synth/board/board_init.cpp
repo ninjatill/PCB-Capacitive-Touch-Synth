@@ -6,6 +6,7 @@
 
 #include "./config/board_config.h"
 #include "board_init.h"
+#include "../debug/uart_console.h"
 
 bool board_init() {
 
@@ -67,8 +68,6 @@ bool board_init() {
     gpio_set_dir(PIN_DOTSTAR_ENABLE, GPIO_OUT);
 
     gpio_put(PIN_DOTSTAR_ENABLE, 1);
-
-    printf("Board initialization complete.\n");
 
     // ==================================================
     // LED ENABLE
@@ -176,6 +175,22 @@ bool board_init() {
     gpio_init(PIN_5V_EN);
     gpio_set_dir(PIN_5V_EN, GPIO_OUT);
     gpio_put(PIN_5V_EN, 0);   // keep 5V rail disabled at boot
+
+    // ==================================================
+    // SD CARD DETECT
+    // ==================================================
+
+    printf("Initializing SD card detect pin...\n");
+    gpio_init(PIN_SD_CARD_DETECT);
+    gpio_set_dir(PIN_SD_CARD_DETECT, GPIO_IN);
+    // Hardware 10kΩ pull-up on PCB — disable the RP2040 internal pull-up
+    // to avoid fighting the external resistor.
+    gpio_disable_pulls(PIN_SD_CARD_DETECT);
+
+    // UART debug console: initialise pins as safe inputs (no signal driven).
+    // The UART peripheral is not claimed until uart_console_enable() is called
+    // explicitly — either by 'midi enable' or the 'uart enable' debug command.
+    uart_console_init();
 
     printf("Board initialization complete.\n");
     return true;

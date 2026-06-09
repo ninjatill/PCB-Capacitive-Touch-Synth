@@ -11,6 +11,13 @@
 #include "../config/firmware_config.h"
 
 static constexpr uint8_t LED_STATE_COUNT = 32;
+static bool led_initialized       = false;
+static bool note_leds_enabled     = true;   // disabled in USB 500mA mode
+
+bool led_manager_initialized()
+{
+    return led_initialized;
+}
 
 static LedState led_states[LED_STATE_COUNT];
 
@@ -19,6 +26,13 @@ static constexpr uint32_t EXTENDED_HIGH_BREATHE_MS = 500;
 
 static int current_octave_offset = 0;
 static bool current_extended_mode = false;
+
+// Startup wave state
+static bool startup_wave_active = false;
+static uint32_t startup_wave_start_ms = 0;
+
+static float led_min_x_mm = 0.0f;
+static float led_max_x_mm = 0.0f;
 
 
 // ======================================================
@@ -154,6 +168,88 @@ static void apply_octave_leds()
     );
 }
 
+static void compute_led_x_range()
+{
+    if (LED_MAP_COUNT == 0) {
+        return;
+    }
+
+    led_min_x_mm = LED_MAP[0].x_mm;
+    led_max_x_mm = LED_MAP[0].x_mm;
+
+    for (uint8_t i = 1; i < LED_MAP_COUNT; i++) {
+        if (LED_MAP[i].x_mm < led_min_x_mm) {
+            led_min_x_mm = LED_MAP[i].x_mm;
+        }
+
+        if (LED_MAP[i].x_mm > led_max_x_mm) {
+            led_max_x_mm = LED_MAP[i].x_mm;
+        }
+    }
+}
+
+static void update_startup_wave(uint32_t now)
+{
+    if (!startup_wave_active) {
+        return;
+    }
+
+    uint32_t elapsed = now - startup_wave_start_ms;
+
+    if (elapsed >= LED_STARTUP_WAVE_DURATION_MS) {
+        startup_wave_active = false;
+
+        printf("LED manager: startup wave complete.\n");
+
+        for (uint8_t i = 0; i < LED_MAP_COUNT; i++) {
+            led_manager_set_led(
+                LED_MAP[i].role,
+                LED_MAP[i].index,
+                LED_MODE_OFF,
+                LED_GLOBAL_BRIGHTNESS,
+                0
+            );
+        }
+
+        led_manager_set_octave(current_octave_offset, current_extended_mode);
+        led_manager_set_voice(0);
+        led_manager_set_recording(false);
+        led_manager_set_mode(false);
+        led_manager_set_midi_right(false);
+
+        return;
+    }
+
+    float progress = (float)elapsed / (float)LED_STARTUP_WAVE_DURATION_MS;
+    float scan_x = led_min_x_mm +
+                   progress * (led_max_x_mm - led_min_x_mm);
+
+    for (uint8_t i = 0; i < LED_MAP_COUNT; i++) {
+        float dx = LED_MAP[i].x_mm - scan_x;
+
+        if (dx < 0.0f) {
+            dx = -dx;
+        }
+
+        if (dx <= LED_STARTUP_WAVE_WIDTH_MM) {
+            led_manager_set_led(
+                LED_MAP[i].role,
+                LED_MAP[i].index,
+                LED_MODE_ON,
+                LED_GLOBAL_BRIGHTNESS,
+                0
+            );
+        } else {
+            led_manager_set_led(
+                LED_MAP[i].role,
+                LED_MAP[i].index,
+                LED_MODE_OFF,
+                LED_GLOBAL_BRIGHTNESS,
+                0
+            );
+        }
+    }
+}
 
 // ======================================================
 // PUBLIC API
@@ -163,12 +259,13 @@ bool led_manager_init()
 {
     printf("Initializing LED manager...\n");
 
-    if (!pca9685_init(i2c0, I2C_ADDR_LED_1)) {
+    // PCA9685 LED drivers are on I2C1 (GPIO 6=SDA, GPIO 7=SCL).
+    if (!pca9685_init(i2c1, I2C_ADDR_LED_1)) {
         printf("LED manager: failed to init PCA9685 LED_1\n");
         return false;
     }
 
-    if (!pca9685_init(i2c0, I2C_ADDR_LED_2)) {
+    if (!pca9685_init(i2c1, I2C_ADDR_LED_2)) {
         printf("LED manager: failed to init PCA9685 LED_2\n");
         return false;
     }
@@ -193,6 +290,10 @@ bool led_manager_init()
     led_manager_set_mode(false);
     led_manager_set_midi_right(false);
 
+    compute_led_x_range();
+
+    led_initialized = true;
+
     printf("LED manager initialized.\n");
 
     return true;
@@ -201,6 +302,10 @@ bool led_manager_init()
 void led_manager_task()
 {
     uint32_t now = to_ms_since_boot(get_absolute_time());
+
+    if (startup_wave_active) {
+        update_startup_wave(now);
+    }
 
     for (uint8_t i = 0; i < LED_MAP_COUNT; i++) {
         uint16_t pwm = compute_led_pwm(led_states[i], now);
@@ -241,11 +346,26 @@ void led_manager_set_led(
     apply_led_pwm((uint8_t)map_index, pwm);
 }
 
+void led_manager_set_note_leds_enabled(bool enabled)
+{
+    if (note_leds_enabled == enabled) return;
+
+    note_leds_enabled = enabled;
+
+    if (!enabled) {
+        // Turn off all note LEDs immediately when suppressed.
+        for (uint8_t i = 0; i < 20; i++) {
+            led_manager_set_led(LED_ROLE_NOTE, i, LED_MODE_OFF, LED_GLOBAL_BRIGHTNESS, 0);
+        }
+    }
+
+    printf("LED: note LEDs %s (power mode)\n", enabled ? "enabled" : "suppressed");
+}
+
 void led_manager_set_note(uint8_t note_index, bool on)
 {
-    if (note_index >= 20) {
-        return;
-    }
+    if (note_index >= 20) return;
+    if (!note_leds_enabled) return;  // suppressed in USB 500mA / 100mA modes
 
     led_manager_set_led(
         LED_ROLE_NOTE,
@@ -299,6 +419,37 @@ void led_manager_set_voice(uint8_t voice)
     );
 }
 
+void led_manager_set_voice_bank_select(uint8_t bank)
+{
+    static constexpr uint32_t BANK_BLINK_MS = 500;  // 500ms on / 500ms off
+
+    if (bank == 0) {
+        // Bank 0 has no bits set in binary — all LEDs would normally be off.
+        // Blink all 4 at reduced brightness so the user sees animation even
+        // at bank 0 (visually "reversed": normally-dark LEDs flash on).
+        uint16_t dim = LED_GLOBAL_BRIGHTNESS / 3;
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_1, LED_MODE_BLINK, dim, BANK_BLINK_MS);
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_2, LED_MODE_BLINK, dim, BANK_BLINK_MS);
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_4, LED_MODE_BLINK, dim, BANK_BLINK_MS);
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_8, LED_MODE_BLINK, dim, BANK_BLINK_MS);
+    } else {
+        // Blink only the LEDs whose bits are set in the bank number.
+        // Unset-bit LEDs stay off. The blinking binary pattern shows the bank.
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_1,
+            (bank & 0x01) ? LED_MODE_BLINK : LED_MODE_OFF,
+            LED_GLOBAL_BRIGHTNESS, BANK_BLINK_MS);
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_2,
+            (bank & 0x02) ? LED_MODE_BLINK : LED_MODE_OFF,
+            LED_GLOBAL_BRIGHTNESS, BANK_BLINK_MS);
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_4,
+            (bank & 0x04) ? LED_MODE_BLINK : LED_MODE_OFF,
+            LED_GLOBAL_BRIGHTNESS, BANK_BLINK_MS);
+        led_manager_set_led(LED_ROLE_VOICE, VOICE_LED_8,
+            (bank & 0x08) ? LED_MODE_BLINK : LED_MODE_OFF,
+            LED_GLOBAL_BRIGHTNESS, BANK_BLINK_MS);
+    }
+}
+
 void led_manager_set_recording(bool active)
 {
     led_manager_set_led(
@@ -330,4 +481,22 @@ void led_manager_set_midi_right(bool right_side)
         LED_GLOBAL_BRIGHTNESS,
         0
     );
+}
+
+// LED Startup wave is a visual effect that runs during initialization to show/test every MCU-controlled LED is working.
+void led_manager_start_startup_wave()
+{
+    if (!LED_STARTUP_WAVE_ENABLED) {
+        return;
+    }
+
+    printf("LED manager: startup wave started.\n");
+
+    startup_wave_active = true;
+    startup_wave_start_ms = to_ms_since_boot(get_absolute_time());
+}
+
+bool led_manager_startup_wave_active()
+{
+    return startup_wave_active;
 }

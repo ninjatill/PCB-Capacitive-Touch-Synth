@@ -1,0 +1,15 @@
+FatFS - Generic FAT Filesystem Module
+Copyright (c) ChaN, all right reserved.
+
+SPDX-License-Identifier: LicenseRef-FatFS
+
+Full license text: http://elm-chan.org/fsw/ff/en/appnote.html#license
+Source:           http://elm-chan.org/fsw/ff/
+
+FatFS uses a BSD 1-clause-style license: redistribution in source or binary
+form is permitted provided the copyright notice above is retained. This is
+compatible with GPL v3.
+
+FatFS is included as part of no-OS-FatFS-SD-SPI-RPi-Pico (see sibling folder)
+which is fetched at build time. The complete license text is present in the
+downloaded source in the build directory.

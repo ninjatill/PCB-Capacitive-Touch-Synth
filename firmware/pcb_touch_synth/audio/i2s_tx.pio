@@ -1,0 +1,105 @@
+;
+; i2s_tx.pio — I2S stereo transmit master for RP2040
+;
+; Drives the TLV320DAC3100 I2S slave at 44100 Hz stereo, 32-bit words.
+;
+; PIN ASSIGNMENTS (set by i2s_tx_program_init in the C-SDK block below):
+;   side-set pin 0  = BCLK  (GPIO 26)  — bit clock output
+;   side-set pin 1  = LRCLK (GPIO 27)  — word select / channel select
+;   OUT data pin    = DATA  (GPIO 28)  — serial data to DAC
+;
+; FORMAT: Standard Philips I2S
+;   LRCLK = 0  Left channel
+;   LRCLK = 1  Right channel
+;   Data changes on BCLK falling edge; receiver latches on BCLK rising edge.
+;   MSB appears ONE BCLK cycle after LRCLK transitions (the 'set x' instruction
+;   holds BCLK high for one cycle after the LRCLK edge — this is the I2S delay).
+;   32 bits per channel, MSB first.
+;
+; TIMING:
+;   Each bit = 6 PIO cycles (3 high + 3 low, using [2] delay on each instruction).
+;   Full stereo frame = 64 bits × 6 cycles = 384 PIO cycles.
+;   Required PIO clock = 384 × 44100 Hz = 16,934,400 Hz.
+;   Clock divider from 125 MHz system clock ≈ 7.38 (see i2s_tx_program_init).
+;
+; DATA FORMAT fed to TX FIFO:
+;   One 32-bit word per channel; DMA sends pairs [left_word, right_word] per frame.
+;   Audio samples from synth_engine are 24-bit signed; left-shift by 8 before storing:
+;     dma_word = (uint32_t)sample_24bit << 8;
+;   Auto-pull enabled (32-bit threshold, shift left = MSB first).
+;   TX FIFO joined to double its depth (8 entries × 32-bit).
+;
+
+.program i2s_tx
+.side_set 2
+
+; side_set bit 0 → BCLK  (GPIO 26)  0b?0 = BCLK low,  0b?1 = BCLK high
+; side_set bit 1 → LRCLK (GPIO 27)  0b0? = LRCLK low, 0b1? = LRCLK high
+;
+;   0b00 = BCLK=0, LRCLK=0  (BCLK falling,  left channel)
+;   0b01 = BCLK=1, LRCLK=0  (BCLK rising,   left channel)
+;   0b10 = BCLK=0, LRCLK=1  (BCLK falling,  right channel)
+;   0b11 = BCLK=1, LRCLK=1  (BCLK rising,   right channel)
+
+.wrap_target
+; ---- Left channel (LRCLK = 0) ----
+; 'set x' holds BCLK high for one extra cycle while LRCLK transitions.
+; This is the I2S 1-bit delay: MSB will appear on the NEXT BCLK falling edge.
+    set x, 30           side 0b01 [2]  ; LRCLK→0, BCLK high: I2S gap cycle
+
+left_loop:
+    out pins, 1         side 0b00 [2]  ; BCLK falling — data changes (MSB first)
+    jmp x-- left_loop   side 0b01 [2]  ; BCLK rising  — DAC latches data, loop
+
+    out pins, 1         side 0b00 [2]  ; last (LSB) bit of left channel
+    set x, 30           side 0b11 [2]  ; LRCLK→1, BCLK high: I2S gap for right channel
+
+; ---- Right channel (LRCLK = 1) ----
+right_loop:
+    out pins, 1         side 0b10 [2]  ; BCLK falling — data changes
+    jmp x-- right_loop  side 0b11 [2]  ; BCLK rising  — DAC latches data, loop
+
+    out pins, 1         side 0b10 [2]  ; last bit of right channel
+.wrap                                  ; → back to 'set x, 30 side 0b01': LRCLK→0
+
+; Total PIO cycles per stereo frame:
+;   set x (×2): 2 × 3 = 6 cycles
+;   loops (32 iters × 2 channels): 32 × 2 × 3 = 192 cycles (wait — 31 jmp + 1 final = 32 per channel) ✓
+;   final out (×2): 2 × 3 = 6 cycles
+;   Total: set(3) + loop31(186) + final(3) + set(3) + loop31(186) + final(3) = 384 cycles ✓
+
+% c-sdk {
+#include "hardware/clocks.h"
+
+// PIO clock cycles per stereo frame (32 bits × 2 channels × 6 cycles/bit)
+// Must match AUDIO_SAMPLE_RATE_HZ in audio/audio_constants.h (44100 Hz).
+// PIO file is self-contained so it does not depend on application headers,
+// which do not resolve correctly from the generated build-directory header.
+static const uint32_t I2S_TX_PIO_CYCLES_PER_FRAME = 384u;
+static const float    I2S_TX_AUDIO_SAMPLE_RATE_HZ  = 44100.0f;
+
+static inline void i2s_tx_program_init(
+    PIO pio, uint sm, uint offset,
+    uint data_pin, uint bclk_pin)   // bclk_pin and bclk_pin+1 = LRCLK
+{
+    pio_gpio_init(pio, data_pin);
+    pio_gpio_init(pio, bclk_pin);
+    pio_gpio_init(pio, bclk_pin + 1);
+
+    pio_sm_set_consecutive_pindirs(pio, sm, data_pin,  1, true);  // DATA out
+    pio_sm_set_consecutive_pindirs(pio, sm, bclk_pin,  2, true);  // BCLK, LRCLK out
+
+    pio_sm_config c = i2s_tx_program_get_default_config(offset);
+    sm_config_set_out_pins   (&c, data_pin, 1);      // DATA
+    sm_config_set_sideset_pins(&c, bclk_pin);         // BCLK (bit0), LRCLK (bit1)
+    sm_config_set_out_shift  (&c, false, true, 32);   // shift left, autopull, 32-bit
+    sm_config_set_fifo_join  (&c, PIO_FIFO_JOIN_TX);  // 8-deep TX FIFO
+
+    // PIO clock = sample_rate × cycles_per_frame
+    float div = (float)clock_get_hz(clk_sys)
+                / (I2S_TX_AUDIO_SAMPLE_RATE_HZ * (float)I2S_TX_PIO_CYCLES_PER_FRAME);
+    sm_config_set_clkdiv(&c, div);
+
+    pio_sm_init(pio, sm, offset, &c);
+}
+%}
