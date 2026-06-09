@@ -5,6 +5,102 @@
 	(uuid "b31af04b-7e9c-4c59-b32e-b8589263a36a")
 	(paper "USLetter")
 	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -241,16 +337,16 @@
 		(uuid "039c861c-1274-43ce-914a-2c46b9182eee")
 	)
 	(junction
-		(at 97.79 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3968962f-a5fe-41b7-8b6e-0525a9d4bac0")
-	)
-	(junction
 		(at 95.25 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b5d8d17-c578-412f-8b13-59e1e579c0be")
+		(uuid "2da8a9c5-cb02-4b7f-ba91-490c1701ee8b")
+	)
+	(junction
+		(at 97.79 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84f2a31b-788f-4908-af11-c7185ccd1faa")
 	)
 	(junction
 		(at 138.43 96.52)
@@ -302,7 +398,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 53.34) (xy 107.95 53.34)
+			(xy 82.55 50.8) (xy 107.95 50.8)
 		)
 		(stroke
 			(width 0)
@@ -362,7 +458,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 162.56) (xy 187.96 144.78)
+			(xy 187.96 163.83) (xy 187.96 144.78)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 144.78) (xy 102.87 162.56)
+			(xy 102.87 144.78) (xy 102.87 163.83)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +528,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 58.42) (xy 82.55 58.42)
+			(xy 97.79 55.88) (xy 82.55 55.88)
 		)
 		(stroke
 			(width 0)
@@ -472,7 +568,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 73.66) (xy 107.95 73.66)
+			(xy 82.55 68.58) (xy 107.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -522,6 +618,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 148.59) (xy 158.75 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4913b848-e8a4-43b0-98e6-5a96f4404285")
+	)
+	(wire
+		(pts
 			(xy 133.35 96.52) (xy 138.43 96.52)
 		)
 		(stroke
@@ -542,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 60.96) (xy 95.25 124.46)
+			(xy 95.25 58.42) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +668,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 160.02) (xy 185.42 149.86)
+			(xy 185.42 161.29) (xy 185.42 149.86)
 		)
 		(stroke
 			(width 0)
@@ -582,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 149.86) (xy 158.75 149.86)
+			(xy 133.35 151.13) (xy 158.75 151.13)
 		)
 		(stroke
 			(width 0)
@@ -592,13 +698,23 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 161.29) (xy 104.14 147.32)
+			(xy 104.14 162.56) (xy 104.14 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7552824d-641f-4d1a-954c-82d97b5aa9d4")
+	)
+	(wire
+		(pts
+			(xy 82.55 71.12) (xy 107.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76596e5b-2957-4175-af5d-155e3fad4b00")
 	)
 	(wire
 		(pts
@@ -642,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 68.58) (xy 107.95 68.58)
+			(xy 82.55 66.04) (xy 107.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 160.02) (xy 185.42 160.02)
+			(xy 105.41 161.29) (xy 185.42 161.29)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 50.8) (xy 107.95 50.8)
+			(xy 82.55 48.26) (xy 107.95 48.26)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +838,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 121.92) (xy 97.79 58.42)
+			(xy 97.79 121.92) (xy 97.79 55.88)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +878,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 162.56) (xy 187.96 162.56)
+			(xy 102.87 163.83) (xy 187.96 163.83)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +978,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 161.29) (xy 104.14 161.29)
+			(xy 186.69 162.56) (xy 104.14 162.56)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +1018,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 160.02) (xy 105.41 149.86)
+			(xy 105.41 161.29) (xy 105.41 149.86)
 		)
 		(stroke
 			(width 0)
@@ -962,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 147.32) (xy 186.69 161.29)
+			(xy 186.69 147.32) (xy 186.69 162.56)
 		)
 		(stroke
 			(width 0)
@@ -972,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 95.25 60.96)
+			(xy 82.55 58.42) (xy 95.25 58.42)
 		)
 		(stroke
 			(width 0)
@@ -992,13 +1108,89 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 107.95 63.5)
+			(xy 82.55 60.96) (xy 107.95 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc51625e-ff8c-4003-b842-fb9cf1011fdc")
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0743560e-dbe4-49bb-a78d-0783cd8cfc0d")
+		(property "Reference" "FID2"
+			(at 243.84 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 241.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB Piano v1.1"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -1057,6 +1249,39 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 241.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 241.3 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -1143,10 +1368,119 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 241.3 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41244e1f-3514-4c2e-bbed-641c1957c84d")
+		(property "Reference" "FID3"
+			(at 243.84 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 241.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB Piano v1.1"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
+					(reference "FID3")
 					(unit 1)
 				)
 			)
@@ -1219,10 +1553,119 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 241.3 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 241.3 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9caf74d8-5c17-454e-90f9-e5b8e74f8f8c")
+		(property "Reference" "FID1"
+			(at 243.84 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 243.84 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask3mm"
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 241.3 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PCB Piano v1.1"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
+					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -1295,6 +1738,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 241.3 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
@@ -1326,7 +1802,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MFS 126 D"
 			(at 241.3 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1359,6 +1835,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 241.3 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MFS 126 D"
+			(at 241.3 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 241.3 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "MFS 126 D"
 			(at 241.3 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1435,6 +1955,39 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 241.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 241.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 241.3 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -1639,7 +2192,7 @@
 			)
 		)
 		(pin "5V_EN" input
-			(at 82.55 73.66 0)
+			(at 82.55 68.58 0)
 			(uuid "30be3b03-33fe-4a61-bbfc-ca6887467c83")
 			(effects
 				(font
@@ -1649,7 +2202,7 @@
 			)
 		)
 		(pin "I2C1_SCL" input
-			(at 82.55 60.96 0)
+			(at 82.55 58.42 0)
 			(uuid "f3d64c32-3012-4352-be99-3acb82cd9d69")
 			(effects
 				(font
@@ -1659,7 +2212,7 @@
 			)
 		)
 		(pin "I2C1_SDA" bidirectional
-			(at 82.55 58.42 0)
+			(at 82.55 55.88 0)
 			(uuid "ce5bfe74-6b78-46c7-8696-0cb3f11db410")
 			(effects
 				(font
@@ -1669,7 +2222,7 @@
 			)
 		)
 		(pin "CHG_~{INT}" output
-			(at 82.55 63.5 0)
+			(at 82.55 60.96 0)
 			(uuid "69bd1cb4-08c7-4c1d-9ae3-6b67dd52bfa9")
 			(effects
 				(font
@@ -1679,7 +2232,7 @@
 			)
 		)
 		(pin "MCU_DM" bidirectional
-			(at 82.55 53.34 0)
+			(at 82.55 50.8 0)
 			(uuid "f7b0519a-9db4-4fb8-a986-a3e04746163c")
 			(effects
 				(font
@@ -1689,7 +2242,7 @@
 			)
 		)
 		(pin "MCU_DP" bidirectional
-			(at 82.55 50.8 0)
+			(at 82.55 48.26 0)
 			(uuid "d8c0bafe-69fb-4f71-9922-6b1cfb0a2b51")
 			(effects
 				(font
@@ -1699,7 +2252,7 @@
 			)
 		)
 		(pin "USB_SEL" input
-			(at 82.55 68.58 0)
+			(at 82.55 66.04 0)
 			(uuid "1eaf4bbb-d818-4eeb-b3bf-55d162454de9")
 			(effects
 				(font
@@ -1728,6 +2281,16 @@
 				(justify right)
 			)
 		)
+		(pin "CHG_OUT" output
+			(at 82.55 71.12 0)
+			(uuid "bc31c00f-2b45-4926-93bd-54abd7dafe7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
@@ -1738,7 +2301,7 @@
 	)
 	(sheet
 		(at 158.75 116.84)
-		(size 24.13 38.1)
+		(size 24.13 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1764,7 +2327,7 @@
 			)
 		)
 		(property "Sheetfile" "debug.kicad_sch"
-			(at 158.75 155.5246 0)
+			(at 158.75 156.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1772,16 +2335,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "SWCKL" output
-			(at 158.75 134.62 180)
-			(uuid "da9d44ae-7886-48a7-9a82-b7596403593c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "BOOTSEL" output
@@ -1795,7 +2348,7 @@
 			)
 		)
 		(pin "GPIO24" bidirectional
-			(at 158.75 149.86 180)
+			(at 158.75 151.13 180)
 			(uuid "1d01c66d-9bc4-4b9e-bd5b-a9d1f887eb58")
 			(effects
 				(font
@@ -1934,6 +2487,26 @@
 				(justify right)
 			)
 		)
+		(pin "GPIO11" bidirectional
+			(at 158.75 148.59 180)
+			(uuid "3a9862fc-3a52-4b7c-957a-71b451179571")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" output
+			(at 158.75 134.62 180)
+			(uuid "b08d2e9d-c71c-47c5-a13e-9880e7eb6efb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
@@ -2060,7 +2633,7 @@
 	)
 	(sheet
 		(at 107.95 38.1)
-		(size 25.4 116.84)
+		(size 25.4 118.11)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2086,7 +2659,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 107.95 155.5246 0)
+			(at 107.95 156.7946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2136,7 +2709,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C1_SCL" output
+		(pin "I2C1_SCL" input
 			(at 133.35 99.06 0)
 			(uuid "1c84fe48-7b3c-41e5-b1e1-7b2c6a31bc0a")
 			(effects
@@ -2146,7 +2719,7 @@
 				(justify right)
 			)
 		)
-		(pin "I2C1_SDA" bidirectional
+		(pin "I2C1_SDA" input
 			(at 133.35 96.52 0)
 			(uuid "fa2dd283-e194-443c-b3be-df735a130d69")
 			(effects
@@ -2247,7 +2820,7 @@
 			)
 		)
 		(pin "GPIO24" bidirectional
-			(at 133.35 149.86 0)
+			(at 133.35 151.13 0)
 			(uuid "a47c522f-5714-4bc7-8122-ea617bbccb0a")
 			(effects
 				(font
@@ -2337,7 +2910,7 @@
 			)
 		)
 		(pin "5V_EN" output
-			(at 107.95 73.66 180)
+			(at 107.95 68.58 180)
 			(uuid "61be1757-3c83-4bb9-82a6-b19e83ae4bec")
 			(effects
 				(font
@@ -2367,7 +2940,7 @@
 			)
 		)
 		(pin "CHG_~{INT}" input
-			(at 107.95 63.5 180)
+			(at 107.95 60.96 180)
 			(uuid "dd54968d-36d2-47bf-af37-4ae1a596d78f")
 			(effects
 				(font
@@ -2377,7 +2950,7 @@
 			)
 		)
 		(pin "USB_SEL" output
-			(at 107.95 68.58 180)
+			(at 107.95 66.04 180)
 			(uuid "3e34c799-2cba-4de3-b56a-5c45d70b2fe0")
 			(effects
 				(font
@@ -2387,7 +2960,7 @@
 			)
 		)
 		(pin "MCU_DP" bidirectional
-			(at 107.95 50.8 180)
+			(at 107.95 48.26 180)
 			(uuid "970d8f13-6b25-4dad-9cc6-1d5b4997036a")
 			(effects
 				(font
@@ -2397,8 +2970,28 @@
 			)
 		)
 		(pin "MCU_DM" bidirectional
-			(at 107.95 53.34 180)
+			(at 107.95 50.8 180)
 			(uuid "d63d52ad-4c0d-4df8-9c8b-81ad97358b7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO11" bidirectional
+			(at 133.35 148.59 0)
+			(uuid "2e4f9b2a-126b-4997-802c-9a1555643230")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHG_OUT" input
+			(at 107.95 71.12 180)
+			(uuid "95f16559-4648-4053-9359-14ded6d25a3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +3002,7 @@
 		(instances
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a"
-					(page "2")
+					(page "3")
 				)
 			)
 		)

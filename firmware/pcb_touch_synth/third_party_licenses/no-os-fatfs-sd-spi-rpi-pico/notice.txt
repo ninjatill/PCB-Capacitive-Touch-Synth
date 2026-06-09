@@ -1,0 +1,10 @@
+no-OS-FatFS-SD-SPI-RPi-Pico
+Copyright (c) 2021, 2022 Carl John Kugler III
+
+SPDX-License-Identifier: Apache-2.0
+
+Full license text: https://www.apache.org/licenses/LICENSE-2.0
+Source repository: https://github.com/carlk3/no-OS-FatFS-SD-SPI-RPi-Pico
+
+This library is fetched at build time via CMake FetchContent. The complete
+LICENSE file is included in the downloaded source in the build directory.

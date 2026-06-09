@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.15,
-          "width": 0.6
+          "height": 0.35,
+          "width": 0.675
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -62,7 +62,7 @@
       ],
       "drc_exclusions": [
         [
-          "silk_overlap|109125867|125515538|6f581d53-5fcc-4bfe-a9ad-1702c1ade960|f018b5c5-8629-4170-9a22-7bec29f4ea5d",
+          "silk_overlap|107199225|116032491|6f581d53-5fcc-4bfe-a9ad-1702c1ade960|f018b5c5-8629-4170-9a22-7bec29f4ea5d",
           ""
         ],
         [
@@ -78,19 +78,19 @@
           ""
         ],
         [
-          "silk_overlap|135564437|100034566|057d7009-01f8-4d3e-a246-0fea33a0ba70|0fbcc72d-74bd-46de-b882-c7409a3b078e",
+          "silk_overlap|147546441|98274644|057d7009-01f8-4d3e-a246-0fea33a0ba70|0fbcc72d-74bd-46de-b882-c7409a3b078e",
           ""
         ],
         [
-          "silk_overlap|152949776|116032829|66503804-8936-45e6-be8e-afaf80bf9630|5d265e86-5261-45a0-a8ff-6934621402a5",
+          "silk_overlap|156880851|119238906|66503804-8936-45e6-be8e-afaf80bf9630|5d265e86-5261-45a0-a8ff-6934621402a5",
           ""
         ],
         [
-          "silk_overlap|162982728|97463177|814070bb-184e-4742-98af-54bf91c3d521|487541af-09af-45ab-ae8e-f684c0b8c270",
+          "silk_overlap|169934625|98124752|814070bb-184e-4742-98af-54bf91c3d521|487541af-09af-45ab-ae8e-f684c0b8c270",
           ""
         ],
         [
-          "silk_overlap|174487614|120327250|3bed7e48-b864-43e2-a69d-f10dadcacfcd|2b922bd8-9eb3-4cd2-b1e6-f1841f363347",
+          "silk_overlap|174487614|125055792|3bed7e48-b864-43e2-a69d-f10dadcacfcd|2b922bd8-9eb3-4cd2-b1e6-f1841f363347",
           ""
         ],
         [
@@ -106,19 +106,19 @@
           ""
         ],
         [
-          "silk_overlap|205000000|96396325|9289a9b3-d3c5-41b0-a3cd-01160a8de6ae|a6ab44ef-82c3-41f4-b795-1b71013760a9",
+          "silk_overlap|211969437|96336113|9289a9b3-d3c5-41b0-a3cd-01160a8de6ae|a6ab44ef-82c3-41f4-b795-1b71013760a9",
           ""
         ],
         [
-          "silk_overlap|225384072|121738363|b5cae413-006b-4cb2-90c6-026b35dfb58e|834f4215-3998-42bb-aa0e-2db4723437ee",
+          "silk_overlap|223917394|125041748|b5cae413-006b-4cb2-90c6-026b35dfb58e|834f4215-3998-42bb-aa0e-2db4723437ee",
           ""
         ],
         [
-          "silk_overlap|227655906|100034566|79f9c177-1324-4cad-a870-0b5dfb780c97|e504af07-ac8b-4e48-a005-4e7f24a2831b",
+          "silk_overlap|231235163|97463177|79f9c177-1324-4cad-a870-0b5dfb780c97|e504af07-ac8b-4e48-a005-4e7f24a2831b",
           ""
         ],
         [
-          "silk_overlap|249217551|126150000|da05a83b-f85c-48d9-9dee-9d8ab6ee5c38|c890342e-86b1-4016-866d-ba126ffd05d7",
+          "silk_overlap|242268231|123336322|da05a83b-f85c-48d9-9dee-9d8ab6ee5c38|c890342e-86b1-4016-866d-ba126ffd05d7",
           ""
         ],
         [
@@ -126,11 +126,11 @@
           ""
         ],
         [
-          "silk_overlap|270125867|125515538|0bb3757e-110a-47bb-ba5a-463f2b881b4a|ae7f1dbb-6826-4c05-8e3f-a77562f5d63b",
+          "silk_overlap|264779745|115989497|0bb3757e-110a-47bb-ba5a-463f2b881b4a|ae7f1dbb-6826-4c05-8e3f-a77562f5d63b",
           ""
         ],
         [
-          "silk_overlap|290423867|115817607|5029e429-649e-4516-8873-dbc7170e2fe3|232f11ee-38f2-46d0-b588-d4c59def6e87",
+          "silk_overlap|292288127|115797797|5029e429-649e-4516-8873-dbc7170e2fe3|232f11ee-38f2-46d0-b588-d4c59def6e87",
           ""
         ],
         [
@@ -138,23 +138,23 @@
           ""
         ],
         [
-          "silk_overlap|44242119|97955571|01ff6c1c-46cb-4630-a9c4-46c66e94dae1|12eadb80-6db9-4484-a26e-a8fc8c66a8d3",
+          "silk_overlap|44000000|97955571|01ff6c1c-46cb-4630-a9c4-46c66e94dae1|12eadb80-6db9-4484-a26e-a8fc8c66a8d3",
           ""
         ],
         [
-          "silk_overlap|60201630|115817465|d6d1d33d-2d5c-4d6a-8e05-a9d31abd4605|202772e9-2f2d-4cd6-829b-8d207cbe4383",
+          "silk_overlap|56154920|121069748|d6d1d33d-2d5c-4d6a-8e05-a9d31abd4605|202772e9-2f2d-4cd6-829b-8d207cbe4383",
           ""
         ],
         [
-          "silk_overlap|78421406|99298807|2aa6ed37-b487-414f-91b6-48616ea3da83|51a32eb3-8d9c-4c11-bb00-4f79501a8e0b",
+          "silk_overlap|78039209|99635162|2aa6ed37-b487-414f-91b6-48616ea3da83|51a32eb3-8d9c-4c11-bb00-4f79501a8e0b",
           ""
         ],
         [
-          "silk_overlap|78780618|126150000|fd48f1fa-6db3-484c-b864-821687c57f86|7d2d3b61-f6b4-40ba-9831-3d98c2a31b58",
+          "silk_overlap|83399861|117958705|fd48f1fa-6db3-484c-b864-821687c57f86|7d2d3b61-f6b4-40ba-9831-3d98c2a31b58",
           ""
         ],
         [
-          "silk_overlap|98121271|99877915|502e238d-f745-418d-b113-34807d7a5dd6|3f9917f4-8ed1-4774-9732-0d2d605eef71",
+          "silk_overlap|98369053|99730439|502e238d-f745-418d-b113-34807d7a5dd6|3f9917f4-8ed1-4774-9732-0d2d605eef71",
           ""
         ],
         [
@@ -170,7 +170,7 @@
           ""
         ],
         [
-          "text_thickness|175100000|49494559|3d9b8f76-f3d2-478b-8087-b9beba34d25c|00000000-0000-0000-0000-000000000000",
+          "text_thickness|172715278|33342623|3d9b8f76-f3d2-478b-8087-b9beba34d25c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -378,7 +378,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
+          "diameter": 0.62,
           "drill": 0.3
         }
       ],
@@ -1017,33 +1017,39 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "group_by": false,
+          "label": "Volt Rating",
+          "name": "Volt Rating",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -1053,10 +1059,22 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
         },
         {
           "group_by": false,
@@ -1126,12 +1144,6 @@
         },
         {
           "group_by": false,
-          "label": "DigiKey_Part_Number",
-          "name": "DigiKey_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Check_prices",
           "name": "Check_prices",
           "show": false
@@ -1165,11 +1177,29 @@
           "label": "MAXIMUM_PACKAGE_HEIGHT",
           "name": "MAXIMUM_PACKAGE_HEIGHT",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_DVDD",
+          "name": "KLC_S4.2_DVDD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.2_VREG_VOUT",
+          "name": "KLC_S4.2_VREG_VOUT",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -1215,7 +1245,7 @@
         "uuid": "b31af04b-7e9c-4c59-b32e-b8589263a36a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R21,R68,R72-74,FID1-3",
     "variants": []
   },
   "sheets": [

@@ -1314,28 +1314,34 @@
 		(uuid "856b843b-bb01-4dd8-93c9-c9b6c8a867c8")
 	)
 	(junction
-		(at 203.2 77.47)
+		(at 204.47 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "012c664c-23be-43b9-994c-130db231c59c")
 	)
 	(junction
-		(at 213.36 72.39)
+		(at 214.63 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c5e8de1-fa45-4465-b073-eefd668dd16d")
 	)
 	(junction
-		(at 193.04 52.07)
+		(at 194.31 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10dca0a8-f244-4934-ac69-c523354710c9")
 	)
 	(junction
-		(at 172.72 62.23)
+		(at 173.99 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12282b5a-1d64-4e40-82e9-bb928397addc")
+	)
+	(junction
+		(at 88.9 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a52f2a-efcc-466d-b4d7-2c86b682214c")
 	)
 	(junction
 		(at 81.28 80.01)
@@ -1344,13 +1350,7 @@
 		(uuid "1d5d961b-ed69-42df-905d-35c653ebfadb")
 	)
 	(junction
-		(at 162.56 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26483b0c-7b47-4577-9ecf-23cd4bc98020")
-	)
-	(junction
-		(at 198.12 80.01)
+		(at 199.39 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d758361-3bf5-4db6-8d0d-cec277b2caee")
@@ -1362,40 +1362,40 @@
 		(uuid "336ca0b2-8145-438e-8c6e-91d2aa8cf0b2")
 	)
 	(junction
-		(at 167.64 140.97)
+		(at 168.91 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5407a469-6f74-47ed-ba0c-394092ddd1c7")
 	)
 	(junction
-		(at 88.9 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d5a5f7b-12bc-4cf9-8a52-57fb39826ee5")
-	)
-	(junction
-		(at 172.72 125.73)
+		(at 173.99 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e66538a-b5a9-47ec-a079-81a44821b486")
 	)
 	(junction
-		(at 182.88 120.65)
+		(at 184.15 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72ecc616-2e2c-47f2-a4c0-f22923c0b7e7")
 	)
 	(junction
-		(at 218.44 69.85)
+		(at 219.71 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "747d54a7-293f-4bf7-aa1f-07e214353dd7")
 	)
 	(junction
-		(at 177.8 59.69)
+		(at 179.07 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75436984-135d-4744-837a-975ac68ac52f")
+	)
+	(junction
+		(at 87.63 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa2fe8a-73c4-4a6b-8960-c8622cc64754")
 	)
 	(junction
 		(at 81.28 52.07)
@@ -1410,19 +1410,25 @@
 		(uuid "86c8d2ad-1c56-4fbf-831d-5285bb67597f")
 	)
 	(junction
-		(at 187.96 54.61)
+		(at 163.83 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8abfcf17-f7df-4ec6-98a4-2b5b6aeee686")
+	)
+	(junction
+		(at 189.23 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90382c6d-bb14-4ae2-8cec-be0d13b87c9b")
 	)
 	(junction
-		(at 187.96 118.11)
+		(at 189.23 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c4545d2-cc31-47f7-8f51-98f2c72d872c")
 	)
 	(junction
-		(at 167.64 64.77)
+		(at 168.91 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a13c2dd1-5895-44ca-9a5b-2893e93ec311")
@@ -1440,13 +1446,13 @@
 		(uuid "b3a09e9f-d377-4816-8d42-48a9d9cd35ad")
 	)
 	(junction
-		(at 162.56 67.31)
+		(at 163.83 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3c7b718-69c7-406c-8114-740732fbc54e")
 	)
 	(junction
-		(at 182.88 57.15)
+		(at 184.15 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b574fbb3-696c-4a8e-bdb9-56e3e434ebc3")
@@ -1458,31 +1464,25 @@
 		(uuid "b639f7c2-294a-43fa-b0e3-022bf034ca7a")
 	)
 	(junction
-		(at 177.8 123.19)
+		(at 179.07 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd73b80e-e285-4864-b8f6-b7df0b94067f")
 	)
 	(junction
-		(at 198.12 113.03)
+		(at 199.39 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf4f6f8c-8293-4bac-80ad-92db26468750")
 	)
 	(junction
-		(at 208.28 74.93)
+		(at 209.55 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6f697a7-d46e-45c9-8fcd-b17a9b489576")
 	)
 	(junction
-		(at 87.63 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0d7c6d9-5399-4951-b93c-67c02e1c412c")
-	)
-	(junction
-		(at 193.04 115.57)
+		(at 194.31 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc61bbd6-0581-4573-a2fa-51bc00409f28")
@@ -1495,13 +1495,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 162.56 67.31)
+			(xy 148.59 67.31) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00c7bf1f-3e0f-4614-afe8-45b5fe152568")
+	)
+	(wire
+		(pts
+			(xy 148.59 72.39) (xy 214.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b73c13-b489-4e78-b54e-98ad1d82619a")
 	)
 	(wire
 		(pts
@@ -1515,16 +1525,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 135.89) (xy 218.44 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08b79864-3f65-4153-b68f-9b5371271a97")
-	)
-	(wire
-		(pts
 			(xy 99.06 110.49) (xy 99.06 113.03)
 		)
 		(stroke
@@ -1535,23 +1535,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 120.65) (xy 182.88 120.65)
+			(xy 148.59 74.93) (xy 209.55 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1494b77b-f209-434b-9b75-72893c7ba810")
-	)
-	(wire
-		(pts
-			(xy 148.59 130.81) (xy 208.28 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "176898f9-cd9c-4c71-8df6-32bf0b2f94ca")
+		(uuid "17627720-cac7-4167-ab50-9721e74de7ac")
 	)
 	(wire
 		(pts
@@ -1575,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 110.49) (xy 208.28 130.81)
+			(xy 209.55 110.49) (xy 209.55 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1615,27 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 118.11) (xy 187.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2743272f-afcd-4f87-9d1f-69d5ff3d6abb")
-	)
-	(wire
-		(pts
-			(xy 148.59 72.39) (xy 213.36 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279139b9-444c-4a36-8b60-a77e28662773")
-	)
-	(wire
-		(pts
-			(xy 182.88 49.53) (xy 182.88 57.15)
+			(xy 184.15 49.53) (xy 184.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1615,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 140.97) (xy 88.9 140.97)
+			(xy 81.28 140.97) (xy 99.06 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1655,7 +1625,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 110.49) (xy 162.56 128.27)
+			(xy 163.83 110.49) (xy 163.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 49.53) (xy 203.2 77.47)
+			(xy 204.47 49.53) (xy 204.47 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1695,17 +1665,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 130.81) (xy 88.9 140.97)
+			(xy 148.59 140.97) (xy 168.91 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "308e8b97-ca33-4966-a4a2-9e0a20fa11ee")
+		(uuid "320f31b6-0684-423a-be80-91945315e84f")
 	)
 	(wire
 		(pts
-			(xy 187.96 110.49) (xy 187.96 118.11)
+			(xy 189.23 110.49) (xy 189.23 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 69.85) (xy 218.44 82.55)
+			(xy 219.71 69.85) (xy 219.71 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1755,16 +1725,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 77.47) (xy 203.2 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a71a628-eee4-4589-9d83-d37ec021be9c")
-	)
-	(wire
-		(pts
 			(xy 135.89 118.11) (xy 140.97 118.11)
 		)
 		(stroke
@@ -1775,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 118.11) (xy 187.96 143.51)
+			(xy 189.23 118.11) (xy 189.23 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 80.01) (xy 99.06 80.01)
+			(xy 81.28 80.01) (xy 87.63 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 140.97) (xy 167.64 143.51)
+			(xy 168.91 140.97) (xy 168.91 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1815,27 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 113.03) (xy 198.12 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fffa2ef-fa67-45e1-bd2d-d62b7c5e411e")
-	)
-	(wire
-		(pts
-			(xy 148.59 140.97) (xy 167.64 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "405fce7b-2566-45d5-92a4-7709baa51171")
-	)
-	(wire
-		(pts
-			(xy 198.12 49.53) (xy 198.12 80.01)
+			(xy 199.39 49.53) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 123.19) (xy 177.8 143.51)
+			(xy 179.07 123.19) (xy 179.07 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 49.53) (xy 208.28 74.93)
+			(xy 209.55 49.53) (xy 209.55 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 110.49) (xy 182.88 120.65)
+			(xy 184.15 110.49) (xy 184.15 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1875,17 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 69.85) (xy 87.63 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4788640b-9580-43de-b62b-8761dd4f0606")
-	)
-	(wire
-		(pts
-			(xy 167.64 64.77) (xy 167.64 82.55)
+			(xy 168.91 64.77) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1905,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 213.36 82.55)
+			(xy 214.63 72.39) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1915,17 +1845,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 80.01) (xy 87.63 80.01)
+			(xy 148.59 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "516c5931-6f82-4718-bf4e-c1f54015b3b9")
+		(uuid "4fe1d7a6-7308-4a4f-a39c-2329a8d8e9c0")
 	)
 	(wire
 		(pts
-			(xy 167.64 110.49) (xy 167.64 140.97)
+			(xy 168.91 110.49) (xy 168.91 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1955,6 +1885,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 133.35) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54819ffa-676e-4984-9b00-ca9872928f03")
+	)
+	(wire
+		(pts
 			(xy 81.28 113.03) (xy 71.12 113.03)
 		)
 		(stroke
@@ -1965,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 113.03) (xy 99.06 113.03)
+			(xy 81.28 113.03) (xy 88.9 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1982,6 +1922,16 @@
 			(type default)
 		)
 		(uuid "5594d5a5-4bab-490f-89ec-58305d843a3e")
+	)
+	(wire
+		(pts
+			(xy 148.59 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5650bee5-2e79-4206-9bb0-ae46a75f905e")
 	)
 	(wire
 		(pts
@@ -2025,17 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 140.97) (xy 99.06 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58e9550d-de8d-40cc-a231-6a8a05e7c5bf")
-	)
-	(wire
-		(pts
-			(xy 213.36 110.49) (xy 213.36 138.43)
+			(xy 214.63 110.49) (xy 214.63 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 110.49) (xy 198.12 113.03)
+			(xy 199.39 110.49) (xy 199.39 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 128.27) (xy 162.56 128.27)
+			(xy 148.59 128.27) (xy 163.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2085,33 +2025,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 138.43) (xy 213.36 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f420db2-7f7a-4dff-8f5a-8b538716e202")
-	)
-	(wire
-		(pts
-			(xy 148.59 80.01) (xy 198.12 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fd3680a-cae3-4fcd-8da6-e7ed9c4878b2")
-	)
-	(wire
-		(pts
-			(xy 167.64 49.53) (xy 167.64 64.77)
+			(xy 168.91 49.53) (xy 168.91 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6424d5ba-d2cc-4422-8e32-34382832b057")
+	)
+	(wire
+		(pts
+			(xy 148.59 77.47) (xy 204.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b6fc9e-0e26-413f-9a73-206f3eb749c7")
 	)
 	(wire
 		(pts
@@ -2125,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 49.53) (xy 187.96 54.61)
+			(xy 189.23 49.53) (xy 189.23 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2165,7 +2095,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 203.2 133.35)
+			(xy 204.47 110.49) (xy 204.47 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2185,6 +2115,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 62.23) (xy 173.99 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d054dd-91a1-4c8c-8e7b-22e4c7cf53be")
+	)
+	(wire
+		(pts
 			(xy 100.33 128.27) (xy 101.6 128.27)
 		)
 		(stroke
@@ -2195,6 +2135,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 59.69) (xy 179.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776b5fd3-9bd6-404d-9e5b-ada57e9de6be")
+	)
+	(wire
+		(pts
 			(xy 99.06 140.97) (xy 99.06 143.51)
 		)
 		(stroke
@@ -2202,6 +2152,16 @@
 			(type default)
 		)
 		(uuid "77afb87c-65cc-4403-8da9-df4ba7f24542")
+	)
+	(wire
+		(pts
+			(xy 88.9 113.03) (xy 99.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e15ad8-9d34-4699-b3f7-38eff94061ec")
 	)
 	(wire
 		(pts
@@ -2225,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 110.49) (xy 177.8 123.19)
+			(xy 179.07 110.49) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2245,13 +2205,33 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 49.53) (xy 172.72 62.23)
+			(xy 173.99 49.53) (xy 173.99 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81ee8ee3-064b-4a14-bc5d-28c2fa85a27a")
+	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b3d837-0de4-4e3c-9f2e-722a816c9f99")
+	)
+	(wire
+		(pts
+			(xy 148.59 135.89) (xy 219.71 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b77ad2-2150-4c18-86d2-003c060b33e5")
 	)
 	(wire
 		(pts
@@ -2275,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 115.57) (xy 193.04 143.51)
+			(xy 194.31 115.57) (xy 194.31 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 113.03) (xy 198.12 143.51)
+			(xy 199.39 113.03) (xy 199.39 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2315,7 +2295,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 77.47) (xy 203.2 82.55)
+			(xy 204.47 77.47) (xy 204.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2325,17 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 54.61) (xy 187.96 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da8aa5c-26a1-4f9e-9902-1baf9c6f5ed2")
-	)
-	(wire
-		(pts
-			(xy 182.88 120.65) (xy 182.88 143.51)
+			(xy 184.15 120.65) (xy 184.15 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2355,37 +2325,27 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 74.93) (xy 208.28 74.93)
+			(xy 148.59 69.85) (xy 219.71 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95d2cbff-8877-48c8-b938-a8e37c7d449f")
+		(uuid "98912778-d489-4e0a-ac68-7e8efe9ede33")
 	)
 	(wire
 		(pts
-			(xy 148.59 125.73) (xy 172.72 125.73)
+			(xy 148.59 54.61) (xy 189.23 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9675e476-eb72-4caa-8133-72d898d6c395")
+		(uuid "98b06637-ddf9-4474-bc3b-98c5d98a2330")
 	)
 	(wire
 		(pts
-			(xy 148.59 133.35) (xy 203.2 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99e0f28f-dfd7-48d8-a9c8-d5a8cc9629f6")
-	)
-	(wire
-		(pts
-			(xy 172.72 125.73) (xy 172.72 143.51)
+			(xy 173.99 125.73) (xy 173.99 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2402,16 +2362,6 @@
 			(type default)
 		)
 		(uuid "9bda64e9-d2e1-4deb-ab9c-5f4a30571076")
-	)
-	(wire
-		(pts
-			(xy 148.59 64.77) (xy 167.64 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c115e61-a15d-4dd7-85b0-1e5dbff94d4a")
 	)
 	(wire
 		(pts
@@ -2455,17 +2405,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 52.07) (xy 193.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a642c317-3139-4492-871a-f003caeeea49")
-	)
-	(wire
-		(pts
-			(xy 208.28 74.93) (xy 208.28 82.55)
+			(xy 209.55 74.93) (xy 209.55 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2475,17 +2415,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 57.15) (xy 182.88 57.15)
+			(xy 148.59 80.01) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a89ffe95-ea3f-483c-a813-098653b3f0e5")
+		(uuid "ab85fea7-890e-4ccb-87a8-5fee868af1a4")
 	)
 	(wire
 		(pts
-			(xy 162.56 128.27) (xy 162.56 143.51)
+			(xy 163.83 128.27) (xy 163.83 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 110.49) (xy 172.72 125.73)
+			(xy 173.99 110.49) (xy 173.99 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2505,17 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 59.69) (xy 177.8 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b142a4e1-b184-4048-a20e-2601d9ef0799")
-	)
-	(wire
-		(pts
-			(xy 213.36 49.53) (xy 213.36 72.39)
+			(xy 214.63 49.53) (xy 214.63 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2495,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 57.15) (xy 182.88 82.55)
+			(xy 184.15 57.15) (xy 184.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2575,7 +2505,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 49.53) (xy 218.44 69.85)
+			(xy 219.71 49.53) (xy 219.71 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2585,17 +2515,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 69.85) (xy 218.44 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1193b1c-4272-4767-af83-2c7d0dce0fd6")
-	)
-	(wire
-		(pts
-			(xy 177.8 49.53) (xy 177.8 59.69)
+			(xy 179.07 49.53) (xy 179.07 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2605,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 49.53) (xy 193.04 52.07)
+			(xy 194.31 49.53) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2535,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 80.01) (xy 198.12 82.55)
+			(xy 148.59 57.15) (xy 184.15 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4075741-6e7e-4300-bb36-ca77b91b8e3a")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 199.39 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 59.69) (xy 177.8 82.55)
+			(xy 179.07 59.69) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 67.31) (xy 162.56 82.55)
+			(xy 163.83 67.31) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2575,27 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 49.53) (xy 162.56 67.31)
+			(xy 148.59 138.43) (xy 214.63 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caf72ed2-3b12-4195-b599-c33a9838ce68")
+	)
+	(wire
+		(pts
+			(xy 148.59 130.81) (xy 209.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb22e341-517b-47fe-b8e8-6151b858c5eb")
+	)
+	(wire
+		(pts
+			(xy 163.83 49.53) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2605,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 54.61) (xy 187.96 82.55)
+			(xy 87.63 77.47) (xy 87.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a63dc9-d533-420c-a685-e19ff729bcd4")
+	)
+	(wire
+		(pts
+			(xy 189.23 54.61) (xy 189.23 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2665,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 172.72 82.55)
+			(xy 173.99 62.23) (xy 173.99 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2705,17 +2665,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 123.19) (xy 177.8 123.19)
+			(xy 88.9 113.03) (xy 88.9 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7c4a2f0-6d26-41e7-9019-dd5d3ffd6572")
+		(uuid "d6fd5acc-8107-4d85-b7ff-3e907e3908a6")
 	)
 	(wire
 		(pts
-			(xy 193.04 52.07) (xy 193.04 82.55)
+			(xy 194.31 52.07) (xy 194.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2732,6 +2692,16 @@
 			(type default)
 		)
 		(uuid "d9b63e9b-8527-4185-80c9-6f05a2ba13db")
+	)
+	(wire
+		(pts
+			(xy 148.59 113.03) (xy 199.39 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4d0b05-d4d5-404f-9c90-5fe0b5a8e692")
 	)
 	(wire
 		(pts
@@ -2765,23 +2735,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 172.72 62.23)
+			(xy 148.59 52.07) (xy 194.31 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e25fd0cb-aa71-44e2-befe-3b5968a2d6ef")
-	)
-	(wire
-		(pts
-			(xy 148.59 115.57) (xy 193.04 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e271f069-9199-4fbb-a1a9-53de3aa76aea")
+		(uuid "e0d7f163-b7fa-4f90-b225-8101534262be")
 	)
 	(wire
 		(pts
@@ -2825,13 +2785,53 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 110.49) (xy 193.04 115.57)
+			(xy 148.59 125.73) (xy 173.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed51297b-ecf9-4a68-baae-dacb4f26e965")
+	)
+	(wire
+		(pts
+			(xy 148.59 120.65) (xy 184.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eecd9093-1502-489b-b87a-b675dc5640a6")
+	)
+	(wire
+		(pts
+			(xy 148.59 118.11) (xy 189.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ffdc8b-601c-4095-b0e9-d3891737f9f1")
+	)
+	(wire
+		(pts
+			(xy 194.31 110.49) (xy 194.31 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fac88fd2-5a21-4b24-856d-5585b35b8ab2")
+	)
+	(wire
+		(pts
+			(xy 148.59 115.57) (xy 194.31 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb1046d2-07ef-44b6-bb44-2d70b94d2257")
 	)
 	(wire
 		(pts
@@ -2845,13 +2845,253 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 135.89) (xy 218.44 110.49)
+			(xy 219.71 135.89) (xy 219.71 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fff989ff-097d-42f9-b3b6-f8e83ac380fd")
+	)
+	(label "TOUCH_204"
+		(at 153.6616 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09b59cba-9b01-4e4f-8134-f7154cef5a29")
+	)
+	(label "TOUCH_111"
+		(at 153.67 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "147a0dcc-90d3-433e-af45-450032310795")
+	)
+	(label "TOUCH_209"
+		(at 153.67 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25bf9c27-e159-43be-9f75-987af0b754f0")
+	)
+	(label "TOUCH_103"
+		(at 153.67 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35d0ce7d-043d-4f49-a5ef-fe74f64e5ca7")
+	)
+	(label "TOUCH_100"
+		(at 153.67 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e32de9d-cec2-44d3-b557-d0b5537d1432")
+	)
+	(label "TOUCH_102"
+		(at 153.67 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d4ad919-c87b-4eec-a49c-380520cc2fa9")
+	)
+	(label "TOUCH_104"
+		(at 153.67 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "530599a4-71d5-413e-b3fe-6941bb42b17e")
+	)
+	(label "TOUCH_107"
+		(at 153.67 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "636c0d60-e1a5-4bec-88fb-83462f58401f")
+	)
+	(label "TOUCH_206"
+		(at 153.6616 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6cc9f623-d655-4dbd-82ed-c2e76b111b76")
+	)
+	(label "TOUCH_106"
+		(at 153.67 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "741d6b8d-6487-4801-9f89-89a44073599b")
+	)
+	(label "TOUCH_211"
+		(at 153.6616 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "841565f9-7d42-410b-baf0-ea799313aaa6")
+	)
+	(label "TOUCH_203"
+		(at 153.6616 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e126b56-7f8c-4aea-b51d-44fa903e841a")
+	)
+	(label "TOUCH_205"
+		(at 153.6616 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9117d82e-7395-4a23-ac38-806f148f1d0c")
+	)
+	(label "TOUCH_200"
+		(at 153.6616 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "989d6682-8362-471b-9ae6-aa1dad20f586")
+	)
+	(label "TOUCH_201"
+		(at 153.6616 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9970536d-44d5-4211-ae00-a308308eb224")
+	)
+	(label "TOUCH_208"
+		(at 153.6616 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e43deae-2a89-4ea9-b314-48d2f2086759")
+	)
+	(label "TOUCH_109"
+		(at 153.67 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5d0e693-0a97-478f-92b8-b241658e0919")
+	)
+	(label "TOUCH_210"
+		(at 153.6616 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a95d9d21-af17-4e12-96db-7ee36095df74")
+	)
+	(label "TOUCH_101"
+		(at 153.67 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab85adb5-c6bb-46c1-b3cc-8de93cc8cbaa")
+	)
+	(label "TOUCH_105"
+		(at 153.67 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af530c05-f69f-4cf9-88fd-293a450505bd")
+	)
+	(label "TOUCH_207"
+		(at 153.6616 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0d6b4c9-68ad-40c0-8d71-16c1e83ad6fe")
+	)
+	(label "TOUCH_110"
+		(at 153.67 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b241140d-ab9c-42e2-b1d4-f443f1be00fa")
+	)
+	(label "TOUCH_202"
+		(at 153.6616 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1bade54-4840-446e-8d86-86daf49cdff8")
+	)
+	(label "TOUCH_108"
+		(at 153.67 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f56ce64b-9621-41d7-b3dd-9698290bac3a")
 	)
 	(hierarchical_label "CAP1_GPIO"
 		(shape bidirectional)
@@ -2984,7 +3224,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3027,6 +3267,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9db77077-3145-4e0d-89de-ad159f851767")
 		)
@@ -3044,17 +3317,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 203.2 41.91 0)
+		(at 204.47 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0bdb298e-a3de-40f2-aa58-6b082d092945")
 		(property "Reference" "TP9"
-			(at 203.2 42.672 0)
+			(at 204.47 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3064,7 +3337,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 203.2 40.64 0)
+			(at 204.47 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3074,7 +3347,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 203.2 41.91 0)
+			(at 204.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,7 +3358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 41.91 0)
+			(at 204.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,7 +3369,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 41.91 0)
+			(at 204.47 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,12 +3380,45 @@
 			)
 		)
 		(property "Note" "C# D♭"
-			(at 203.2 41.148 0)
+			(at 204.47 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 204.47 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -3131,17 +3437,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 187.96 41.91 0)
+		(at 189.23 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "10413b35-24d8-43ca-9427-26a15ab847a6")
 		(property "Reference" "TP6"
-			(at 187.96 42.672 0)
+			(at 189.23 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3151,7 +3457,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 40.64 0)
+			(at 189.23 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3161,7 +3467,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 187.96 41.91 0)
+			(at 189.23 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3172,7 +3478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 41.91 0)
+			(at 189.23 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3183,7 +3489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 41.91 0)
+			(at 189.23 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3194,12 +3500,45 @@
 			)
 		)
 		(property "Note" "A# B♭"
-			(at 187.96 41.148 0)
+			(at 189.23 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 189.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 189.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 189.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -3218,17 +3557,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 213.36 102.87 0)
+		(at 214.63 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11221457-296d-474b-b3be-6e0184cacf1c")
 		(property "Reference" "TP23"
-			(at 213.36 103.632 0)
+			(at 214.63 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3238,7 +3577,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 213.36 101.6 0)
+			(at 214.63 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3248,7 +3587,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_Circle_10mm"
-			(at 213.36 102.87 0)
+			(at 214.63 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3259,7 +3598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 102.87 0)
+			(at 214.63 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,7 +3609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 102.87 0)
+			(at 214.63 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3281,12 +3620,45 @@
 			)
 		)
 		(property "Note" "MODE"
-			(at 213.36 102.108 0)
+			(at 214.63 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 214.63 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 214.63 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 214.63 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -3305,7 +3677,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 172.72 86.36 270)
+		(at 173.99 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3315,7 +3687,7 @@
 		(dnp no)
 		(uuid "14b25c74-abbe-4dde-9f0f-4ba1b40bbc44")
 		(property "Reference" "SP3"
-			(at 172.974 84.328 90)
+			(at 174.244 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3326,7 +3698,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 172.72 86.36 0)
+			(at 173.99 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3336,7 +3708,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 172.72 86.36 0)
+			(at 173.99 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +3719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 86.36 0)
+			(at 173.99 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3358,7 +3730,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 86.36 0)
+			(at 173.99 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 173.99 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3787,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 208.28 86.36 270)
+		(at 209.55 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3392,7 +3797,7 @@
 		(dnp no)
 		(uuid "1732a9b1-5e3e-492f-80e1-0305060c3cea")
 		(property "Reference" "SP10"
-			(at 208.534 84.328 90)
+			(at 209.804 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3403,7 +3808,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 208.28 86.36 0)
+			(at 209.55 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3413,7 +3818,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 208.28 86.36 0)
+			(at 209.55 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +3829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 86.36 0)
+			(at 209.55 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +3840,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 86.36 0)
+			(at 209.55 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 209.55 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 209.55 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 209.55 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3478,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3512,6 +3950,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +4028,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 135.128 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,6 +4071,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 135.89 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de52f1bd-593d-4146-830c-6cbdadc7a9fe")
 		)
@@ -3610,6 +4114,120 @@
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/9567908d-b578-4423-a3b2-c82f3e2ebace"
 					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c0ce503-71bd-47a2-9de4-1d019a0ebe19")
+		(property "Reference" "R74"
+			(at 86.614 130.556 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 86.614 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 89.916 127.254 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip, 1/10W, 1%"
+			(at 88.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 88.9 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 88.9 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 88.9 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "404fb86d-fc9b-4c9d-8982-86402f1fc24e")
+		)
+		(pin "2"
+			(uuid "c270f031-3c03-4dff-a7f7-288e14868f52")
+		)
+		(instances
+			(project "PCB Piano v1.1"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/9567908d-b578-4423-a3b2-c82f3e2ebace"
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -3696,17 +4314,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 208.28 102.87 0)
+		(at 209.55 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ea28dc6-cd70-465a-ae6a-5292a3968187")
 		(property "Reference" "TP22"
-			(at 208.28 103.632 0)
+			(at 209.55 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3716,7 +4334,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 208.28 101.6 0)
+			(at 209.55 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3726,7 +4344,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_Circle_10mm"
-			(at 208.28 102.87 0)
+			(at 209.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +4355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 102.87 0)
+			(at 209.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,7 +4366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 102.87 0)
+			(at 209.55 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3759,12 +4377,45 @@
 			)
 		)
 		(property "Note" "VS"
-			(at 208.28 102.108 0)
+			(at 209.55 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 209.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 209.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 209.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -3783,7 +4434,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 182.88 147.32 270)
+		(at 184.15 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3793,7 +4444,7 @@
 		(dnp no)
 		(uuid "218f5f0b-2d75-4679-8546-55f4c884490b")
 		(property "Reference" "SP17"
-			(at 183.134 145.288 90)
+			(at 184.404 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3804,7 +4455,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 182.88 147.32 0)
+			(at 184.15 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3814,7 +4465,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 182.88 147.32 0)
+			(at 184.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +4476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 147.32 0)
+			(at 184.15 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +4487,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 147.32 0)
+			(at 184.15 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 184.15 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 184.15 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 184.15 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3860,17 +4544,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 177.8 41.91 0)
+		(at 179.07 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2263076c-1881-4023-bc68-05a7f797aab0")
 		(property "Reference" "TP4"
-			(at 177.8 42.672 0)
+			(at 179.07 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3880,7 +4564,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 177.8 40.64 0)
+			(at 179.07 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3891,7 +4575,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3902,7 +4586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3913,7 +4597,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 41.91 0)
+			(at 179.07 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3924,12 +4608,45 @@
 			)
 		)
 		(property "Note" "G# A♭"
-			(at 177.8 41.148 0)
+			(at 179.07 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 179.07 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 179.07 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 179.07 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -3968,7 +4685,7 @@
 				)
 			)
 		)
-		(property "Value" "MTCH2120-V/REB"
+		(property "Value" "Touch Controller"
 			(at 118.745 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,6 +4720,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MTCH2120-V/REB"
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 59.69 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "MTCH2120-V/REB"
 			(at 59.69 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4087,7 +4848,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 218.44 86.36 270)
+		(at 219.71 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4097,7 +4858,7 @@
 		(dnp no)
 		(uuid "286de606-e09e-4cca-bd9e-b356b9b5240c")
 		(property "Reference" "SP12"
-			(at 218.694 84.328 90)
+			(at 219.964 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4108,7 +4869,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 218.44 86.36 0)
+			(at 219.71 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4118,7 +4879,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 218.44 86.36 0)
+			(at 219.71 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4129,7 +4890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 86.36 0)
+			(at 219.71 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4140,7 +4901,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 86.36 0)
+			(at 219.71 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 219.71 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 219.71 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 219.71 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +4977,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4217,6 +5011,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,7 +5089,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 117.348 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4305,6 +5132,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "71979a66-bb80-467c-a15a-7a6ecadee20f")
 		)
@@ -4322,7 +5182,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 182.88 86.36 270)
+		(at 184.15 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4332,7 +5192,7 @@
 		(dnp no)
 		(uuid "2ec05320-1a5b-4980-a20f-cc0b0892edd1")
 		(property "Reference" "SP5"
-			(at 183.134 84.328 90)
+			(at 184.404 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4343,7 +5203,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 182.88 86.36 0)
+			(at 184.15 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4353,7 +5213,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 182.88 86.36 0)
+			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4364,7 +5224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 86.36 0)
+			(at 184.15 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4375,7 +5235,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 86.36 0)
+			(at 184.15 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 184.15 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 184.15 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 184.15 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,17 +5292,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 182.88 41.91 0)
+		(at 184.15 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f91a2ef-05d1-4f51-ac66-e6484f70bf67")
 		(property "Reference" "TP5"
-			(at 182.88 42.672 0)
+			(at 184.15 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4419,7 +5312,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 182.88 40.64 0)
+			(at 184.15 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4429,7 +5322,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 182.88 41.91 0)
+			(at 184.15 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4440,7 +5333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 41.91 0)
+			(at 184.15 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4451,7 +5344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 41.91 0)
+			(at 184.15 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4462,12 +5355,45 @@
 			)
 		)
 		(property "Note" "A"
-			(at 182.88 41.148 0)
+			(at 184.15 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 184.15 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 184.15 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 184.15 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -4486,7 +5412,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 198.12 147.32 270)
+		(at 199.39 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4496,7 +5422,7 @@
 		(dnp no)
 		(uuid "32075bbd-f703-4955-b952-e57cf1752e65")
 		(property "Reference" "SP20"
-			(at 198.374 145.288 90)
+			(at 199.644 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4507,7 +5433,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 198.12 147.32 0)
+			(at 199.39 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4517,7 +5443,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 198.12 147.32 0)
+			(at 199.39 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +5454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 147.32 0)
+			(at 199.39 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4539,7 +5465,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 147.32 0)
+			(at 199.39 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 199.39 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 199.39 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 199.39 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,17 +5522,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 208.28 41.91 0)
+		(at 209.55 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3591a714-cf14-4b35-8ea7-0fe1e451cfa8")
 		(property "Reference" "TP10"
-			(at 208.28 42.672 0)
+			(at 209.55 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4583,7 +5542,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 208.28 40.64 0)
+			(at 209.55 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4593,7 +5552,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 208.28 41.91 0)
+			(at 209.55 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4604,7 +5563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 41.91 0)
+			(at 209.55 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,7 +5574,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 41.91 0)
+			(at 209.55 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4626,12 +5585,45 @@
 			)
 		)
 		(property "Note" "D"
-			(at 208.28 41.148 0)
+			(at 209.55 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 209.55 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 209.55 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 209.55 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -4669,7 +5661,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4703,6 +5695,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 128.27 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,6 +5809,61 @@
 			)
 		)
 		(property "Description" "Ceramic X7R 10V"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Volt Rating" "10V"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1935-2-ND"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104KB8NNWC"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
 			(at 81.28 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4876,6 +5956,61 @@
 				)
 			)
 		)
+		(property "Volt Rating" "10V"
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1184-1-ND"
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 71.12 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83020a1c-44a2-4b44-826b-91d17484bb40")
 		)
@@ -4886,6 +6021,120 @@
 			(project "PCB Piano v1.1"
 				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/9567908d-b578-4423-a3b2-c82f3e2ebace"
 					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 87.63 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "447a9c5c-5272-4601-86f5-24688b3ff7d5")
+		(property "Reference" "R73"
+			(at 85.344 77.216 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 85.344 72.898 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.646 73.914 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip, 1/10W, 1%"
+			(at 87.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 87.63 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 87.63 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 87.63 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d96d784-55e5-41b5-a870-ee8ea63aa238")
+		)
+		(pin "2"
+			(uuid "54c26c43-b3cc-40e0-9970-169fc118910e")
+		)
+		(instances
+			(project "PCB Piano v1.1"
+				(path "/b31af04b-7e9c-4c59-b32e-b8589263a36a/9567908d-b578-4423-a3b2-c82f3e2ebace"
+					(reference "R73")
 					(unit 1)
 				)
 			)
@@ -4912,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,6 +6204,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9646ed70-a96b-41a3-a3a1-874ae4ba27a2")
 		)
@@ -4972,7 +6254,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 172.72 147.32 270)
+		(at 173.99 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4982,7 +6264,7 @@
 		(dnp no)
 		(uuid "488bcf33-32f6-4a13-ab32-b83d8f79e039")
 		(property "Reference" "SP15"
-			(at 172.974 145.288 90)
+			(at 174.244 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4993,7 +6275,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 172.72 147.32 0)
+			(at 173.99 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5003,7 +6285,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 172.72 147.32 0)
+			(at 173.99 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,7 +6296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 147.32 0)
+			(at 173.99 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,7 +6307,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 147.32 0)
+			(at 173.99 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 173.99 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,7 +6384,7 @@
 				)
 			)
 		)
-		(property "Value" "MTCH2120-V/REB"
+		(property "Value" "Touch Controller"
 			(at 118.745 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5104,6 +6419,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 59.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MTCH2120-V/REB"
+			(at 59.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 59.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 59.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "MTCH2120-V/REB"
 			(at 59.69 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5207,7 +6566,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 119.888 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,6 +6600,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5286,7 +6678,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 61.468 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,6 +6721,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8fe183e5-0540-4b90-9859-177c8a921836")
 		)
@@ -5346,7 +6771,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 193.04 147.32 270)
+		(at 194.31 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5356,7 +6781,7 @@
 		(dnp no)
 		(uuid "53bf1d46-e187-4c95-801f-6777ae889dad")
 		(property "Reference" "SP19"
-			(at 193.294 145.288 90)
+			(at 194.564 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5367,7 +6792,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 193.04 147.32 0)
+			(at 194.31 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5377,7 +6802,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 193.04 147.32 0)
+			(at 194.31 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,7 +6813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 147.32 0)
+			(at 194.31 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5399,7 +6824,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 147.32 0)
+			(at 194.31 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 194.31 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 194.31 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 194.31 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5423,17 +6881,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 203.2 102.87 0)
+		(at 204.47 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54ef7d4b-fbe5-48e9-8b91-58b411d8aab4")
 		(property "Reference" "TP21"
-			(at 203.2 103.632 0)
+			(at 204.47 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5443,7 +6901,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 203.2 101.6 0)
+			(at 204.47 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5453,7 +6911,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_Circle_10mm"
-			(at 203.2 102.87 0)
+			(at 204.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5464,7 +6922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 102.87 0)
+			(at 204.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5475,7 +6933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 102.87 0)
+			(at 204.47 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5486,12 +6944,45 @@
 			)
 		)
 		(property "Note" "OS"
-			(at 203.2 102.108 0)
+			(at 204.47 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 204.47 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 204.47 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 204.47 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -5510,17 +7001,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 172.72 102.87 0)
+		(at 173.99 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56b38078-3443-40bc-b6ba-6dbc5ed7dc24")
 		(property "Reference" "TP15"
-			(at 172.72 103.632 0)
+			(at 173.99 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5530,7 +7021,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 172.72 101.6 0)
+			(at 173.99 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5540,7 +7031,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 172.72 102.87 0)
+			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5551,7 +7042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 102.87 0)
+			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5562,7 +7053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 102.87 0)
+			(at 173.99 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5573,12 +7064,45 @@
 			)
 		)
 		(property "Note" "G"
-			(at 172.72 102.108 0)
+			(at 173.99 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 173.99 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -5597,7 +7121,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 167.64 86.36 270)
+		(at 168.91 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5607,7 +7131,7 @@
 		(dnp no)
 		(uuid "5b056aff-5aec-4b3e-8652-6d09a72311b5")
 		(property "Reference" "SP2"
-			(at 167.894 84.328 90)
+			(at 169.164 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5618,7 +7142,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 167.64 86.36 0)
+			(at 168.91 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5628,7 +7152,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 167.64 86.36 0)
+			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5639,7 +7163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 86.36 0)
+			(at 168.91 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5650,7 +7174,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 86.36 0)
+			(at 168.91 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 168.91 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 168.91 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5693,7 +7250,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 122.428 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5727,6 +7284,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +7362,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 124.968 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,6 +7405,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 125.73 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b974692-a8f6-40af-b259-8e61b55b3986")
 		)
@@ -5832,17 +7455,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 193.04 102.87 0)
+		(at 194.31 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66100ed3-2c50-4536-bb0d-290a690dc110")
 		(property "Reference" "TP19"
-			(at 193.04 103.632 0)
+			(at 194.31 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5852,7 +7475,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 193.04 101.6 0)
+			(at 194.31 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5862,7 +7485,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 193.04 102.87 0)
+			(at 194.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5873,7 +7496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 102.87 0)
+			(at 194.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,7 +7507,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 102.87 0)
+			(at 194.31 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5895,12 +7518,45 @@
 			)
 		)
 		(property "Note" "B"
-			(at 193.04 102.108 0)
+			(at 194.31 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -5997,17 +7653,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 162.56 41.91 0)
+		(at 163.83 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c2f32da-40a2-4fcf-80ae-bf0c1e6a9bac")
 		(property "Reference" "TP1"
-			(at 162.56 42.672 0)
+			(at 163.83 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6017,7 +7673,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 162.56 40.64 0)
+			(at 163.83 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6028,7 +7684,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 162.56 41.91 0)
+			(at 163.83 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6039,7 +7695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 41.91 0)
+			(at 163.83 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6050,7 +7706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 41.91 0)
+			(at 163.83 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,12 +7717,45 @@
 			)
 		)
 		(property "Note" "F"
-			(at 162.56 41.148 0)
+			(at 163.83 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 163.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -6104,7 +7793,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 130.048 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6138,6 +7827,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6183,7 +7905,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 74.168 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6217,6 +7939,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6262,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6305,6 +8060,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ccf3fa1-de1e-484a-b4c9-b42a69928f24")
 		)
@@ -6322,7 +8110,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 187.96 86.36 270)
+		(at 189.23 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6332,7 +8120,7 @@
 		(dnp no)
 		(uuid "7906a952-0abe-4131-ad6f-2c3a4c7c57a3")
 		(property "Reference" "SP6"
-			(at 188.214 84.328 90)
+			(at 189.484 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6343,7 +8131,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 86.36 0)
+			(at 189.23 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6353,7 +8141,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 187.96 86.36 0)
+			(at 189.23 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6364,7 +8152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 86.36 0)
+			(at 189.23 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,7 +8163,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 86.36 0)
+			(at 189.23 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 189.23 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 189.23 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 189.23 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6399,17 +8220,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 187.96 102.87 0)
+		(at 189.23 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bf7a6a6-ff53-468f-8227-017410a78f6e")
 		(property "Reference" "TP18"
-			(at 187.96 103.632 0)
+			(at 189.23 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6419,7 +8240,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 101.6 0)
+			(at 189.23 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6429,7 +8250,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 187.96 102.87 0)
+			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6440,7 +8261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 102.87 0)
+			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,7 +8272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 102.87 0)
+			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6462,12 +8283,45 @@
 			)
 		)
 		(property "Note" "A# B♭"
-			(at 187.96 102.108 0)
+			(at 189.23 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 189.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 189.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 189.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -6486,7 +8340,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 177.8 86.36 270)
+		(at 179.07 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6496,7 +8350,7 @@
 		(dnp no)
 		(uuid "8e7e5521-9bbf-4229-9e34-964070f548d3")
 		(property "Reference" "SP4"
-			(at 178.054 84.328 90)
+			(at 179.324 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6507,7 +8361,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 177.8 86.36 0)
+			(at 179.07 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6517,7 +8371,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 177.8 86.36 0)
+			(at 179.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6528,7 +8382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 86.36 0)
+			(at 179.07 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6539,7 +8393,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 86.36 0)
+			(at 179.07 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 179.07 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 179.07 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 179.07 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6582,7 +8469,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6616,6 +8503,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 138.43 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6661,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6704,6 +8624,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 133.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4c49f51b-ad9f-46b4-95a1-ab211164631b")
 		)
@@ -6721,7 +8674,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 162.56 86.36 270)
+		(at 163.83 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6731,7 +8684,7 @@
 		(dnp no)
 		(uuid "9505f628-4f6e-4b3d-9cd4-bd9ed198aea2")
 		(property "Reference" "SP1"
-			(at 162.814 84.328 90)
+			(at 164.084 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6742,7 +8695,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 162.56 86.36 0)
+			(at 163.83 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6752,7 +8705,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 162.56 86.36 0)
+			(at 163.83 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6763,7 +8716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 86.36 0)
+			(at 163.83 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6774,7 +8727,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 86.36 0)
+			(at 163.83 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 163.83 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,6 +8849,61 @@
 				)
 			)
 		)
+		(property "Volt Rating" "10V"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1935-2-ND"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104KB8NNWC"
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 81.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3d63efae-01c0-47d9-b9c9-2009fd1d77a1")
 		)
@@ -6880,17 +8921,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 172.72 41.91 0)
+		(at 173.99 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "999c3be8-5c95-41c6-8dc8-8492933dae24")
 		(property "Reference" "TP3"
-			(at 172.72 42.672 0)
+			(at 173.99 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6900,7 +8941,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 172.72 40.64 0)
+			(at 173.99 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +8952,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 172.72 41.91 0)
+			(at 173.99 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6922,7 +8963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 41.91 0)
+			(at 173.99 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6933,7 +8974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 41.91 0)
+			(at 173.99 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6944,12 +8985,45 @@
 			)
 		)
 		(property "Note" "G"
-			(at 172.72 41.148 0)
+			(at 173.99 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 173.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 173.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -6987,7 +9061,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 71.628 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7021,6 +9095,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7066,7 +9173,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 112.268 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7100,6 +9207,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7145,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7188,6 +9328,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5c93bd0-5a32-4384-9443-7629bf7405f4")
 		)
@@ -7205,17 +9378,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 198.12 41.91 0)
+		(at 199.39 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a109e115-fb04-43ef-9feb-85f5d5f911d2")
 		(property "Reference" "TP8"
-			(at 198.12 42.672 0)
+			(at 199.39 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7225,7 +9398,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 198.12 40.64 0)
+			(at 199.39 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7235,7 +9408,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 198.12 41.91 0)
+			(at 199.39 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +9419,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 41.91 0)
+			(at 199.39 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7257,7 +9430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 41.91 0)
+			(at 199.39 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7268,12 +9441,45 @@
 			)
 		)
 		(property "Note" "C"
-			(at 198.12 41.148 0)
+			(at 199.39 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 199.39 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -7292,7 +9498,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 198.12 86.36 270)
+		(at 199.39 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7302,7 +9508,7 @@
 		(dnp no)
 		(uuid "a460f565-d57e-4b06-bad0-96cb47ae3b66")
 		(property "Reference" "SP8"
-			(at 198.374 84.328 90)
+			(at 199.644 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7313,7 +9519,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 198.12 86.36 0)
+			(at 199.39 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7323,7 +9529,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 198.12 86.36 0)
+			(at 199.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7334,7 +9540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 86.36 0)
+			(at 199.39 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7345,7 +9551,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 86.36 0)
+			(at 199.39 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 199.39 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 199.39 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 199.39 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +9608,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 167.64 147.32 270)
+		(at 168.91 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7379,7 +9618,7 @@
 		(dnp no)
 		(uuid "ab01ad9e-de53-4f65-8f15-2a85eaabaa71")
 		(property "Reference" "SP14"
-			(at 167.894 145.288 90)
+			(at 169.164 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7390,7 +9629,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 167.64 147.32 0)
+			(at 168.91 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7400,7 +9639,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 167.64 147.32 0)
+			(at 168.91 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7411,7 +9650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 147.32 0)
+			(at 168.91 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7422,7 +9661,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 147.32 0)
+			(at 168.91 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 168.91 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 168.91 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7465,7 +9737,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7499,6 +9771,39 @@
 		)
 		(property "Description" "Chip, 1/10W, 1%"
 			(at 144.78 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7603,17 +9908,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 162.56 102.87 0)
+		(at 163.83 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5b734c0-10b7-4b3e-ad07-ceeb34157bf9")
 		(property "Reference" "TP13"
-			(at 162.56 103.632 0)
+			(at 163.83 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7623,7 +9928,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 162.56 101.6 0)
+			(at 163.83 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7633,7 +9938,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 162.56 102.87 0)
+			(at 163.83 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,7 +9949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 102.87 0)
+			(at 163.83 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7655,7 +9960,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 102.87 0)
+			(at 163.83 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,12 +9971,45 @@
 			)
 		)
 		(property "Note" "F"
-			(at 162.56 102.108 0)
+			(at 163.83 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 163.83 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -7788,7 +10126,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 66.548 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7831,6 +10169,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5ed1073-279a-413b-a721-c44490271c75")
 		)
@@ -7848,7 +10219,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 203.2 86.36 270)
+		(at 204.47 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7858,7 +10229,7 @@
 		(dnp no)
 		(uuid "d3ec4cc3-ab06-435c-af40-000d7b326b32")
 		(property "Reference" "SP9"
-			(at 203.454 84.328 90)
+			(at 204.724 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7869,7 +10240,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 203.2 86.36 0)
+			(at 204.47 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7879,7 +10250,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 203.2 86.36 0)
+			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7890,7 +10261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 86.36 0)
+			(at 204.47 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7901,7 +10272,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 86.36 0)
+			(at 204.47 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 204.47 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 204.47 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 204.47 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7925,17 +10329,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 218.44 41.91 0)
+		(at 219.71 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4832e46-73f0-4d92-a31c-76b1c7aefac8")
 		(property "Reference" "TP12"
-			(at 218.44 42.672 0)
+			(at 219.71 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7945,7 +10349,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 218.44 40.64 0)
+			(at 219.71 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7955,7 +10359,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 218.44 41.91 0)
+			(at 219.71 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7966,7 +10370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 41.91 0)
+			(at 219.71 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,7 +10381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 41.91 0)
+			(at 219.71 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,12 +10392,45 @@
 			)
 		)
 		(property "Note" "E"
-			(at 218.44 41.148 0)
+			(at 219.71 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 219.71 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 219.71 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 219.71 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -8012,17 +10449,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 182.88 102.87 0)
+		(at 184.15 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6d760ce-8d10-4a65-8a73-2550fd8ac8aa")
 		(property "Reference" "TP17"
-			(at 182.88 103.632 0)
+			(at 184.15 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8032,7 +10469,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 182.88 101.6 0)
+			(at 184.15 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8042,7 +10479,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 182.88 102.87 0)
+			(at 184.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,7 +10490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 102.87 0)
+			(at 184.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +10501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 102.87 0)
+			(at 184.15 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,12 +10512,45 @@
 			)
 		)
 		(property "Note" "A"
-			(at 182.88 102.108 0)
+			(at 184.15 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -8099,17 +10569,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 213.36 41.91 0)
+		(at 214.63 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d79b1e4f-f86d-41db-a870-aafc13eeed03")
 		(property "Reference" "TP11"
-			(at 213.36 42.672 0)
+			(at 214.63 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8119,7 +10589,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 213.36 40.64 0)
+			(at 214.63 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8129,7 +10599,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 213.36 41.91 0)
+			(at 214.63 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8140,7 +10610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 41.91 0)
+			(at 214.63 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,7 +10621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 41.91 0)
+			(at 214.63 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,12 +10632,45 @@
 			)
 		)
 		(property "Note" "D# E♭"
-			(at 213.36 41.148 0)
+			(at 214.63 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 214.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 214.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 214.63 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -8186,7 +10689,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 162.56 147.32 270)
+		(at 163.83 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8196,7 +10699,7 @@
 		(dnp no)
 		(uuid "daebaf7a-b2a8-4736-8ddd-efeffb54fb11")
 		(property "Reference" "SP13"
-			(at 162.814 145.288 90)
+			(at 164.084 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8207,7 +10710,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 162.56 147.32 0)
+			(at 163.83 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8217,7 +10720,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 162.56 147.32 0)
+			(at 163.83 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,7 +10731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 147.32 0)
+			(at 163.83 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8239,7 +10742,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 147.32 0)
+			(at 163.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 163.83 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 163.83 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 163.83 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,7 +10799,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 193.04 86.36 270)
+		(at 194.31 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8273,7 +10809,7 @@
 		(dnp no)
 		(uuid "e07abcb9-3984-4a1a-99e2-338e8f6b193c")
 		(property "Reference" "SP7"
-			(at 193.294 84.328 90)
+			(at 194.564 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8284,7 +10820,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 193.04 86.36 0)
+			(at 194.31 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8294,7 +10830,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 193.04 86.36 0)
+			(at 194.31 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8305,7 +10841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 86.36 0)
+			(at 194.31 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,7 +10852,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 86.36 0)
+			(at 194.31 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 194.31 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 194.31 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 194.31 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8359,7 +10928,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 53.848 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8402,6 +10971,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 54.61 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "faef3376-378c-4dc4-bce2-3c15d4ff07bf")
 		)
@@ -8419,7 +11021,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 213.36 86.36 270)
+		(at 214.63 86.36 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8429,7 +11031,7 @@
 		(dnp no)
 		(uuid "e6729e46-ac72-495e-bd2c-06fa67fbbe82")
 		(property "Reference" "SP11"
-			(at 213.614 84.328 90)
+			(at 214.884 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8440,7 +11042,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 213.36 86.36 0)
+			(at 214.63 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8450,7 +11052,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 213.36 86.36 0)
+			(at 214.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8461,7 +11063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 86.36 0)
+			(at 214.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8472,7 +11074,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 86.36 0)
+			(at 214.63 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 214.63 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 214.63 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 214.63 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8496,17 +11131,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 177.8 102.87 0)
+		(at 179.07 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebe8f1a3-f23e-419e-9743-d78383cc5eba")
 		(property "Reference" "TP16"
-			(at 177.8 103.632 0)
+			(at 179.07 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8516,7 +11151,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 177.8 101.6 0)
+			(at 179.07 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8526,7 +11161,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 177.8 102.87 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8537,7 +11172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 102.87 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +11183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 102.87 0)
+			(at 179.07 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8559,12 +11194,45 @@
 			)
 		)
 		(property "Note" "G# A♭"
-			(at 177.8 102.108 0)
+			(at 179.07 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 179.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 179.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 179.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -8583,17 +11251,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 198.12 102.87 0)
+		(at 199.39 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eddc31a1-6fc1-4a77-bf8c-f36e4502b22c")
 		(property "Reference" "TP20"
-			(at 198.12 103.632 0)
+			(at 199.39 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8603,7 +11271,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 198.12 101.6 0)
+			(at 199.39 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8613,7 +11281,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 198.12 102.87 0)
+			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8624,7 +11292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 102.87 0)
+			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8635,7 +11303,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 102.87 0)
+			(at 199.39 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8646,12 +11314,45 @@
 			)
 		)
 		(property "Note" "C"
-			(at 198.12 102.108 0)
+			(at 199.39 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -8670,7 +11371,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 177.8 147.32 270)
+		(at 179.07 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8680,7 +11381,7 @@
 		(dnp no)
 		(uuid "efe72ef9-4862-40d3-9594-5d7253971b04")
 		(property "Reference" "SP16"
-			(at 178.054 145.288 90)
+			(at 179.324 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8691,7 +11392,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 177.8 147.32 0)
+			(at 179.07 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8701,7 +11402,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 177.8 147.32 0)
+			(at 179.07 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8712,7 +11413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 147.32 0)
+			(at 179.07 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8723,7 +11424,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 147.32 0)
+			(at 179.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 179.07 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 179.07 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 179.07 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8766,7 +11500,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 51.308 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8809,6 +11543,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "634746c0-8713-4d38-9f85-f925f800970f")
 		)
@@ -8826,17 +11593,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 193.04 41.91 0)
+		(at 194.31 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f3d30510-b514-4f8e-9ab4-0d05465f70d9")
 		(property "Reference" "TP7"
-			(at 193.04 42.672 0)
+			(at 194.31 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8846,7 +11613,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 193.04 40.64 0)
+			(at 194.31 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8856,7 +11623,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_WhiteKey"
-			(at 193.04 41.91 0)
+			(at 194.31 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8867,7 +11634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 41.91 0)
+			(at 194.31 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +11645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 41.91 0)
+			(at 194.31 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,12 +11656,45 @@
 			)
 		)
 		(property "Note" "B"
-			(at 193.04 41.148 0)
+			(at 194.31 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 194.31 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 194.31 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 194.31 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -8932,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 148.59 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8975,6 +11775,39 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 144.78 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 144.78 140.97 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1fbcd2ae-9751-4855-8ce9-ea2663b04442")
 		)
@@ -8992,17 +11825,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 167.64 102.87 0)
+		(at 168.91 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f902707b-af36-49f8-83e6-e448a63f224c")
 		(property "Reference" "TP14"
-			(at 167.64 103.632 0)
+			(at 168.91 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9012,7 +11845,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 167.64 101.6 0)
+			(at 168.91 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9022,7 +11855,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 167.64 102.87 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +11866,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 102.87 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +11877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 102.87 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9055,12 +11888,45 @@
 			)
 		)
 		(property "Note" "F# G♭"
-			(at 167.64 102.108 0)
+			(at 168.91 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 168.91 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 168.91 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -9079,7 +11945,7 @@
 	)
 	(symbol
 		(lib_id "PCB_Piano_Symbols:Pad_Solder")
-		(at 187.96 147.32 270)
+		(at 189.23 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9089,7 +11955,7 @@
 		(dnp no)
 		(uuid "f95624ca-37d0-47ad-bde1-fd0bfaab040a")
 		(property "Reference" "SP18"
-			(at 188.214 145.288 90)
+			(at 189.484 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9100,7 +11966,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 187.96 147.32 0)
+			(at 189.23 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9110,7 +11976,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Pad_Solder_SMT_5x7mm"
-			(at 187.96 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9121,7 +11987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 147.32 0)
+			(at 189.23 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9132,7 +11998,40 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 147.32 0)
+			(at 189.23 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 189.23 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 189.23 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 189.23 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9156,17 +12055,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 167.64 41.91 0)
+		(at 168.91 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fcd1887c-c16c-4ed8-95ba-dd9081b318c1")
 		(property "Reference" "TP2"
-			(at 167.64 42.672 0)
+			(at 168.91 42.672 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9176,7 +12075,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 167.64 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9187,7 +12086,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_BlackKey"
-			(at 167.64 41.91 0)
+			(at 168.91 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +12097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 41.91 0)
+			(at 168.91 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9209,7 +12108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 41.91 0)
+			(at 168.91 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9220,12 +12119,45 @@
 			)
 		)
 		(property "Note" "F# G♭"
-			(at 167.64 41.148 0)
+			(at 168.91 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 168.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 168.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 168.91 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)
@@ -9309,6 +12241,61 @@
 				)
 			)
 		)
+		(property "Volt Rating" "10V"
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey_Part_Number" "1276-1184-1-ND"
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B105KA8NNNC"
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 71.12 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d68ac4ca-6099-461c-acb3-8510fcff55e5")
 		)
@@ -9326,17 +12313,17 @@
 	)
 	(symbol
 		(lib_id "PCB Piano Symbols:Touch_Pad")
-		(at 218.44 102.87 0)
+		(at 219.71 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff007983-bc39-41c2-90ee-82fde6f5475c")
 		(property "Reference" "TP24"
-			(at 218.44 103.632 0)
+			(at 219.71 103.632 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9346,7 +12333,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 218.44 101.6 0)
+			(at 219.71 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9356,7 +12343,7 @@
 			)
 		)
 		(property "Footprint" "PCBPiano_Footprints:Touchpad_Circle_10mm"
-			(at 218.44 102.87 0)
+			(at 219.71 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +12354,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 102.87 0)
+			(at 219.71 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +12365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 102.87 0)
+			(at 219.71 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,12 +12376,45 @@
 			)
 		)
 		(property "Note" "REC"
-			(at 218.44 102.108 0)
+			(at 219.71 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(face "Lucida Sans Unicode")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 219.71 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_DVDD" ""
+			(at 219.71 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 219.71 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 			)

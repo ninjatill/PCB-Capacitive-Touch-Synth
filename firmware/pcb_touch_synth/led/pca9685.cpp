@@ -40,7 +40,7 @@ constexpr float PCA9685_OSC_HZ    = 25000000.0f;
 // LOW-LEVEL I2C
 // ======================================================
 
-bool pca9685_read_register(uint8_t address, uint8_t reg, uint8_t* value)
+static bool pca9685_read_register(uint8_t address, uint8_t reg, uint8_t* value)
 {
     if (pca9685_i2c == nullptr) {
         printf("PCA9685 read failed: driver not initialized\n");
@@ -76,7 +76,7 @@ bool pca9685_read_register(uint8_t address, uint8_t reg, uint8_t* value)
     return true;
 }
 
-bool pca9685_write_register(uint8_t address, uint8_t reg, uint8_t value)
+static bool pca9685_write_register(uint8_t address, uint8_t reg, uint8_t value)
 {
     if (pca9685_i2c == nullptr) {
         printf("PCA9685 write failed: driver not initialized\n");

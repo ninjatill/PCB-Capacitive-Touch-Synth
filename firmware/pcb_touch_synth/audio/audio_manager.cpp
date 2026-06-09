@@ -2,6 +2,7 @@
 
 #include "audio_commands.h"
 #include "audio_manager.h"
+#include "synth_engine.h"
 #include "tlv320dac3100.h"
 #include "voice_manager.h"
 
@@ -13,8 +14,20 @@ static constexpr int AUDIO_VOLUME_MAX = 100;
 static constexpr int AUDIO_VOLUME_DEFAULT = 35;
 static constexpr int AUDIO_VOLUME_STEP = 2;
 
-static int current_volume = AUDIO_VOLUME_DEFAULT;
+static bool audio_initialized  = false;
+static int  current_volume     = AUDIO_VOLUME_DEFAULT;
 static bool headphones_inserted = false;
+static bool speaker_allowed    = true;  // false when on USB 100mA or 500mA
+
+bool audio_manager_initialized()
+{
+    return audio_initialized;
+}
+
+bool audio_manager_headphones_inserted()
+{
+    return headphones_inserted;
+}
 
 static float volume_to_db(int volume)
 {
@@ -56,10 +69,17 @@ bool audio_manager_init()
         return false;
     }
 
-    tlv320dac3100_enable_headphone_detect();
+    // tlv320dac3100_init() already enables headphone detection and powers up
+    // the speaker as the default output. Read initial state so task() has a baseline.
     tlv320dac3100_headphone_inserted(&headphones_inserted);
 
+    if (headphones_inserted) {
+        tlv320dac3100_enable_headphones();
+    }
+
     audio_manager_apply_volume();
+
+    audio_initialized = true;
 
     printf("Audio manager initialized. volume=%d headphones=%s\n",
            current_volume,
@@ -86,8 +106,12 @@ void audio_manager_task()
             }
         }
 
-        // Temporary feedback chirp.
-        tlv320dac3100_play_beep_1khz();
+        // If notes are currently playing the user hears the volume change
+        // directly in the audio — no extra feedback needed.
+        // If silent, play a short chirp so they can hear the current level.
+        if (!synth_engine_notes_active()) {
+            tlv320dac3100_play_beep_1khz();
+        }
     }
 
     bool inserted = false;
@@ -98,6 +122,16 @@ void audio_manager_task()
 
             printf("AUDIO: headphones %s\n",
                    headphones_inserted ? "inserted" : "removed");
+
+            if (headphones_inserted) {
+                tlv320dac3100_enable_headphones();
+            } else if (speaker_allowed) {
+                tlv320dac3100_enable_speaker();
+            } else {
+                // Headphones removed but speaker not allowed (limited USB power).
+                tlv320dac3100_mute_dac(true);
+                printf("AUDIO: headphones removed — speaker suppressed (limited USB power).\n");
+            }
         }
     }
 }
@@ -172,4 +206,32 @@ void audio_manager_note_off(uint8_t note_index, uint8_t midi_note)
     };
 
     audio_commands_push(command);
+}
+
+void audio_manager_apply_power_mode(bool allow_speaker)
+{
+    if (speaker_allowed == allow_speaker) return;
+
+    speaker_allowed = allow_speaker;
+
+    printf("AUDIO: power mode update — speaker %s\n",
+           speaker_allowed ? "allowed" : "suppressed");
+
+    if (!audio_initialized) return;
+
+    if (speaker_allowed) {
+        // Power mode upgraded to full — restore normal output routing.
+        if (headphones_inserted) {
+            tlv320dac3100_enable_headphones();
+        } else {
+            tlv320dac3100_enable_speaker();
+        }
+    } else {
+        // Power mode degraded — disable speaker, route to headphones if present.
+        if (headphones_inserted) {
+            tlv320dac3100_enable_headphones();
+        } else {
+            tlv320dac3100_mute_dac(true);
+        }
+    }
 }
